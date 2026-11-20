@@ -87,10 +87,14 @@
 .ce-news-wrap .ce-emo-trophy::before  { content: "\1F3C6"; }
 .ce-news-wrap .ce-emo-medal::before   { content: "\1F3C5"; }
 .ce-news-wrap .ce-emo-spark::before   { content: "\2728"; }
-.ce-news-wrap .ce-emo-globe::before   { content: "\1F310"; }
-.ce-news-wrap .ce-emo-fb::before      { content: "\1F4D8"; }
-.ce-news-wrap .ce-emo-ig::before      { content: "\1F4F7"; }
-.ce-news-wrap .ce-emo-yt::before      { content: "\25B6\FE0F"; }
+.ce-news-wrap .ce-emo-globe::before     { content: "\1F310"; }
+.ce-news-wrap .ce-emo-fb::before        { content: "\1F4D8"; }
+.ce-news-wrap .ce-emo-ig::before        { content: "\1F4F7"; }
+.ce-news-wrap .ce-emo-yt::before        { content: "\25B6\FE0F"; }
+.ce-news-wrap .ce-emo-confetti::before  { content: "\1F38A\1F389"; }
+.ce-news-wrap .ce-emo-school::before    { content: "\1F3EB"; }
+.ce-news-wrap .ce-emo-robot::before     { content: "\1F916"; }
+.ce-news-wrap .ce-emo-handshake::before { content: "\1F91D"; }
 
 .ce-news-wrap .ce-emo-after-grads::after      { content: "\1F468\200D\1F393\1F469\200D\1F393\1F9D1\200D\1F393"; }
 .ce-news-wrap .ce-emo-after-party::after      { content: "\1F389"; }

@@ -1,0 +1,73 @@
+<p>
+	<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@400;500;600;700&display=swap" rel="stylesheet">
+</p>
+
+<p>
+	<link href="https://cdn.jsdelivr.net/gh/kchayta32/ce-ssru-navbar@v1.0.7/news/ce-news.css" rel="stylesheet">
+</p>
+<div class="ce-news-wrap">
+	<header class="ce-news-header">
+		<div class="ce-news-meta-row"><span class="ce-news-badge ce-emo-before ce-emo-trophy">ทุนพัฒนาผลิตภัณฑ์ต้นแบบ</span> <span class="ce-news-date ce-emo-before ce-emo-cal">25 กุมภาพันธ์ 2569</span></div>
+
+		<h1 class="ce-news-title ce-emo-before ce-emo-confetti">ขอแสดงความยินดีกับนักศึกษาชั้นปีที่ 3 CE SSRU ผ่านคัดเลือกโครงการทุนอุดหนุนการพัฒนาผลิตภัณฑ์ต้นแบบ ประจำปี 2569</h1>
+
+		<p class="ce-news-subtitle">ได้รับทุนสนับสนุนจำนวน 10,000 บาท งบประมาณรายได้ ประจำปี 2569</p>
+	</header>
+
+	<div class="ce-news-body">
+		<p class="ce-news-lead">ขอแสดงความยินดีกับนักศึกษาชั้นปีที่ 3 สาขาวิชาวิศวกรรมคอมพิวเตอร์ ที่ผ่านการพิจารณาคัดเลือกโครงการทุนอุดหนุนการพัฒนาผลิตภัณฑ์ต้นแบบของนักศึกษา งบประมาณรายได้ ประจำปี 2569 ได้รับทุนจำนวน 10,000 บาท</p>
+
+		<div class="ce-news-callout">
+			<h2 class="ce-news-callout-title ce-emo-before ce-emo-medal">ข้อมูลโครงการและทีมผู้พัฒนา</h2>
+
+			<p><strong>ชื่อโครงการ:</strong> ระบบเอสโครว์อัจฉริยะและแพลตฟอร์มตรวจจับการทุจริตด้วยเอไอสำหรับการซื้อขายออนไลน์ระหว่างบุคคล</p>
+
+			<p><strong>รายชื่อนักศึกษา:</strong></p>
+
+			<ul class="ce-news-list">
+				<li>นางสาวณภัทร แซ่ตั้ง</li>
+				<li>นางสาวอริษรา ราชนิยม</li>
+				<li>นายธนพัตร ฉุยสุริฉาย</li>
+			</ul>
+
+			<p style="margin-top: 12px;"><strong>อาจารย์ที่ปรึกษา:</strong></p>
+
+			<ul class="ce-news-list">
+				<li>ผศ.ดร.พรภวิษย์ บุญศรีเมือง (อาจารย์สาขาวิชาวิศวกรรมคอมพิวเตอร์)</li>
+				<li>ผศ.ดร.ขวัญเรือน รัศมี (หัวหน้าสาขาวิชาวิศวกรรมคอมพิวเตอร์)</li>
+				<li>ผศ.ดร.รวิ อุตตมธนินทร์ (อาจารย์สาขาวิชาวิศวกรรมคอมพิวเตอร์)</li>
+				<li>อาจารย์กานต์ เจริญจิตร (อาจารย์สาขาวิชาวิศวกรรมคอมพิวเตอร์)</li>
+				<li>ผศ.ดร.เศรษฐกาล โปร่งนุช (หัวหน้าสาขาวิชาวิศวกรรมหุ่นยนต์)</li>
+				<li>อาจารย์ทักษอร อักษรศิลป์ (อาจารย์สาขาวิชาวิศวกรรมหุ่นยนต์)</li>
+			</ul>
+		</div>
+	</div>
+	<section class="ce-news-gallery">
+		<div class="ce-news-gallery-head">
+			<h2 class="ce-news-gallery-title ce-emo-before ce-emo-photo">ภาพประกอบข่าว</h2>
+			<span class="ce-news-gallery-hint">คลิกที่ภาพเพื่อขยายดูขนาดเต็ม</span></div>
+		<details class="ce-lb-item">
+			<summary class="ce-photo-single"><span class="ce-photo-frame"><img alt="นักศึกษาชั้นปีที่ 3 CE SSRU ผ่านคัดเลือกโครงการทุนอุดหนุนการพัฒนาผลิตภัณฑ์ต้นแบบ ประจำปี 2569" src="https://cdn.jsdelivr.net/gh/kchayta32/ce-ssru-navbar@v1.0.7/news/images/post5/photo1.jpg"></span><span class="ce-photo-zoom-badge">ขยายภาพ</span><span class="ce-lb-close-fab">ปิดภาพ ×</span></summary>
+			<div class="ce-lb-modal">
+				<div class="ce-lb-dialog">
+					<figure class="ce-lb-figure"><img alt="นักศึกษาชั้นปีที่ 3 CE SSRU ผ่านคัดเลือกโครงการทุนอุดหนุนการพัฒนาผลิตภัณฑ์ต้นแบบ ประจำปี 2569" src="https://cdn.jsdelivr.net/gh/kchayta32/ce-ssru-navbar@v1.0.7/news/images/post5/photo1.jpg"></figure>
+					<div class="ce-lb-toolbar"><span class="ce-lb-counter">ภาพที่ 1 / 1 — คลิกที่ใดก็ได้เพื่อปิดภาพ</span></div>
+				</div>
+			</div>
+		</details>
+		<div class="ce-photo-more-bar">
+			<span>ที่มา: เพจ Computer Engineering SSRU</span>
+			<a class="ce-photo-more-btn" href="https://www.facebook.com/ComputerEngineeringSSRU/posts/pfbid02XgMpj5Np5iXH6h8QQrH8ypaczRktXb8p5744QGLumb9A9LwMWwbvceb92nkS9KXMl" rel="noopener noreferrer" target="_blank">ดูโพสต์ต้นฉบับบน Facebook</a>
+		</div>
+	</section>
+	<footer class="ce-news-footer">
+		<p class="ce-news-channels-title">ช่องทางติดตามสาขาวิชาวิศวกรรมคอมพิวเตอร์</p>
+
+		<ul class="ce-news-channels">
+			<li><a class="ce-emo-before ce-emo-globe" href="http://www.ce.fit.ssru.ac.th" rel="noopener noreferrer" target="_blank">Website</a></li>
+			<li><a class="ce-emo-before ce-emo-fb" href="https://www.facebook.com/ComputerEngineeringSSRU?mibextid=LQQJ4d" rel="noopener noreferrer" target="_blank">Facebook</a></li>
+			<li><a class="ce-emo-before ce-emo-ig" href="https://www.instagram.com/ce_ssru?igsh=OWpvbnR4d3F2cGlm" rel="noopener noreferrer" target="_blank">Instagram</a></li>
+			<li><a class="ce-emo-before ce-emo-yt" href="https://www.youtube.com/@cessru672" rel="noopener noreferrer" target="_blank">YouTube</a></li>
+		</ul>
+	</footer>
+</div>

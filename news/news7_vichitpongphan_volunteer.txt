@@ -1,0 +1,98 @@
+<p>
+	<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@400;500;600;700&display=swap" rel="stylesheet">
+</p>
+
+<p>
+	<link href="https://cdn.jsdelivr.net/gh/kchayta32/ce-ssru-navbar@v1.0.7/news/ce-news.css" rel="stylesheet">
+</p>
+<div class="ce-news-wrap">
+	<header class="ce-news-header">
+		<div class="ce-news-meta-row"><span class="ce-news-badge ce-emo-before ce-emo-balloon">กิจกรรมจิตอาสาเพื่อสังคม</span> <span class="ce-news-date ce-emo-before ce-emo-cal">5 กันยายน 2568</span></div>
+
+		<h1 class="ce-news-title">นักศึกษา CE SSRU ร่วมกิจกรรม “เติมเต็มรอยยิ้ม ด้วยหัวใจจิตอาสา” ณ จ.นครปฐม</h1>
+
+		<p class="ce-news-subtitle ce-emo-before ce-emo-pin">วันที่ 3 กันยายน 2568 ณ ศูนย์พัฒนาเด็กเล็ก บ้านคลองเจ๊ก อบต.ลานตากฟ้า จังหวัดนครปฐม</p>
+	</header>
+
+	<div class="ce-news-body">
+		<p class="ce-news-lead">วันที่ 3 กันยายน 2568 <strong>นายเกรียงศักดิ์ ภูมิดล</strong> นักศึกษาสาขาวิชาวิศวกรรมคอมพิวเตอร์ ร่วมกับ <strong>ผศ. ดร.ขวัญใจ สุขก้อน</strong> รองคณบดีฝ่ายกิจการนักศึกษา คณะวิศวกรรมศาสตร์และเทคโนโลยีอุตสาหกรรม เข้าร่วมกิจกรรม “เติมเต็มรอยยิ้ม ด้วยหัวใจจิตอาสา” โครงการนักศึกษาทุนวิจิตรพงศ์พันธุ์แบ่งปันความรู้ และรอยยิ้มสู่สังคม รุ่นที่ 1 ณ ศูนย์พัฒนาเด็กเล็ก บ้านคลองเจ๊ก อบต.ลานตากฟ้า จังหวัดนครปฐม</p>
+
+		<div class="ce-news-callout">
+			<h2 class="ce-news-callout-title ce-emo-before ce-emo-target">กิจกรรมภายในงานและวัตถุประสงค์</h2>
+
+			<ul class="ce-news-list">
+				<li><strong>หน่วยงานผู้จัด:</strong> วิทยาลัยนิเทศศาสตร์ มหาวิทยาลัยราชภัฏสวนสุนันทา</li>
+				<li><strong>กิจกรรมภายในงาน:</strong> กิจกรรมสันทนาการ กิจกรรมสอนการเรียนรู้การวาดภาพระบายสี และกิจกรรมการเรียนรู้การปลูกพืชผักสวนครัวเพื่ออาหารกลางวันของน้อง ๆ</li>
+				<li><strong>วัตถุประสงค์:</strong> เพื่อพัฒนานักศึกษาให้มีทั้งความรู้ ความสามารถ และจิตสำนึกในการทำประโยชน์เพื่อสังคม โดยใช้ทุนการศึกษาวิจิตรพงศ์พันธุ์เป็นกลไกสำคัญในการเปิดโอกาสทางการศึกษา พร้อมสร้างคุณค่าเพิ่มด้วยกิจกรรมตอบแทนสังคม</li>
+			</ul>
+		</div>
+
+		<p class="ce-news-tags">#SSRU #สวนสุนันทา #SDG_SSRU #มหาวิทยาลัยราชภัฏสวนสุนันทา #วิศวะสวนสุนัน #วิดวะสวนนัน #คณะวิศวกรรมศาสตร์และเทคโนโลยีอุตสาหกรรม #EITSSRU</p>
+	</div>
+	<section class="ce-news-gallery">
+		<div class="ce-news-gallery-head">
+			<h2 class="ce-news-gallery-title ce-emo-before ce-emo-photo">ภาพบรรยากาศกิจกรรมจิตอาสา</h2>
+			<span class="ce-news-gallery-hint">คลิกที่ภาพเพื่อขยายดูขนาดเต็ม</span></div>
+		<div class="ce-photo-grid">
+			<details class="ce-lb-item ce-lb-item--hero">
+				<summary class="ce-photo-tile ce-photo-tile--hero"><span class="ce-photo-frame"><img alt="กิจกรรมเติมเต็มรอยยิ้ม ด้วยหัวใจจิตอาสา จ.นครปฐม ภาพที่ 1" src="https://cdn.jsdelivr.net/gh/kchayta32/ce-ssru-navbar@v1.0.7/news/images/post7/photo1.jpg"></span><span class="ce-photo-zoom-badge">ขยายภาพ 1/5</span><span class="ce-lb-close-fab">ปิดภาพ ×</span></summary>
+				<div class="ce-lb-modal">
+					<div class="ce-lb-dialog">
+						<figure class="ce-lb-figure"><img alt="กิจกรรมเติมเต็มรอยยิ้ม ด้วยหัวใจจิตอาสา จ.นครปฐม ภาพที่ 1" src="https://cdn.jsdelivr.net/gh/kchayta32/ce-ssru-navbar@v1.0.7/news/images/post7/photo1.jpg"></figure>
+						<div class="ce-lb-toolbar"><span class="ce-lb-counter">ภาพที่ 1 / 5 — คลิกที่ใดก็ได้เพื่อปิดภาพ</span></div>
+					</div>
+				</div>
+			</details>
+			<details class="ce-lb-item">
+				<summary class="ce-photo-tile"><span class="ce-photo-frame"><img alt="กิจกรรมเติมเต็มรอยยิ้ม ด้วยหัวใจจิตอาสา จ.นครปฐม ภาพที่ 2" src="https://cdn.jsdelivr.net/gh/kchayta32/ce-ssru-navbar@v1.0.7/news/images/post7/photo2.jpg"></span><span class="ce-photo-zoom-badge">2/5</span><span class="ce-lb-close-fab">ปิดภาพ ×</span></summary>
+				<div class="ce-lb-modal">
+					<div class="ce-lb-dialog">
+						<figure class="ce-lb-figure"><img alt="กิจกรรมเติมเต็มรอยยิ้ม ด้วยหัวใจจิตอาสา จ.นครปฐม ภาพที่ 2" src="https://cdn.jsdelivr.net/gh/kchayta32/ce-ssru-navbar@v1.0.7/news/images/post7/photo2.jpg"></figure>
+						<div class="ce-lb-toolbar"><span class="ce-lb-counter">ภาพที่ 2 / 5 — คลิกที่ใดก็ได้เพื่อปิดภาพ</span></div>
+					</div>
+				</div>
+			</details>
+			<details class="ce-lb-item">
+				<summary class="ce-photo-tile"><span class="ce-photo-frame"><img alt="กิจกรรมเติมเต็มรอยยิ้ม ด้วยหัวใจจิตอาสา จ.นครปฐม ภาพที่ 3" src="https://cdn.jsdelivr.net/gh/kchayta32/ce-ssru-navbar@v1.0.7/news/images/post7/photo3.jpg"></span><span class="ce-photo-zoom-badge">3/5</span><span class="ce-lb-close-fab">ปิดภาพ ×</span></summary>
+				<div class="ce-lb-modal">
+					<div class="ce-lb-dialog">
+						<figure class="ce-lb-figure"><img alt="กิจกรรมเติมเต็มรอยยิ้ม ด้วยหัวใจจิตอาสา จ.นครปฐม ภาพที่ 3" src="https://cdn.jsdelivr.net/gh/kchayta32/ce-ssru-navbar@v1.0.7/news/images/post7/photo3.jpg"></figure>
+						<div class="ce-lb-toolbar"><span class="ce-lb-counter">ภาพที่ 3 / 5 — คลิกที่ใดก็ได้เพื่อปิดภาพ</span></div>
+					</div>
+				</div>
+			</details>
+			<details class="ce-lb-item">
+				<summary class="ce-photo-tile"><span class="ce-photo-frame"><img alt="กิจกรรมเติมเต็มรอยยิ้ม ด้วยหัวใจจิตอาสา จ.นครปฐม ภาพที่ 4" src="https://cdn.jsdelivr.net/gh/kchayta32/ce-ssru-navbar@v1.0.7/news/images/post7/photo4.jpg"></span><span class="ce-photo-zoom-badge">4/5</span><span class="ce-lb-close-fab">ปิดภาพ ×</span></summary>
+				<div class="ce-lb-modal">
+					<div class="ce-lb-dialog">
+						<figure class="ce-lb-figure"><img alt="กิจกรรมเติมเต็มรอยยิ้ม ด้วยหัวใจจิตอาสา จ.นครปฐม ภาพที่ 4" src="https://cdn.jsdelivr.net/gh/kchayta32/ce-ssru-navbar@v1.0.7/news/images/post7/photo4.jpg"></figure>
+						<div class="ce-lb-toolbar"><span class="ce-lb-counter">ภาพที่ 4 / 5 — คลิกที่ใดก็ได้เพื่อปิดภาพ</span></div>
+					</div>
+				</div>
+			</details>
+			<details class="ce-lb-item">
+				<summary class="ce-photo-tile"><span class="ce-photo-frame"><img alt="กิจกรรมเติมเต็มรอยยิ้ม ด้วยหัวใจจิตอาสา จ.นครปฐม ภาพที่ 5" src="https://cdn.jsdelivr.net/gh/kchayta32/ce-ssru-navbar@v1.0.7/news/images/post7/photo5.jpg"></span><span class="ce-photo-zoom-badge">5/5 (+22)</span><span class="ce-lb-close-fab">ปิดภาพ ×</span></summary>
+				<div class="ce-lb-modal">
+					<div class="ce-lb-dialog">
+						<figure class="ce-lb-figure"><img alt="กิจกรรมเติมเต็มรอยยิ้ม ด้วยหัวใจจิตอาสา จ.นครปฐม ภาพที่ 5" src="https://cdn.jsdelivr.net/gh/kchayta32/ce-ssru-navbar@v1.0.7/news/images/post7/photo5.jpg"></figure>
+						<div class="ce-lb-toolbar"><span class="ce-lb-counter">ภาพที่ 5 / 5 — คลิกที่ใดก็ได้เพื่อปิดภาพ</span></div>
+					</div>
+				</div>
+			</details>
+		</div>
+		<div class="ce-photo-more-bar">
+			<span>อัลบั้มต้นฉบับมีภาพเพิ่มเติมอีก 22 ภาพบน Facebook</span>
+			<a class="ce-photo-more-btn" href="https://www.facebook.com/ComputerEngineeringSSRU/posts/pfbid0vkjLTzZ2gahALG86FfaBdTVucNWfcy6NY6wo5zRhhLCGM2chRweJmovkKNoJjzkYl" rel="noopener noreferrer" target="_blank">ดูภาพทั้งหมดบน Facebook</a>
+		</div>
+	</section>
+	<footer class="ce-news-footer">
+		<p class="ce-news-channels-title">ช่องทางติดตามสาขาวิชาวิศวกรรมคอมพิวเตอร์ และคณะวิศวกรรมศาสตร์และเทคโนโลยีอุตสาหกรรม</p>
+
+		<ul class="ce-news-channels">
+			<li><a class="ce-emo-before ce-emo-globe" href="http://www.ce.fit.ssru.ac.th" rel="noopener noreferrer" target="_blank">CE SSRU Website</a></li>
+			<li><a class="ce-emo-before ce-emo-fb" href="https://www.facebook.com/ComputerEngineeringSSRU" rel="noopener noreferrer" target="_blank">CE SSRU Facebook</a></li>
+			<li><a class="ce-emo-before ce-emo-globe" href="https://eit.ssru.ac.th/" rel="noopener noreferrer" target="_blank">EIT SSRU Website</a></li>
+			<li><a class="ce-emo-before ce-emo-yt" href="https://www.youtube.com/@cessru672" rel="noopener noreferrer" target="_blank">YouTube</a></li>
+		</ul>
+	</footer>
+</div>

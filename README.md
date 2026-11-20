@@ -24,5 +24,5 @@ Stylesheets สำหรับเพิ่ม UI Motion และ Animation ใ�
 ### 4. หน้าข่าวสารและกิจกรรม (`news/ce-news.css`)
 รองรับการแสดงผลอีโมจิผ่าน CSS Unicode (`@charset "UTF-8"`) เพื่อเลี่ยงปัญหา CMS/Froala ตัดอิโมจิเป็น `???` พร้อม UI Motion และ Pure-CSS `<details>` Lightbox ที่ไม่พึ่ง `#hash` (รองรับเว็บที่มี `<base href="...">`)
 ```html
-<link href="https://cdn.jsdelivr.net/gh/kchayta32/ce-ssru-navbar@v1.0.6/news/ce-news.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/gh/kchayta32/ce-ssru-navbar@v1.0.7/news/ce-news.css" rel="stylesheet">
 ```
