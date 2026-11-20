@@ -1,0 +1,427 @@
+<!------ Include the above in your HEAD tag ---------->
+
+<p>
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+</p>
+
+<p>
+	<link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
+</p>
+
+<p>
+	<link href="https://fonts.googleapis.com/css?family=Itim" rel="stylesheet">
+</p>
+
+<p>
+	<link href="https://fonts.googleapis.com/css?family=Athiti" rel="stylesheet">
+</p>
+
+<p>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+</p>
+
+<p>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.2/css/hover-min.css" rel="stylesheet">
+</p>
+
+<p>
+	<link href="https://cdn.jsdelivr.net/gh/kchayta32/ce-ssru-navbar@main/ce-navbar.css" rel="stylesheet">
+</p>
+<div class="container">
+
+	<p><img class="fr-fil fr-dii" style="width: 200px; height: auto; padding-bottom: 25px;" src="http://www.ce.fit.ssru.ac.th/useruploads/images/20240708/64ba22a4500b4931dee4925c8369e5cec5e492df.png"></p>
+	<nav class="navbar navbar-default ce-navbar animate__animated animate__fadeInDown" style="border: none; border-radius: 10px; box-shadow: 0 6px 20px rgba(31, 41, 55, 0.12);">
+		<div class="container-fluid" style="background: linear-gradient(90deg, #FFB562 0%, #FFA742 100%); border-radius: 10px;">
+			<div class="navbar-header">
+				<button class="navbar-toggle collapsed" data-target="#navbar" data-toggle="collapse" type="button" style="border-color: #1F2937;"><span class="sr-only">Toggle navigation</span><span class="icon-bar" style="background-color: #1F2937;"></span><span class="icon-bar" style="background-color: #1F2937;"></span><span class="icon-bar" style="background-color: #1F2937;"></span></button>
+				<a class="navbar-brand" href="http://www.ce.fit.ssru.ac.th" style="padding: 5px 12px; height: auto;"><img class="pic fr-fic fr-dii" style="width: 52px; height: auto;" src="http://www.ce.fit.ssru.ac.th/useruploads/images/20240708/2863c4680874270e8b1b550e7e95043fa96e7727.png"></a>
+			</div>
+			<div class="navbar-collapse collapse" id="navbar">
+
+				<ul class="nav navbar-nav" style='color: #1F2937; font-family: "Athiti", sans-serif; font-size: 19px; font-weight: bold;'>
+					<li class="dropdown"><a class="dropdown-toggle hvr-underline-from-center" data-toggle="dropdown" href="#" style="color: #1F2937;"><i class="fa fa-graduation-cap fa-x"></i> นักศึกษา</a>
+
+						<ul class="dropdown-menu animate__animated animate__fadeIn" style='color: #1F2937; font-family: "Athiti", sans-serif; font-size: 18px; font-weight: bold; animation-duration: 0.22s; border-radius: 10px; border: 1px solid rgba(31,41,55,0.08); box-shadow: 0 12px 28px rgba(17,24,39,0.14); margin-top: 4px; overflow: hidden;'>
+							<li class="animate__animated animate__fadeInDown" style="animation-duration: 0.22s; animation-delay: 0.03s;"><a class="hvr-forward" href="http://www.ce.fit.ssru.ac.th/page/student" style="display: block;">รายชื่อนักศึกษา</a></li>
+							<li class="animate__animated animate__fadeInDown" style="animation-duration: 0.22s; animation-delay: 0.06s;"><a class="hvr-forward" href="#" style="display: block;">ผลงานนักศึกษา</a></li>
+							<li class="animate__animated animate__fadeInDown" style="animation-duration: 0.22s; animation-delay: 0.09s;"><a class="hvr-forward" href="http://www.ce.fit.ssru.ac.th/page/intern" style="display: block;">สถานที่ฝึกประสบการณ์วิชาชีพ</a></li>
+							<li class="animate__animated animate__fadeInDown" style="animation-duration: 0.22s; animation-delay: 0.12s;"><a class="hvr-forward" href="https://docs.google.com/forms/d/e/1FAIpQLSf2YWbrwiJvueKkAs_3Dn64pjrSiZiZD4Szv11BvIanWQH3bA/viewform" style="display: block;">แบบฟอร์มรายงานผลการช่วยงานสาขาวิชาวิศวกรรมคอมพิวเตอร์</a></li>
+							<li class="divider"></li>
+							<li class="animate__animated animate__fadeInDown" style="animation-duration: 0.22s; animation-delay: 0.15s;"><a class="hvr-forward" href="https://drive.google.com/open?id=1_iXzowsa9do2kQQLvurj6iA-GyDc3sjF" style="display: block;">ทุนการศึกษา</a></li>
+						</ul>
+					</li>
+					<li><a class="hvr-underline-from-center" href="http://www.ce.fit.ssru.ac.th/page/teacherss" style="color: #1F2937;"><i class="fa fa-user"></i> อาจารย์</a></li>
+					<li class="dropdown"><a aria-expanded="false" class="dropdown-toggle hvr-underline-from-center" data-toggle="dropdown" href="#" style="color: #1F2937;"><i class="fa fa-file"></i> ปริญญานิพนธ์</a>
+
+						<ul class="dropdown-menu animate__animated animate__fadeIn" style='font-family: "Athiti", sans-serif; font-size: 18px; font-weight: bold; animation-duration: 0.22s; border-radius: 10px; border: 1px solid rgba(31,41,55,0.08); box-shadow: 0 12px 28px rgba(17,24,39,0.14); margin-top: 4px; overflow: hidden; width: 500px; padding: 15px;'>
+							<li>
+								<div class="row">
+									<!-- คอลัมน์รหัส 53-59 -->
+									<div class="col-md-6 animate__animated animate__fadeInDown" style="animation-duration: 0.24s; animation-delay: 0.04s;">
+
+										<ul style="list-style: none; padding-left: 0;">
+											<li style="font-size: 20px; font-weight: bold; margin-bottom: 10px; color: #B91C1C;">ปริญญานิพนธ์รหัส 53-59</li>
+											<li><a class="hvr-forward" href="http://www.ce.fit.ssru.ac.th/page/thesis053" style="display: block; padding: 4px 8px; color: #1F2937;">วิทยานิพนธ์รหัส 53</a></li>
+											<li><a class="hvr-forward" href="http://www.ce.fit.ssru.ac.th/page/thesis054" style="display: block; padding: 4px 8px; color: #1F2937;">วิทยานิพนธ์รหัส 54</a></li>
+											<li><a class="hvr-forward" href="http://www.ce.fit.ssru.ac.th/page/thesis055" style="display: block; padding: 4px 8px; color: #1F2937;">วิทยานิพนธ์รหัส 55</a></li>
+											<li><a class="hvr-forward" href="http://www.ce.fit.ssru.ac.th/page/thesis056" style="display: block; padding: 4px 8px; color: #1F2937;">วิทยานิพนธ์รหัส 56</a></li>
+											<li><a class="hvr-forward" href="http://www.ce.fit.ssru.ac.th/page/thesis057" style="display: block; padding: 4px 8px; color: #1F2937;">วิทยานิพนธ์รหัส 57</a></li>
+											<li><a class="hvr-forward" href="http://www.ce.fit.ssru.ac.th/page/thesis058" style="display: block; padding: 4px 8px; color: #1F2937;">วิทยานิพนธ์รหัส 58</a></li>
+											<li><a class="hvr-forward" href="http://www.ce.fit.ssru.ac.th/page/thesis059" style="display: block; padding: 4px 8px; color: #1F2937;">วิทยานิพนธ์รหัส 59</a></li>
+										</ul>
+									</div>
+									<!-- คอลัมน์รหัส 60-64 -->
+									<div class="col-md-6 animate__animated animate__fadeInDown" style="animation-duration: 0.24s; animation-delay: 0.10s;">
+
+										<ul style="list-style: none; padding-left: 0;">
+											<li style="font-size: 20px; font-weight: bold; margin-bottom: 10px; color: #B91C1C;">ปริญญานิพนธ์รหัส 60-64</li>
+											<li><a class="hvr-forward" href="http://www.ce.fit.ssru.ac.th/page/thesis060" style="display: block; padding: 4px 8px; color: #1F2937;">วิทยานิพนธ์รหัส 60</a></li>
+											<li><a class="hvr-forward" href="http://www.ce.fit.ssru.ac.th/page/thesis061" style="display: block; padding: 4px 8px; color: #1F2937;">วิทยานิพนธ์รหัส 61</a></li>
+											<li><a class="hvr-forward" href="http://www.ce.fit.ssru.ac.th/page/thesis062" style="display: block; padding: 4px 8px; color: #1F2937;">วิทยานิพนธ์รหัส 62</a></li>
+											<li style="padding: 4px 8px; color: #6B7280;">วิทยานิพนธ์รหัส 63</li>
+											<li><a class="hvr-forward" href="http://www.ce.fit.ssru.ac.th/page/thesis064" style="display: block; padding: 4px 8px; color: #1F2937;">วิทยานิพนธ์รหัส 64</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="animate__animated animate__fadeIn" style="animation-duration: 0.25s; animation-delay: 0.16s; margin-top: 12px; padding-top: 8px; border-top: 1px solid #E5E7EB;"><strong><a class="hvr-forward" href="http://www.ce.fit.ssru.ac.th/page/thesis" style="display: block; padding: 4px 8px;">ปริญญานิพนธ์เพิ่มเติม...</a></strong></div>
+							</li>
+						</ul>
+					</li>
+					<li class="dropdown"><a class="dropdown-toggle hvr-underline-from-center" data-toggle="dropdown" href="#" style="color: #1F2937;"><i class="fa fa-file"></i> การเผยแพร่งานวิจัย</a>
+
+						<ul class="dropdown-menu animate__animated animate__fadeIn" style='font-family: "Athiti", sans-serif; font-size: 18px; font-weight: bold; animation-duration: 0.22s; border-radius: 10px; border: 1px solid rgba(31,41,55,0.08); box-shadow: 0 12px 28px rgba(17,24,39,0.14); margin-top: 4px; overflow: hidden;'>
+							<li class="animate__animated animate__fadeInDown" style="animation-duration: 0.22s; animation-delay: 0.03s;"><a class="hvr-forward" href="http://www.ce.fit.ssru.ac.th/page/conf-national" style="display: block;">งานประชุมวิชาการระดับชาติ</a></li>
+							<li class="animate__animated animate__fadeInDown" style="animation-duration: 0.22s; animation-delay: 0.06s;"><a class="hvr-forward" href="http://www.ce.fit.ssru.ac.th/page/conf-international" style="display: block;">งานประชุมวิชาการระดับนานาชาติ</a></li>
+							<li class="animate__animated animate__fadeInDown" style="animation-duration: 0.22s; animation-delay: 0.09s;"><a class="hvr-forward" href="http://www.ce.fit.ssru.ac.th/page/journal" style="display: block;">วารสารวิชาการ</a></li>
+							<li class="animate__animated animate__fadeInDown" style="animation-duration: 0.22s; animation-delay: 0.12s;"><a class="hvr-forward" href="http://www.ce.fit.ssru.ac.th/page/journal-international" style="display: block;">วารสารวิชาการระดับนานาชาติ</a></li>
+							<li class="animate__animated animate__fadeInDown" style="animation-duration: 0.22s; animation-delay: 0.15s;"><a class="hvr-forward" href="http://www.ce.fit.ssru.ac.th/page/patent" style="display: block;">การจดสิทธิบัตร/อนุสิทธิบัตร</a></li>
+						</ul>
+					</li>
+				</ul>
+				<!--second-->
+
+				<ul class="nav navbar-nav navbar-right" style='font-family: "Athiti", sans-serif; font-size: 19px; font-weight: bold;'>
+					<li class="dropdown"><a class="dropdown-toggle hvr-underline-from-center" data-toggle="dropdown" href="#" style="color: #1F2937;"><i class="fa fa-sitemap"></i> หลักสูตร</a>
+
+						<ul class="dropdown-menu animate__animated animate__fadeIn" style='font-family: "Athiti", sans-serif; font-size: 18px; font-weight: bold; animation-duration: 0.22s; border-radius: 10px; border: 1px solid rgba(31,41,55,0.08); box-shadow: 0 12px 28px rgba(17,24,39,0.14); margin-top: 4px; overflow: hidden;'>
+							<li class="animate__animated animate__fadeInDown" style="animation-duration: 0.22s; animation-delay: 0.03s;"><a class="hvr-forward" href="http://www.ce.fit.ssru.ac.th/page/curricurum2553" style="display: block;">โครงสร้างหลักสูตร พ.ศ. 2553</a></li>
+							<li class="animate__animated animate__fadeInDown" style="animation-duration: 0.22s; animation-delay: 0.06s;"><a class="hvr-forward" href="http://www.ce.fit.ssru.ac.th/page/curricurum2558" style="display: block;">โครงสร้างหลักสูตร พ.ศ. 2558</a></li>
+							<li class="animate__animated animate__fadeInDown" style="animation-duration: 0.22s; animation-delay: 0.09s;"><a class="hvr-forward" href="http://www.ce.fit.ssru.ac.th/page/curricurum2563" style="display: block;">โครงสร้างหลักสูตร พ.ศ. 2563</a></li>
+							<li class="animate__animated animate__fadeInDown" style="animation-duration: 0.22s; animation-delay: 0.12s;"><a class="hvr-forward" href="#" style="display: block;">โครงสร้างหลักสูตร พ.ศ. 2563 (หมายเหตุกำลังปรับปรุงเเก้ไข)</a></li>
+							<li class="animate__animated animate__fadeInDown" style="animation-duration: 0.22s; animation-delay: 0.15s;"><a class="hvr-forward" href="http://www.ce.fit.ssru.ac.th/page/curricurum2567-1" style="display: block;">เปรียบเทียบหลักสูตรเดิม 2563 กับหลักสูตรปรับปรุง 2567 (กำลังปรับปรุงแก้ไข)</a></li>
+							<li class="animate__animated animate__fadeInDown" style="animation-duration: 0.22s; animation-delay: 0.18s;"><a class="hvr-forward" href="https://gen-ed.ssru.ac.th/useruploads/files/20230223/be19dfb579fdadcb1849660fb6c2e8ceccf7d52d.pdf" target="_blank" style="display: block;">โครงสร้างหมวดวิชาศึกษาทั่วไปหลักสูตรปรับปรุง พ.ศ.2566</a></li>
+							<li class="animate__animated animate__fadeInDown" style="animation-duration: 0.22s; animation-delay: 0.21s;"><a class="hvr-forward" href="http://www.ce.fit.ssru.ac.th/page/curricurum2567-2" style="display: block;">โครงสร้างหลักสูตร พ.ศ. 2567 (หมายเหตุกำลังปรับปรุงเเก้ไข)</a></li>
+						</ul>
+					</li>
+					<li><a class="hvr-underline-from-center" href="http://www.ce.fit.ssru.ac.th/page/download" style="color: #1F2937;"><i class="fa fa-download fa-x"></i> ดาวน์โหลดเอกสาร</a></li>
+					<li class="dropdown"><a class="dropdown-toggle hvr-underline-from-center" data-toggle="dropdown" href="#" style="color: #1F2937;"><i class="fa fa-bookmark"></i> เกี่ยวกับเรา</a>
+
+						<ul class="dropdown-menu animate__animated animate__fadeIn" style='font-family: "Athiti", sans-serif; font-size: 18px; font-weight: bold; animation-duration: 0.22s; border-radius: 10px; border: 1px solid rgba(31,41,55,0.08); box-shadow: 0 12px 28px rgba(17,24,39,0.14); margin-top: 4px; overflow: hidden;'>
+							<li class="animate__animated animate__fadeInDown" style="animation-duration: 0.22s; animation-delay: 0.03s;">
+								<a class="fr-fic fr-dib hvr-forward" href="https://www.facebook.com/groups/272767896216878/" style="display: block;"><img class="fr-fic fr-dib" style="width: 24px; float: left; margin-right: 8px;" src="http://www.ce.fit.ssru.ac.th/useruploads/images/20180530/98e2a9ace5cc145c0c16bc35a9696e5de4e2d4ad.png"> Facebook</a>
+							</li>
+							<li class="animate__animated animate__fadeInDown" style="animation-duration: 0.22s; animation-delay: 0.06s;">
+								<a class="hvr-forward" href="https://twitter.com/CE_SSRU?lang=en" style="display: block;"><img class="fr-fic fr-dib" style="width: 24px; float: left; margin-right: 8px;" src="http://www.ce.fit.ssru.ac.th/useruploads/images/20180530/c30ca581a3e52f949e8cff1ed43e309e80035193.png"> Twitter</a>
+							</li>
+							<li class="animate__animated animate__fadeInDown" style="animation-duration: 0.22s; animation-delay: 0.09s;">
+								<a class="hvr-forward" href="https://www.youtube.com/channel/UCRz1y8LNlNtMke1o23ppmkw/videos" style="display: block;"><img class="fr-fic fr-dib" style="width: 24px; float: left; margin-right: 8px;" src="http://www.ce.fit.ssru.ac.th/useruploads/images/20180530/a14cc7e9409ac8b4613602dcab0c8682d0aa52fc.png"> Youtube</a>
+							</li>
+							<li class="divider"></li>
+							<li class="animate__animated animate__fadeInDown" style="animation-duration: 0.22s; animation-delay: 0.12s;"><a class="hvr-forward" href="https://sites.google.com/ssru.ac.th/tqf7cessru61/home" style="display: block;">ประกันคุณภาพ</a></li>
+							<li class="animate__animated animate__fadeInDown" style="animation-duration: 0.22s; animation-delay: 0.15s;"><a class="hvr-forward" href="http://www.ce.fit.ssru.ac.th/page/information" style="display: block;">ข้อมูลสาขา</a></li>
+							<li class="animate__animated animate__fadeInDown" style="animation-duration: 0.22s; animation-delay: 0.18s;"><a class="hvr-forward" href="https://docs.google.com/forms/d/e/1FAIpQLSeK8DDdtCKkXlTDjznYbeVEdyuy5uIserhD2gjO0tn1ibyYgQ/viewform" style="display: block;">แบบฟอร์มร้องเรียน</a></li>
+							<li class="animate__animated animate__fadeInDown" style="animation-duration: 0.22s; animation-delay: 0.21s;"><a class="hvr-forward" href="http://ce.fit.ssru.ac.th/page/contact" style="display: block;">ติดต่อ</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<!--/.nav-collapse -->
+		</div>
+		<!--/.container-fluid -->
+	</nav>
+</div>
+<!--carousel-->
+<div class="container">
+	<div class="carousel slide" data-ride="carousel" id="myCarousel" style="padding-top: 0%; padding-bottom: 0%;">
+		<!-- Indicators -->
+
+		<ol class="carousel-indicators">
+			<li data-slide-to="0" data-target="#myCarousel">
+				<br>
+			</li>
+			<li class="active" data-slide-to="1" data-target="#myCarousel">
+				<br>
+			</li>
+			<li data-slide-to="2" data-target="#myCarousel">
+				<br>
+			</li>
+			<li data-slide-to="3" data-target="#myCarousel">
+				<br>
+			</li>
+			<li data-slide-to="4" data-target="#myCarousel">
+				<br>
+			</li>
+			<li data-slide-to="5" data-target="#myCarousel">
+				<br>
+			</li>
+		</ol>
+		<!-- Wrapper for slides -->
+		<div class="carousel-inner">
+			<div class="item">
+				<a href="http://admission.ssru.ac.th/" rel="noopener noreferrer" target="_blank"><img class="fr-fic fr-dib" style="width: 100%; height: 100%;" src="http://www.ce.fit.ssru.ac.th/useruploads/images/20261120/94bece6752e36db7dea9fe5c7a4394dfac106cb5.jpg"></a>
+				<div class="myIndicator">
+					<div class="myCarouselTitle">Computer Engineering รับสมัครนักศึกษา 2570</div>
+				</div>
+			</div>
+			<div class="item active">
+				<a href="http://admission.ssru.ac.th/" rel="noopener noreferrer" target="_blank"><img class="fr-fic fr-dib" style="width: 100%; height: 100%;" src="http://www.ce.fit.ssru.ac.th/useruploads/images/20200228/478a27d24a558c132733d92e62e8ad578af9a4a8.png"></a>
+				<div class="myIndicator">
+					<div class="myCarouselTitle">Welcome to CE SSRU</div>
+				</div>
+			</div>
+			<div class="item">
+				<a href="https://eit.ssru.ac.th/" rel="noopener noreferrer" target="_blank"><img class="fr-fic fr-dib" style="width: 100%; height: 100%;" src="http://www.ce.fit.ssru.ac.th/useruploads/images/20240220/8e57898f7adfbee88cfe9b3cba2ed3dca81dbb62.jpg"></a>
+				<div class="myIndicator">
+					<div class="myCarouselTitle">Welcome to EIT SSRU</div>
+				</div>
+			</div>
+			<div class="item">
+				<a href="https://www.facebook.com/ComputerEngineeringSSRU" rel="noopener noreferrer" target="_blank"><img class="fr-fic fr-dib" style="width: 100%; height: 100%;" src="http://www.ce.fit.ssru.ac.th/useruploads/images/20241208/eda21dca5f64b70314f75b75ab82e6659aaef451.jpg"></a>
+				<div class="myIndicator">
+					<div class="myCarouselTitle">Computer Engineering, SSRU</div>
+				</div>
+			</div>
+			<div class="item">
+				<a href="http://ce.fit.ssru.ac.th/announcement/view/20260528" rel="noopener noreferrer" target="_blank"><img class="fr-fic fr-dib" style="width: 100%; height: 100%;" src="http://www.ce.fit.ssru.ac.th/useruploads/images/20260910/36901e92481e94086f7f7ad5785c236046cc517d.png"></a>
+				<div class="carousel-caption">
+
+					<h4>
+						<br>
+					</h4>
+				</div>
+				<div class="myIndicator">
+					<div class="myCarouselTitle">เปิดรับสมัครรอบ Portfolio</div>
+				</div>
+			</div>
+		</div>
+		<!-- Left and right controls -->
+		<a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="sr-only">Previous</span></a>
+		<a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="sr-only">Next</span></a></div>
+</div>
+<!-------------------- ??????---------------------------------------------------------------------->
+<div class="container" style='text-align: center; color: white; font-family: "Athiti", sans-serif;'>
+
+	<p>
+		<br>
+	</p>
+	<div class="col-md-4" style="padding-top: 2%; padding-bottom: 2%;"><img class="fr-fic fr-dib hidden-xs" style="width: 25%;" src="http://www.ce.fit.ssru.ac.th/useruploads/images/20240709/de48155d205c6d04aee7cbe87036fd9dd32ae887.png">
+
+		<p style="color: black; padding-top: 20px; font-size: 30px; font-weight: bold;">ข่าว/ประกาศ</p>
+
+		<p style="color: black; font-size: 18px;">ข่าว กิจกรรม เเละประกาศจากสาขา</p>
+
+		<p><a class="btn btn-default" href="http://www.ce.fit.ssru.ac.th/home">อ่านต่อ</a></p>
+	</div>
+	<div class="col-md-4" style="padding-top: 2%; padding-bottom: 2%;"><img class="fr-fic fr-dib hidden-xs" style="width: 25%;" src="http://www.ce.fit.ssru.ac.th/useruploads/images/20240709/1ebd3c9b87e28890d893ab954918bd30f1e3b0f6.png">
+
+		<p style="color: black; padding-top: 20px; font-size: 30px; font-weight: bold;">กิจกรรมประกาศ</p>
+
+		<p style="color: black; font-size: 18px;">กำหนดการจัดกิจกรรมภายในมหาวิทยาลัย</p>
+
+		<p><a class="btn btn-default" href="http://www.ce.fit.ssru.ac.th/page/activities">อ่านต่อ</a></p>
+	</div>
+	<div class="col-md-4" style="padding-top: 2%; padding-bottom: 2%;"><img class="fr-fic fr-dib hidden-xs" style="width: 25%;" src="http://www.ce.fit.ssru.ac.th/useruploads/images/20240709/7ebfadc4fd338a4a1790f07e5ad3cc7581f14f31.png">
+
+		<p style="color: black; padding-top: 20px; font-size: 30px; font-weight: bold;">คลิปวิดีโอ</p>
+
+		<p style="color: black; font-size: 18px;">คลิปวิดีโอที่นักศึกษาได้ปฎิบัติ</p>
+
+		<p><a class="btn btn-default" href="https://www.youtube.com/channel/UCRz1y8LNlNtMke1o23ppmkw/videos">อ่านต่อ</a></p>
+	</div>
+</div>
+<!-------------------- ห้องปฎิบัติการคอมพิวเตอร์ ห้อง 4224--------------------------------------------------------->
+<div class="container">
+	<div class="box" style='padding-top: 3%; padding-bottom: 3%; font-family: "Athiti", sans-serif;'>
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<div class="update-split">
+
+					<p class="update-split" style="background: rgb(51, 122, 183); width: 10px; height: 30px; color: rgb(255, 255, 255) !important; float: left;">
+						<br>
+					</p>
+
+					<p style="padding-top: 3px; font-size: 20px; font-weight: bold;">ห้องปฎิบัติการคอมพิวเตอร์<a class="btn btn-default" href="http://www.ce.fit.ssru.ac.th/page/laboratory" style="float: right;">อ่านต่อ</a></p>
+				</div>
+			</div>
+			<div class="panel-body">
+
+				<p style="font-size: 18px;">ห้อง 4224 อาคาร 42 ห้องปฎิบัติการทางคอมพิวเตอร์(iMac)</p>
+				<div class="col-md-3"><img class="fr-fic fr-dib" style="width: 100%;" src="http://www.ce.fit.ssru.ac.th/useruploads/images/20180614/a84379ea671f83418b69fe54c7ea62f9fd156603.jpg"></div>
+				<div class="col-md-3 hidden-xs"><img class="fr-fic fr-dib" style="width: 100%;" src="http://www.ce.fit.ssru.ac.th/useruploads/images/20180614/2391581dfdd46b86f09a877f772f56686d8b00c6.jpg"></div>
+				<div class="col-md-3 hidden-xs"><img class="fr-fic fr-dib" style="width: 100%;" src="http://www.ce.fit.ssru.ac.th/useruploads/images/20180614/9205f62f890a17b399693b7c8189fd736165ce22.jpg"></div>
+				<div class="col-md-3 hidden-xs"><img class="fr-fic fr-dib" style="width: 100%;" src="http://www.ce.fit.ssru.ac.th/useruploads/images/20180614/3be0326a562199f58124fb8faa5f7f00da4505ae.jpg"></div>
+			</div>
+		</div>
+		<!-------------------------------ห้องปฏิบัติการ4765--------------------------------------------------------->
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<div class="update-split">
+
+					<p class="update-split" style="background: red; width: 10px; height: 30px; color: rgb(255, 255, 255) !important; float: left;">
+						<br>
+					</p>
+
+					<p style="padding-top: 3px; font-size: 20px; font-weight: bold;">ห้องปฎิบัติการสาขาวิชา วิศวกรรมคอมพิวเตอร์<a class="btn btn-default" href="http://www.ce.fit.ssru.ac.th/page/projectroom" style="float: right;">อ่านต่อ</a></p>
+				</div>
+			</div>
+			<div class="panel-body">
+
+				<p style="font-size: 18px;">ห้อง 4765 อาคาร 47 ห้องปฎิบัติการสาขาวิชา วิศวกรรมคอมพิวเตอร์ (Project LAB)</p>
+				<div class="col-md-3 hidden-xs"><img class="fr-fic fr-dib" style="width: 100%;" src="http://www.ce.fit.ssru.ac.th/useruploads/images/20190521/475a0536158baf79c0f8d6c86760bcc63ae27090.jpg"></div>
+				<div class="col-md-3 hidden-xs"><img class="fr-fic fr-dib" style="width: 100%;" src="http://www.ce.fit.ssru.ac.th/useruploads/images/20190521/0db12630e72022798e432375ef805c27b8689577.jpg"></div>
+				<div class="col-md-3 hidden-xs"><img class="fr-fic fr-dib" style="width: 100%;" src="http://www.ce.fit.ssru.ac.th/useruploads/images/20190521/c22dfb669f82c413a460035239d8d4d0d39da01c.jpg"></div>
+				<div class="col-md-3 hidden-xs"><img class="fr-fic fr-dib" style="width: 100%;" src="http://www.ce.fit.ssru.ac.th/useruploads/images/20190521/51dd76f4384d4fddbaf54d5ae354d47737e9ba5c.jpg"></div>
+			</div>
+		</div>
+		<!----------------------------------ห้องเรียนประจำสาขา----------------------------------------------->
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<div class="update-split">
+
+					<p class="update-split" style="background: red; width: 10px; height: 30px; color: rgb(255, 255, 255) !important; float: left;">
+						<br>
+					</p>
+
+					<p style="padding-top: 3px; font-size: 20px; font-weight: bold;">ห้องเรียนประจำสาขาวิชาวิศวกรรมคอมพิวเตอร์<a class="btn btn-default" href="http://www.ce.fit.ssru.ac.th/page/280263" style="float: right;">อ่านต่อ</a></p>
+				</div>
+			</div>
+			<div class="panel-body">
+
+				<p style="font-size: 18px;">ห้อง 4735 อาคาร 47 ห้องเรียนประจำสาขาวิชาวิศวกรรรมคอมพิวเตอร์ [Smart Classroom]</p>
+				<div class="col-md-3 hidden-xs"><img class="fr-fic fr-dib" style="width: 100%;" src="http://www.ce.fit.ssru.ac.th/useruploads/images/20200228/40790d9acfc4055d76ad6ce078d7e534e57717c7.jpg"></div>
+				<div class="col-md-3 hidden-xs"><img class="fr-fic fr-dib" style="width: 100%;" src="http://www.ce.fit.ssru.ac.th/useruploads/images/20200228/f1d67aa8bd82e575fb074ceede594ef4e526759a.jpg"></div>
+				<div class="col-md-3 hidden-xs"><img class="fr-fic fr-dib" style="width: 100%;" src="http://www.ce.fit.ssru.ac.th/useruploads/images/20200228/e44a4116acadfffb60d3458968775c7749eb3de9.jpg"></div>
+				<div class="col-md-3 hidden-xs"><img class="fr-fic fr-dib" style="width: 100%;" src="http://www.ce.fit.ssru.ac.th/useruploads/images/20200228/f638ff00f5323bfecdacdf91243b1fdee001256c.jpg"></div>
+			</div>
+		</div>
+		<!----------------------------------ห้องเรียนประจำสาขา4733------------------------------------------>
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<div class="update-split">
+
+					<p class="update-split" style="background: red; width: 10px; height: 30px; color: rgb(255, 255, 255) !important; float: left;">
+						<br>
+					</p>
+
+					<p style="padding-top: 3px; font-size: 20px; font-weight: bold;">ห้องเรียนประจำสาขาวิชาวิศวกรรมคอมพิวเตอร์<a class="btn btn-default" href="http://www.ce.fit.ssru.ac.th/page/010463" style="float: right;">อ่านต่อ</a></p>
+				</div>
+			</div>
+			<div class="panel-body">
+
+				<p style="font-size: 18px;">ห้อง 4733 อาคาร 47 ห้องเรียนประจำสาขาวิชาวิศวกรรรมคอมพิวเตอร์ [ Classroom]</p>
+				<div class="col-md-3 hidden-xs"><img class="fr-fic fr-dib" style="width: 100%;" src="http://www.ce.fit.ssru.ac.th/useruploads/images/20200401/7fe28e03fbb09f35ab974ab741e9cdb68dafb4a0.jpg"></div>
+				<div class="col-md-3 hidden-xs"><img class="fr-fic fr-dib" style="width: 100%;" src="http://www.ce.fit.ssru.ac.th/useruploads/images/20200401/52f1184a4ec28b22a86a7a17e1f0f014e27820f7.jpg"></div>
+				<div class="col-md-3 hidden-xs"><img class="fr-fic fr-dib" style="width: 100%;" src="http://www.ce.fit.ssru.ac.th/useruploads/images/20200401/739db9631092b06423462333ce0f27b0e99d43f6.jpg"></div>
+				<div class="col-md-3 hidden-xs"><img class="fr-fic fr-dib" style="width: 100%;" src="http://www.ce.fit.ssru.ac.th/useruploads/images/20200401/6ccb81e7ce0d3c108d9c2ebe9cd8e6b81a49aef4.jpg"></div>
+			</div>
+		</div>
+		<!---------------------------------อุปกรณ์--------------------------------------------------------->
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<div class="update-split">
+
+					<p class="update-split" style="background: green; width: 10px; height: 30px; color: rgb(255, 255, 255) !important; float: left;">
+						<br>
+					</p>
+
+					<p style="padding-top: 3px; font-size: 20px; font-weight: bold;">อุปกรณ์<a class="btn btn-default" href="http://www.ce.fit.ssru.ac.th/page/tool-for-learning" style="float: right;">อ่านต่อ</a></p>
+				</div>
+			</div>
+			<div class="panel-body">
+				<div class="col-md-3 " style="text-align: center;"><img class="fr-fic fr-dib" style="width: 85%;" src="http://www.ce.fit.ssru.ac.th/useruploads/images/20180613/230c4ba054a063ed23464bb43d5cae006d5f79c7.png">
+
+					<h4>Parallels Desktop</h4>
+				</div>
+				<div class="col-md-3 hidden-xs" style="text-align: center;"><img class="fr-fic fr-dib" style="width: 85%;" src="http://www.ce.fit.ssru.ac.th/useruploads/images/20180614/aeeeb7c8b90512662885246d52348bed238d4f90.jpg">
+
+					<h4>Fluke 115 Handheld Digital Multimeter</h4>
+				</div>
+				<div class="col-md-3 hidden-xs" style="text-align: center;"><img class="fr-fic fr-dib" style="width: 100%; height: 160px;" src="http://www.ce.fit.ssru.ac.th/useruploads/images/20190527/9ae5ace8b88d2f6d4463c1234676244df56cb52b.jpg">
+
+					<h4>Server</h4>
+				</div>
+				<div class="col-md-3 hidden-xs" style="text-align: center;"><img class="fr-fic fr-dib" style="width: 100%;" src="http://www.ce.fit.ssru.ac.th/useruploads/images/20180614/526a67d6b50a5722657cb53463ef1f0c7b3c0913.jpg">
+
+					<h4>The Parallella Computer</h4>
+				</div>
+			</div>
+		</div>
+		<!--------------------------ระบบยืมคืนอุปกรณ์----------------------------------------------------->
+		<div id="borrow-banner" style="margin-top: 20px; border-radius: 12px; background: linear-gradient(135deg, #1e3c72 0%, #2a5298 50%, #1e3c72 100%); padding: 40px 30px; text-align: center; color: white; font-family: 'Athiti', sans-serif; box-shadow: 0 8px 32px rgba(30,60,114,0.35); position: relative; overflow: hidden;">
+			<div style="position: absolute; top: -40px; right: -40px; width: 160px; height: 160px; background: rgba(255,255,255,0.06); border-radius: 50%;">
+				<br>
+			</div>
+			<div style="position: absolute; bottom: -60px; left: -30px; width: 200px; height: 200px; background: rgba(255,255,255,0.04); border-radius: 50%;">
+				<br>
+			</div>
+			<div style="position: relative; z-index: 1;">
+
+				<p style="font-size: 16px; letter-spacing: 3px; text-transform: uppercase; color: #ffd580; margin-bottom: 8px; font-weight: bold;">CE SSRU Equipment</p>
+
+				<p style="font-size: 32px; font-weight: bold; margin: 0 0 10px 0;">ระบบยืมคืนอุปกรณ์ IoT</p>
+
+				<p style="font-size: 18px; color: #cfd8e8; margin-bottom: 25px;">เลือกรายการอุปกรณ์เซนเซอร์ที่ต้องการยืม แล้วกรอกข้อมูลเพื่อส่งคำขอยืมอุปกรณ์จากสาขาวิชา</p><a href="http://www.ce.fit.ssru.ac.th/page/borrow" style="display:inline-block; background: linear-gradient(135deg, #ffd580, #ffb347); color: #1e3c72; text-decoration:none; padding: 14px 40px; font-size: 20px; font-weight: bold; border-radius: 50px; font-family: 'Athiti', sans-serif; box-shadow: 0 4px 15px rgba(255,179,71,0.4); transition: transform 0.2s;">เข้าสู่ระบบยืมคืน</a></div>
+		</div>
+	</div>
+</div>
+<div class="container">
+
+	<p style="color: rgb(0, 0, 0); font-size: 26px;">จำนวนผู้เข้าชม</p>
+	<a><img title="free hit counter" class="fr-fic fr-dii" alt="free hit counter" border="0" src="https://counter4.wheredoyoucomefrom.ovh/private/freecounterstat.php?c=bjubnapqa2c73z66wkz5s7b2bf8rt958"></a>
+	<!---------------------------------------footer------------------------------------------------->
+	<div class="container" style='background: #FFB562; font-family: "Athiti", sans-serif;'>
+		<footer>
+			<div class="clearfix">
+				<br>
+			</div>
+			<div class="col-md-4">
+
+				<p style="font-size: 22px; font-weight: bold;"><i class="fa fa-file"></i> ประวัติสาขา</p>
+
+				<p style="text-align: justify; font-size: 18px;">สาขาวิชาวิศวกรรมคอมพิวเตอร์ได้ก่อตั้งขึ้นเมื่อปี พ.ศ.2553 ภายในคณะเทคโนโลยีอุตสาหกรรมสมัยรองศาสตราจารย์ ดร.ช่วงโชติ พันธุเวช เป็นอธิการบดีซึ่งหลักสูตรนี้เป็นหลักสูตรด้านวิศวกรรม&#39;หลักสูตรเเรกของมหาวิทยาลัยราชภัฎสวนสุนันทา&#39;</p>
+			</div>
+			<div class="col-md-4" style="padding-bottom: 20px;">
+
+				<p style="font-size: 22px; font-weight: bold;"><i class="fa fa-phone"></i> ติดต่อ</p>
+
+				<p>ช่องทางการติดต่อ</p>
+				<a href="https://www.symptoma.ro/"></a>
+
+				<table>
+					<tbody>
+						<tr>
+							<td>
+								<a class="fr-fic fr-dib" href="https://web.facebook.com/CE-SSRU-101947597890618/" rel="noopener noreferrer" target="_blank"><img class="fr-fic fr-dib img-responsive" style="width: 70%; padding-right: 2%; padding-left: 2%; margin-right: 2%; margin-left: 2%; display: block;" src="http://www.ce.fit.ssru.ac.th/useruploads/images/20180530/98e2a9ace5cc145c0c16bc35a9696e5de4e2d4ad.png"></a>
+							</td>
+							<td>
+								<a href="https://twitter.com/SsruCe" rel="noopener noreferrer" target="_blank"><img class="fr-fic fr-dib img-responsive" style="width: 350px; padding-right: 2%; padding-left: 2%; margin-right: 2%; margin-left: 2%; display: block;" src="http://www.ce.fit.ssru.ac.th/useruploads/images/20240708/53c14f57aef9c362daade6a77a95e3951b733a21.png"></a>
+							</td>
+							<td>
+								<a href="https://www.youtube.com/channel/UCRz1y8LNlNtMke1o23ppmkw/videos" rel="noopener noreferrer" target="_blank"><img class="fr-fic fr-dib img-responsive" style="width: 70%; padding-right: 2%; padding-left: 2%; margin-right: 2%; margin-left: 2%; display: block;" src="http://www.ce.fit.ssru.ac.th/useruploads/images/20180530/a14cc7e9409ac8b4613602dcab0c8682d0aa52fc.png"></a>
+							</td>
+							<td>
+								<a href="https://www.instagram.com/ce_ssru/?igshid=1363jetfb69n8" rel="noopener noreferrer" target="_blank"><img class="fr-fic fr-dib" style="border-radius: 50%; width: 330px; padding-right: 2%; padding-left: 2%; margin-right: 2%; margin-left: 2%; display: block;" src="http://www.ce.fit.ssru.ac.th/useruploads/images/20200213/80895cd3bfe49b86f7cb5238ecf8ad802367d32f.png"></a>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="col-md-4">
+
+				<p style="font-size: 22px; font-weight: bold;"><i class="fa fa-map-marker"></i> ที่ตั้ง</p><address class="pull-left" style="margin: 10px; text-align: justify; font-size: 18px;">&copy; สาขาวิศวกรรมคอมพิวเตอร์ คณะวิศวกรรมศาสตร์และเทคโนโลยีอุตสาหกรรม มหาวิทยาลัยราชภัฎสวนสุนันทา เลขที่ 1 ถนนอู่ทองนอก เเขวงดุสิต เขตดุสิต กรุงเทพมหานคร 10300</address></div>
+			<div class="clearfix">
+				<br>
+			</div>
+		</footer>
+	</div>
+</div>

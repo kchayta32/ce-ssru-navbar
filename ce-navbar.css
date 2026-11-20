@@ -1,0 +1,121 @@
+/* CE SSRU Navbar UI Motion & Theme Stylesheet */
+
+@keyframes ceNavReveal {
+  from {
+    opacity: 0;
+    transform: translateY(-6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes ceDropIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.ce-navbar {
+  animation: ceNavReveal 0.45s cubic-bezier(0.22, 1, 0.36, 1) both;
+  border: none !important;
+  border-radius: 10px !important;
+  box-shadow: 0 6px 20px rgba(31, 41, 55, 0.12);
+}
+
+.ce-navbar .navbar-brand {
+  transition: transform 0.25s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.ce-navbar .navbar-brand:hover {
+  transform: scale(1.06);
+}
+
+.ce-navbar .navbar-nav > li > a {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  padding: 15px 11px !important;
+  border-radius: 8px;
+  transition: color 0.22s ease, background-color 0.22s ease, transform 0.22s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.ce-navbar .navbar-nav > li > a:before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  left: 51%;
+  right: 51%;
+  bottom: 5px;
+  background: #B91C1C !important;
+  height: 3px !important;
+  border-radius: 2px;
+  transition: left 0.25s cubic-bezier(0.22, 1, 0.36, 1), right 0.25s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.ce-navbar .navbar-nav > li > a:hover:before,
+.ce-navbar .navbar-nav > li > a:focus:before,
+.ce-navbar .navbar-nav > li.open > a:before {
+  left: 10px !important;
+  right: 10px !important;
+}
+
+.ce-navbar .navbar-nav > li > a:hover,
+.ce-navbar .navbar-nav > li > a:focus,
+.ce-navbar .navbar-nav > li.open > a,
+.ce-navbar .navbar-nav > li.open > a:hover,
+.ce-navbar .navbar-nav > li.open > a:focus {
+  color: #B91C1C !important;
+  background-color: rgba(255, 255, 255, 0.4) !important;
+}
+
+.ce-navbar .navbar-nav > li > a i {
+  display: inline-block;
+  transition: transform 0.25s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.ce-navbar .navbar-nav > li > a:hover i,
+.ce-navbar .navbar-nav > li.open > a i {
+  transform: translateY(-2px);
+}
+
+.ce-navbar .dropdown.open > .dropdown-menu {
+  animation: ceDropIn 0.24s cubic-bezier(0.22, 1, 0.36, 1) both !important;
+  transform-origin: top center;
+  border-radius: 10px;
+  border: 1px solid rgba(31, 41, 55, 0.08);
+  box-shadow: 0 12px 28px rgba(17, 24, 39, 0.14);
+  margin-top: 4px;
+  overflow: hidden;
+}
+
+.ce-navbar .dropdown-menu a {
+  transition: transform 0.18s cubic-bezier(0.22, 1, 0.36, 1), background-color 0.18s ease, color 0.18s ease;
+  border-radius: 6px;
+}
+
+.ce-navbar .dropdown-menu > li > a {
+  padding: 8px 18px;
+}
+
+.ce-navbar .dropdown-menu a:hover {
+  transform: translateX(6px) !important;
+  color: #B91C1C !important;
+  background-color: #FFF4E6 !important;
+  text-decoration: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ce-navbar,
+  .ce-navbar .dropdown.open > .dropdown-menu,
+  .ce-navbar * {
+    animation: none !important;
+    transition: none !important;
+  }
+}
