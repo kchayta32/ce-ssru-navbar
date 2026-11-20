@@ -1,0 +1,96 @@
+<p>
+	<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@400;500;600;700&display=swap" rel="stylesheet">
+</p>
+
+<p>
+	<link href="https://cdn.jsdelivr.net/gh/kchayta32/ce-ssru-navbar@v1.0.5/news/ce-news.css" rel="stylesheet">
+</p>
+<div class="ce-news-wrap">
+	<header class="ce-news-header">
+		<div class="ce-news-meta-row"><span class="ce-news-badge"><i aria-hidden="true" class="ce-emo ce-emo-balloon"></i> โครงการบริการวิชาการจิตอาสา</span> <span class="ce-news-date"><i aria-hidden="true" class="ce-emo ce-emo-cal"></i> 2 กันยายน 2569</span></div>
+
+		<h1 class="ce-news-title">โครงการบริการวิชาการจิตอาสา แต้มสี เติมฝัน เพื่อน้อง ณ โรงเรียนหัวเขาแก้ว จังหวัดนครนายก</h1>
+
+		<p class="ce-news-subtitle"><i aria-hidden="true" class="ce-emo ce-emo-gap ce-emo-pin"></i>วันที่ 21–22 สิงหาคม พ.ศ. 2569 โดยนักศึกษาชั้นปีที่ 2–4 และคณาจารย์สาขาวิชาวิศวกรรมคอมพิวเตอร์</p>
+	</header>
+
+	<div class="ce-news-body">
+		<p class="ce-news-lead">วันที่ 21–22 สิงหาคม พ.ศ. 2569 นักศึกษาชั้นปีที่ 2–4 และอาจารย์ประจำสาขาวิชาวิศวกรรมคอมพิวเตอร์ ได้จัดกิจกรรมโครงการบริการวิชาการจิตอาสา “แต้มสี เติมฝัน เพื่อน้อง” ณ โรงเรียนหัวเขาแก้ว จังหวัดนครนายก</p>
+
+		<div class="ce-news-callout">
+			<h2 class="ce-news-callout-title"><i aria-hidden="true" class="ce-emo ce-emo-gap ce-emo-target"></i>วัตถุประสงค์ของกิจกรรม</h2>
+
+			<ol class="ce-news-list">
+				<li>เพื่อพัฒนา ปรับปรุงซ่อมแซม เครื่องคอมพิวเตอร์ที่ชำรุด</li>
+				<li>ปรับปรุงทาสี อาคารสถานที่ และตีเส้นสนามกีฬา</li>
+				<li>ปรับปรุงภูมิทัศน์รอบโรงเรียน</li>
+			</ol>
+		</div>
+
+		<p><i aria-hidden="true" class="ce-emo ce-emo-gap ce-emo-balloon"></i>ทั้งเสริมสร้างทักษะฝึกความสามัคคีในหมู่คณะ ฝึกการวางแผนในการทำงานร่วมกันเป็นกลุ่ม รู้จักปฏิบัติตนในกฎระเบียบของการอยู่ร่วมกันในสังคม ทำให้ได้เสริมสร้างความรู้นำทักษะที่เรียนมาประยุกต์ใช้ให้เกิดประโยชน์ในสังคม</p>
+
+		<p><i aria-hidden="true" class="ce-emo ce-emo-gap ce-emo-trophy"></i>และได้มีการมอบอุปกรณ์คอมพิวเตอร์แก่โรงเรียน เพื่อนำไปใช้ประโยชน์ทางการศึกษาต่อไป</p>
+	</div>
+	<section class="ce-news-gallery" id="ce-n2-gallery">
+		<div class="ce-news-gallery-head">
+			<h2 class="ce-news-gallery-title"><i aria-hidden="true" class="ce-emo ce-emo-gap ce-emo-photo"></i>ภาพบรรยากาศโครงการจิตอาสา</h2>
+			<span class="ce-news-gallery-hint">คลิกที่ภาพเพื่อขยายดูขนาดเต็ม</span></div>
+		<div class="ce-photo-grid">
+			<a class="ce-photo-tile ce-photo-tile--hero" href="#ce-n2-lb-1"><img alt="โครงการบริการวิชาการจิตอาสา แต้มสี เติมฝัน เพื่อน้อง ภาพที่ 1" src="https://cdn.jsdelivr.net/gh/kchayta32/ce-ssru-navbar@v1.0.5/news/images/post2/photo1.jpg"><span class="ce-photo-zoom-badge">ขยายภาพ 1/5</span></a>
+			<a class="ce-photo-tile" href="#ce-n2-lb-2"><img alt="โครงการบริการวิชาการจิตอาสา แต้มสี เติมฝัน เพื่อน้อง ภาพที่ 2" src="https://cdn.jsdelivr.net/gh/kchayta32/ce-ssru-navbar@v1.0.5/news/images/post2/photo2.jpg"><span class="ce-photo-zoom-badge">2/5</span></a>
+			<a class="ce-photo-tile" href="#ce-n2-lb-3"><img alt="โครงการบริการวิชาการจิตอาสา แต้มสี เติมฝัน เพื่อน้อง ภาพที่ 3" src="https://cdn.jsdelivr.net/gh/kchayta32/ce-ssru-navbar@v1.0.5/news/images/post2/photo3.jpg"><span class="ce-photo-zoom-badge">3/5</span></a>
+			<a class="ce-photo-tile" href="#ce-n2-lb-4"><img alt="โครงการบริการวิชาการจิตอาสา แต้มสี เติมฝัน เพื่อน้อง ภาพที่ 4" src="https://cdn.jsdelivr.net/gh/kchayta32/ce-ssru-navbar@v1.0.5/news/images/post2/photo4.jpg"><span class="ce-photo-zoom-badge">4/5</span></a>
+			<a class="ce-photo-tile" href="#ce-n2-lb-5"><img alt="โครงการบริการวิชาการจิตอาสา แต้มสี เติมฝัน เพื่อน้อง ภาพที่ 5" src="https://cdn.jsdelivr.net/gh/kchayta32/ce-ssru-navbar@v1.0.5/news/images/post2/photo5.jpg"><span class="ce-photo-zoom-badge">5/5 (+41)</span></a>
+		</div>
+		<div class="ce-photo-more-bar">
+			<span>อัลบั้มต้นฉบับมีภาพเพิ่มเติมอีก 41 ภาพบน Facebook</span>
+			<a class="ce-photo-more-btn" href="https://www.facebook.com/ComputerEngineeringSSRU/posts/pfbid021nYHKXCqHPGfth6LaAgBpMgcs2SJHteNUZ4QvmwXyKbWKq8xxF9HWKEik83zzMhBl" rel="noopener noreferrer" target="_blank">ดูภาพทั้งหมดบน Facebook</a>
+		</div>
+	</section>
+	<footer class="ce-news-footer">
+		<p class="ce-news-channels-title">ช่องทางติดตามสาขาวิชาวิศวกรรมคอมพิวเตอร์</p>
+
+		<ul class="ce-news-channels">
+			<li><a href="http://www.ce.fit.ssru.ac.th" rel="noopener noreferrer" target="_blank"><i aria-hidden="true" class="ce-emo ce-emo-globe"></i> Website</a></li>
+			<li><a href="https://www.facebook.com/ComputerEngineeringSSRU?mibextid=LQQJ4d" rel="noopener noreferrer" target="_blank"><i aria-hidden="true" class="ce-emo ce-emo-fb"></i> Facebook</a></li>
+			<li><a href="https://www.instagram.com/ce_ssru?igsh=OWpvbnR4d3F2cGlm" rel="noopener noreferrer" target="_blank"><i aria-hidden="true" class="ce-emo ce-emo-ig"></i> Instagram</a></li>
+			<li><a href="https://www.youtube.com/@cessru672" rel="noopener noreferrer" target="_blank"><i aria-hidden="true" class="ce-emo ce-emo-yt"></i> YouTube</a></li>
+		</ul>
+	</footer>
+	<!-- Pure CSS Lightbox Overlays -->
+	<div class="ce-lb-overlay" id="ce-n2-lb-1">
+		<a aria-label="ปิดภาพขยาย" class="ce-lb-backdrop" href="#ce-n2-gallery"></a>
+		<div class="ce-lb-dialog">
+			<figure class="ce-lb-figure"><img alt="โครงการบริการวิชาการจิตอาสา ภาพที่ 1" src="https://cdn.jsdelivr.net/gh/kchayta32/ce-ssru-navbar@v1.0.5/news/images/post2/photo1.jpg"></figure>
+			<div class="ce-lb-toolbar"><a class="ce-lb-btn" href="#ce-n2-lb-5">ก่อนหน้า</a><span class="ce-lb-counter">1 / 5</span><a class="ce-lb-btn" href="#ce-n2-lb-2">ถัดไป</a><a class="ce-lb-btn ce-lb-close" href="#ce-n2-gallery">ปิดภาพ</a></div>
+		</div>
+	</div>
+	<div class="ce-lb-overlay" id="ce-n2-lb-2">
+		<a aria-label="ปิดภาพขยาย" class="ce-lb-backdrop" href="#ce-n2-gallery"></a>
+		<div class="ce-lb-dialog">
+			<figure class="ce-lb-figure"><img alt="โครงการบริการวิชาการจิตอาสา ภาพที่ 2" src="https://cdn.jsdelivr.net/gh/kchayta32/ce-ssru-navbar@v1.0.5/news/images/post2/photo2.jpg"></figure>
+			<div class="ce-lb-toolbar"><a class="ce-lb-btn" href="#ce-n2-lb-1">ก่อนหน้า</a><span class="ce-lb-counter">2 / 5</span><a class="ce-lb-btn" href="#ce-n2-lb-3">ถัดไป</a><a class="ce-lb-btn ce-lb-close" href="#ce-n2-gallery">ปิดภาพ</a></div>
+		</div>
+	</div>
+	<div class="ce-lb-overlay" id="ce-n2-lb-3">
+		<a aria-label="ปิดภาพขยาย" class="ce-lb-backdrop" href="#ce-n2-gallery"></a>
+		<div class="ce-lb-dialog">
+			<figure class="ce-lb-figure"><img alt="โครงการบริการวิชาการจิตอาสา ภาพที่ 3" src="https://cdn.jsdelivr.net/gh/kchayta32/ce-ssru-navbar@v1.0.5/news/images/post2/photo3.jpg"></figure>
+			<div class="ce-lb-toolbar"><a class="ce-lb-btn" href="#ce-n2-lb-2">ก่อนหน้า</a><span class="ce-lb-counter">3 / 5</span><a class="ce-lb-btn" href="#ce-n2-lb-4">ถัดไป</a><a class="ce-lb-btn ce-lb-close" href="#ce-n2-gallery">ปิดภาพ</a></div>
+		</div>
+	</div>
+	<div class="ce-lb-overlay" id="ce-n2-lb-4">
+		<a aria-label="ปิดภาพขยาย" class="ce-lb-backdrop" href="#ce-n2-gallery"></a>
+		<div class="ce-lb-dialog">
+			<figure class="ce-lb-figure"><img alt="โครงการบริการวิชาการจิตอาสา ภาพที่ 4" src="https://cdn.jsdelivr.net/gh/kchayta32/ce-ssru-navbar@v1.0.5/news/images/post2/photo4.jpg"></figure>
+			<div class="ce-lb-toolbar"><a class="ce-lb-btn" href="#ce-n2-lb-3">ก่อนหน้า</a><span class="ce-lb-counter">4 / 5</span><a class="ce-lb-btn" href="#ce-n2-lb-5">ถัดไป</a><a class="ce-lb-btn ce-lb-close" href="#ce-n2-gallery">ปิดภาพ</a></div>
+		</div>
+	</div>
+	<div class="ce-lb-overlay" id="ce-n2-lb-5">
+		<a aria-label="ปิดภาพขยาย" class="ce-lb-backdrop" href="#ce-n2-gallery"></a>
+		<div class="ce-lb-dialog">
+			<figure class="ce-lb-figure"><img alt="โครงการบริการวิชาการจิตอาสา ภาพที่ 5" src="https://cdn.jsdelivr.net/gh/kchayta32/ce-ssru-navbar@v1.0.5/news/images/post2/photo5.jpg"></figure>
+			<div class="ce-lb-toolbar"><a class="ce-lb-btn" href="#ce-n2-lb-4">ก่อนหน้า</a><span class="ce-lb-counter">5 / 5</span><a class="ce-lb-btn" href="#ce-n2-lb-1">ถัดไป</a><a class="ce-lb-btn ce-lb-close" href="#ce-n2-gallery">ปิดภาพ</a></div>
+		</div>
+	</div>
+</div>

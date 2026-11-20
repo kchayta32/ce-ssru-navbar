@@ -20,3 +20,9 @@ Stylesheets สำหรับเพิ่ม UI Motion และ Animation ใ�
 ```html
 <link href="https://cdn.jsdelivr.net/gh/kchayta32/ce-ssru-navbar@v1.0.4/page/ce-conf-international.css" rel="stylesheet">
 ```
+
+### 4. หน้าข่าวสารและกิจกรรม (`news/ce-news.css`)
+รองรับการแสดงผลอีโมจิผ่าน CSS Unicode (`@charset "UTF-8"`) เพื่อเลี่ยงปัญหา CMS/Froala ตัดอิโมจิเป็น `???` พร้อม UI Motion และ Pure-CSS Lightbox สำหรับขยายดูภาพประกอบ
+```html
+<link href="https://cdn.jsdelivr.net/gh/kchayta32/ce-ssru-navbar@v1.0.5/news/ce-news.css" rel="stylesheet">
+```
