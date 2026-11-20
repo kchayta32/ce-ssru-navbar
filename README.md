@@ -32,3 +32,9 @@ Stylesheets สำหรับเพิ่ม UI Motion และ Animation ใ�
 ```html
 <link href="https://cdn.jsdelivr.net/gh/kchayta32/ce-ssru-navbar@v1.0.8/event/ce-handbook.css" rel="stylesheet">
 ```
+
+### 6. หน้ากิจกรรมวิชาการ (`page/ce-activities.css`)
+แสดงรายการประกาศกิจกรรมวิชาการ ประจำปีการศึกษา 2566–2569 โดยเปิดแสดงปีการศึกษาล่าสุด (2569) อัตโนมัติ และซ่อนปีการศึกษาก่อนหน้า (2568–2566) ไว้ใน `<details>` accordion พร้อม UI motion, แทนที่ไอคอน `http://` เดิมด้วย CSS SVG mask และเชื่อมต่อทั้งหมดผ่าน `https://`
+```html
+<link href="https://cdn.jsdelivr.net/gh/kchayta32/ce-ssru-navbar@v1.0.9/page/ce-activities.css" rel="stylesheet">
+```
