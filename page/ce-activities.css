@@ -344,6 +344,14 @@
   content: "คลิกเพื่อซ่อน";
 }
 
+.ce-act-wrap.ce-act-en .ce-act-toggle::before {
+  content: "Click to expand";
+}
+
+.ce-act-wrap.ce-act-en .ce-act-year[open] > .ce-act-summary .ce-act-toggle::before {
+  content: "Click to collapse";
+}
+
 .ce-act-wrap .ce-act-chevron {
   display: inline-flex;
   align-items: center;

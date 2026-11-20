@@ -1,0 +1,91 @@
+<p>
+	<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@400;500;600;700&display=swap" rel="stylesheet">
+</p>
+
+<p>
+	<link href="https://cdn.jsdelivr.net/gh/kchayta32/ce-ssru-navbar@v1.0.9/page/ce-activities.css" rel="stylesheet">
+</p>
+<div class="ce-act-wrap ce-act-en">
+	<header class="ce-act-header">
+		<div class="ce-act-meta"><span class="ce-act-kicker">Academic Activity Announcements</span> <span class="ce-act-span">Academic Years 2023 – 2026 (B.E. 2566 – 2569)</span></div>
+
+		<h1 class="ce-act-title">Academic Activities</h1>
+
+		<p class="ce-act-desc">Showing the latest academic year announcements. Click any item to view or download the official PDF.</p>
+	</header>
+
+	<!-- Academic Year 2026 / B.E. 2569 (Latest — Expanded by Default) -->
+	<details class="ce-act-year ce-act-latest" open="">
+		<summary class="ce-act-summary"><span class="ce-act-summary-main"><span>Academic Year 2026 (B.E. 2569)</span><span class="ce-act-new-badge">Latest</span><span class="ce-act-count">4 Announcements</span></span><span class="ce-act-toggle"><span class="ce-act-chevron">▼</span></span></summary>
+		<div class="ce-act-body">
+			<div class="ce-act-list">
+				<a class="ce-act-row" href="https://cts.ssru.ac.th/File/IS/Announce/Files/u3gd23lx.pdf" rel="noopener noreferrer" target="_blank">
+					<span class="ce-act-row-left"><span class="ce-act-date">27 Apr 2026</span> <span class="ce-act-info"><span class="ce-act-name">Academic Activity Announcement for Academic Year 2026 (27 Apr 2026)</span> <span class="ce-act-tags"><span class="ce-act-tag">Regular Program</span><span class="ce-act-tag">Thai Version</span></span></span></span>
+					<span class="ce-act-pdf">Download PDF</span>
+				</a>
+				<a class="ce-act-row" href="https://cts.ssru.ac.th/File/IS/Announce/Files/ybclhxxv.pdf" rel="noopener noreferrer" target="_blank">
+					<span class="ce-act-row-left"><span class="ce-act-date">27 Apr 2026</span> <span class="ce-act-info"><span class="ce-act-name">Academic Activity Announcement for Academic Year 2026 — English Version (27 Apr 2026)</span> <span class="ce-act-tags"><span class="ce-act-tag">Regular Program</span><span class="ce-act-tag ce-act-tag-en">English Version</span></span></span></span>
+					<span class="ce-act-pdf">Download PDF</span>
+				</a>
+				<a class="ce-act-row" href="https://cts.ssru.ac.th/File/IS/Announce/Files/er3tr0sq.pdf" rel="noopener noreferrer" target="_blank">
+					<span class="ce-act-row-left"><span class="ce-act-date">21 May 2026</span> <span class="ce-act-info"><span class="ce-act-name">Academic Activity Announcement for Academic Year 2026 — Undergraduate International Program (Chinese Students) (21 May 2026)</span> <span class="ce-act-tags"><span class="ce-act-tag ce-act-tag-intl">International Program (Chinese Students)</span><span class="ce-act-tag">Thai Version</span></span></span></span>
+					<span class="ce-act-pdf">Download PDF</span>
+				</a>
+				<a class="ce-act-row" href="https://cts.ssru.ac.th/File/IS/Announce/Files/3nxm1pas.pdf" rel="noopener noreferrer" target="_blank">
+					<span class="ce-act-row-left"><span class="ce-act-date">21 May 2026</span> <span class="ce-act-info"><span class="ce-act-name">Academic Activity Announcement for Academic Year 2026 — Undergraduate International Program (Chinese Students), English Version (21 May 2026)</span> <span class="ce-act-tags"><span class="ce-act-tag ce-act-tag-intl">International Program (Chinese Students)</span><span class="ce-act-tag ce-act-tag-en">English Version</span></span></span></span>
+					<span class="ce-act-pdf">Download PDF</span>
+				</a>
+			</div>
+		</div>
+	</details>
+
+	<div class="ce-act-archive-head">
+		<h2 class="ce-act-archive-title">Previous Academic Years</h2>
+		<span class="ce-act-archive-hint">Academic Years 2023 – 2025 (Click a year to expand)</span>
+	</div>
+
+	<!-- Academic Year 2025 / B.E. 2568 (Collapsed by Default) -->
+	<details class="ce-act-year">
+		<summary class="ce-act-summary"><span class="ce-act-summary-main"><span>Academic Year 2025 (B.E. 2568)</span><span class="ce-act-count">2 Announcements</span></span><span class="ce-act-toggle"><span class="ce-act-chevron">▼</span></span></summary>
+		<div class="ce-act-body">
+			<div class="ce-act-list">
+				<a class="ce-act-row" href="https://cts.ssru.ac.th/File/IS/Announce/Files/v4qdyjfw.pdf" rel="noopener noreferrer" target="_blank">
+					<span class="ce-act-row-left"><span class="ce-act-date">21 Feb 2025</span> <span class="ce-act-info"><span class="ce-act-name">Academic Activity Announcement for Academic Year 2025 (21 Feb 2025)</span> <span class="ce-act-tags"><span class="ce-act-tag">Thai Version</span></span></span></span>
+					<span class="ce-act-pdf">Download PDF</span>
+				</a>
+				<a class="ce-act-row" href="https://cts.ssru.ac.th/File/IS/Announce/Files/bfxtatws.pdf" rel="noopener noreferrer" target="_blank">
+					<span class="ce-act-row-left"><span class="ce-act-date">21 Feb 2025</span> <span class="ce-act-info"><span class="ce-act-name">Academic Activity Announcement for Academic Year 2025 — English Version (21 Feb 2025)</span> <span class="ce-act-tags"><span class="ce-act-tag ce-act-tag-en">English Version</span></span></span></span>
+					<span class="ce-act-pdf">Download PDF</span>
+				</a>
+			</div>
+		</div>
+	</details>
+
+	<!-- Academic Year 2024 / B.E. 2567 (Collapsed by Default) -->
+	<details class="ce-act-year">
+		<summary class="ce-act-summary"><span class="ce-act-summary-main"><span>Academic Year 2024 (B.E. 2567)</span><span class="ce-act-count">1 Announcement</span></span><span class="ce-act-toggle"><span class="ce-act-chevron">▼</span></span></summary>
+		<div class="ce-act-body">
+			<div class="ce-act-list">
+				<a class="ce-act-row" href="https://cts.ssru.ac.th/File/IS/Announce/Files/j0tf0qcm.pdf" rel="noopener noreferrer" target="_blank">
+					<span class="ce-act-row-left"><span class="ce-act-date">4 Mar 2024</span> <span class="ce-act-info"><span class="ce-act-name">Academic Activity Announcement for Academic Year 2024 (4 Mar 2024)</span> <span class="ce-act-tags"><span class="ce-act-tag">Thai Version</span></span></span></span>
+					<span class="ce-act-pdf">Download PDF</span>
+				</a>
+			</div>
+		</div>
+	</details>
+
+	<!-- Academic Year 2023 / B.E. 2566 (Collapsed by Default) -->
+	<details class="ce-act-year">
+		<summary class="ce-act-summary"><span class="ce-act-summary-main"><span>Academic Year 2023 (B.E. 2566)</span><span class="ce-act-count">1 Announcement</span></span><span class="ce-act-toggle"><span class="ce-act-chevron">▼</span></span></summary>
+		<div class="ce-act-body">
+			<div class="ce-act-list">
+				<a class="ce-act-row" href="https://cts.ssru.ac.th/File/IS/Announce/Files/bdxy0ta5.pdf" rel="noopener noreferrer" target="_blank">
+					<span class="ce-act-row-left"><span class="ce-act-date">3 Feb 2023</span> <span class="ce-act-info"><span class="ce-act-name">Academic Activity Announcement for Academic Year 2023 (3 Feb 2023)</span> <span class="ce-act-tags"><span class="ce-act-tag">Thai Version</span></span></span></span>
+					<span class="ce-act-pdf">Download PDF</span>
+				</a>
+			</div>
+		</div>
+	</details>
+
+	<p class="ce-act-note">All documents open in a new tab over a secure HTTPS connection from the Office of Academic Promotion and Registration announcement repository (cts.ssru.ac.th).</p>
+</div>
