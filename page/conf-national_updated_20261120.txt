@@ -1,0 +1,111 @@
+<p>
+	<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@400;500;600;700&display=swap" rel="stylesheet">
+</p>
+
+<p>
+	<link href="https://cdn.jsdelivr.net/gh/kchayta32/ce-ssru-navbar@v1.0.2/page/ce-conf-national.css" rel="stylesheet">
+</p>
+<div class="ce-conf-wrap">
+	<!-- งานประชุมวิชาการระดับชาติ รหัส 66 (เพิ่มใหม่) -->
+	<details class="ce-conf-year" open="">
+		<summary class="ce-conf-summary"><span class="ce-conf-summary-title"><span>งานประชุมวิชาการระดับชาติ รหัส 66</span><span class="ce-conf-count">3 บทความ</span></span><span class="ce-conf-toggle"><span class="ce-conf-chevron">▼</span></span></summary>
+		<div class="ce-conf-body">
+			<div class="ce-conf-callout">
+
+				<h4 class="ce-conf-callout-title">การประชุมวิชาการระดับปริญญาตรี ด้านคอมพิวเตอร์ ภูมิภาคเอเชีย ครั้งที่ 14 - Oral Conference Proceeding (THE 14th OF ASIA UNDERGRADUATE CONFERENCE ON COMPUTING 2026)</h4>
+
+				<p class="ce-conf-callout-meta"><strong>ช่องทางการเผยแพร่:</strong>
+					<a href="https://aucc2026.rbru.ac.th" rel="noopener noreferrer" target="_blank">https://aucc2026.rbru.ac.th</a>
+					<br><strong>ลิขสิทธิ์โดย:</strong> คณะวิทยาการคอมพิวเตอร์และเทคโนโลยีสารสนเทศ มหาวิทยาลัยราชภัฏรำไพพรรณี</p>
+			</div>
+			<details class="ce-conf-sub" open="">
+				<summary class="ce-conf-sub-summary"><span>รายการบทความ</span><span class="ce-conf-toggle"><span class="ce-conf-chevron">▼</span></span></summary>
+				<div class="ce-conf-sub-body">
+
+					<ul class="ce-conf-list">
+						<li class="ce-conf-item"><strong class="ce-conf-code">[O-CI-0018]</strong>
+							<a class="ce-conf-link" href="https://drive.google.com/file/d/15g-4Fzq_F3HpaIzJwLWrx_4vNfnAKDEE/view?usp=sharing" rel="noopener noreferrer" target="_blank">ระบบตรวจจับพฤติกรรมการขับขี่แบบเรียลไทม์ด้วยอุปกรณ์ปลายทางอัจฉริยะผ่านโพรโทคอลคิวเทเลเมทรีสำหรับการส่งข้อความ (Real-Time Driver Monitoring System Using Intelligent Edge Device via MQTT Protocol)</a>
+							<span class="ce-conf-authors">- กิตติ ชัยตา, ธเนศพล แซ่เอีย, เศรษฐกาล โปร่งนุช และ กานต์ เจริญจิตร</span></li>
+						<li class="ce-conf-item"><strong class="ce-conf-code">[O-OTH-0015]</strong>
+							<a class="ce-conf-link" href="https://drive.google.com/file/d/1aMfKHrV77XNdW-fbp8wVYmHO44YWaajI/view?usp=sharing" rel="noopener noreferrer" target="_blank">ระบบควบคุมรถบังคับจากระยะไกลผ่าน Wi-Fi ด้วย Raspberry Pi Zero 2 W (A Wi-Fi-Based Remote-Controlled Car System Using Raspberry Pi Zero 2 W)</a>
+							<span class="ce-conf-authors">- อนันตญา จันทร์เจริญ, เกศินี แซสันเทียะ, มลตณรัตน์ วิวัฒน์เมทากร, เศรษฐกาล โปร่งนุช และ ธัชนนท์ ชุ่มแอ่น</span></li>
+						<li class="ce-conf-item"><strong class="ce-conf-code">[O-IOT-0038]</strong>
+							<span class="ce-conf-title-text">การพัฒนาระบบผู้พิทักษ์พืชอัจฉริยะด้วยปัญญาประดิษฐ์เพื่อการดูแลพืชแบบอัตโนมัติ</span>
+							<span class="ce-conf-authors">- ศตวรรษ อินทรักษ์, กัญญาณัฐ ลุนชาติ, เศรษฐกาล โปร่งนุช และ ทักษอร อักษรศิลป์ <em class="ce-conf-status">(อยู่ระหว่างการตีพิมพ์ลงวารสาร)</em></span></li>
+					</ul>
+				</div>
+			</details>
+		</div>
+	</details>
+	<!-- งานประชุมวิชาการระดับชาติ รหัส 64 -->
+	<details class="ce-conf-year">
+		<summary class="ce-conf-summary"><span class="ce-conf-summary-title"><span>งานประชุมวิชาการระดับชาติ รหัส 64</span><span class="ce-conf-count">1 บทความ</span></span><span class="ce-conf-toggle"><span class="ce-conf-chevron">▼</span></span></summary>
+		<div class="ce-conf-body">
+
+			<ul class="ce-conf-list">
+				<li class="ce-conf-item"><a class="ce-conf-link" href="https://drive.google.com/file/d/1ylViSVeGbW934vqUHmMWWw0JNHym7JGU/view?usp=drive_link" rel="noopener noreferrer" target="_blank">ตู้สำหรับการตรวจสอบเชื้อในไข่ไก่และฟักไข่ไก่แบบอัตโนมัติควบคุมผ่านเว็บแอปพลิเคชัน (Automated Egg Incubator and Inspection Cabinet Controlled via Web Application)</a>
+					<span class="ce-conf-authors">- ศักรินทร์ ผันสืบ, อามีน อาบู, พลบดี คำดี, ขวัญเรือน รัศมี, รวิ อุตตมธนินทร์ และ เศรษฐกาล โปร่งนุช, การประชุมวิชาการทางวิศวกรรมไฟฟ้า ครั้งที่ 48 (EECON-48) ณ โรงแรมฟูราม่า จังหวัดเชียงใหม่</span></li>
+			</ul>
+		</div>
+	</details>
+	<!-- งานประชุมวิชาการระดับชาติ รหัส 62 -->
+	<details class="ce-conf-year">
+		<summary class="ce-conf-summary"><span class="ce-conf-summary-title"><span>งานประชุมวิชาการระดับชาติ รหัส 62</span><span class="ce-conf-count">2 บทความ</span></span><span class="ce-conf-toggle"><span class="ce-conf-chevron">▼</span></span></summary>
+		<div class="ce-conf-body">
+
+			<ul class="ce-conf-list">
+				<li class="ce-conf-item"><a class="ce-conf-link" href="https://drive.google.com/file/d/1utEIejgFT-eEidyAJQnAfBjApqIxkHzP/view?usp=drive_link" rel="noopener noreferrer" target="_blank">การพัฒนาต้นแบบตู้เพาะชำและดูแลต้นกล้าผักควบคุมผ่านเว็บแอปพลิเคชัน</a>
+					<span class="ce-conf-authors">- วิวรรณรัตน์ สารมาตย์, พิมพกานต์ คิดอ่าน, รวิ อุตตมธนินทร์ และ วรณัน วรมงคล, การประชุมวิชาการระดับชาติ The National Conference on Science Technology and Innovation 2024 Hybrid Conference</span></li>
+				<li class="ce-conf-item"><a class="ce-conf-link" href="https://drive.google.com/file/d/1YS-VlMq9TuyzPS9f8uZuLz1IXCw5RDab/view?usp=drive_link" rel="noopener noreferrer" target="_blank">แอปพลิเคชันระบบมาตรฐานคุณวุฒิสำหรับหลักสูตรวิศวกรรมศาสตร์และคะแนนสาขา กรณีศึกษาหลักสูตรวิศวกรรมคอมพิวเตอร์ (Thai Qualifications Framework Applications for Engineering Programs and Branch score system Case study Computer Engineering Program)</a>
+					<span class="ce-conf-authors">- ทักษิณ คำสียา และ พัฒนเศรษฐ์ ถาวรเศษ, การประชุมวิชาการระดับชาติ ราชพฤกษ์วิชาการ ครั้งที่ 2 ณ มหาวิทยาลัยราชพฤกษ์</span></li>
+			</ul>
+		</div>
+	</details>
+	<!-- งานประชุมวิชาการระดับชาติ รหัส 61 -->
+	<details class="ce-conf-year">
+		<summary class="ce-conf-summary"><span class="ce-conf-summary-title"><span>งานประชุมวิชาการระดับชาติ รหัส 61</span><span class="ce-conf-count">7 บทความ</span></span><span class="ce-conf-toggle"><span class="ce-conf-chevron">▼</span></span></summary>
+		<div class="ce-conf-body">
+
+			<ul class="ce-conf-list">
+				<li class="ce-conf-item"><a class="ce-conf-link" href="https://drive.google.com/file/d/1CAyONUrMzMvWehS7Ed5WEGpzuddiJQo_/view?usp=drive_link" rel="noopener noreferrer" target="_blank">เครื่องลดความชื้นข้าวเปลือกด้วยราสเบอร์รี่พายสำหรับอุตสาหกรรมครัวเรือน (Paddy Dehumidifier based on Raspberry Pi for Households Industries)</a>
+					<span class="ce-conf-authors">- วิชยุตม์ งามเจริญถาวร, เจษฎากร เจียมจิตต์, ภาณุวัฒน์ สมคิด และ เศรษฐกาล โปร่งนุช, การประชุมวิชาการทางด้านวิศวกรรมศาสตร์ วิทยาศาสตร์ เทคโนโลยี และสถาปัตยกรรมศาสตร์ (ESTACON) ครั้งที่ 14 ระหว่างวันที่ 25 - 26 สิงหาคม พ.ศ.2566 ณ มหาวิทยาลัยกาฬสินธุ์</span></li>
+				<li class="ce-conf-item"><a class="ce-conf-link" href="https://drive.google.com/file/d/10Lw7l-VqDkl9ro5Z3ojrFSlJFi4LIRsj/view?usp=drive_link" rel="noopener noreferrer" target="_blank">ตู้ต้นแบบปลูกและดูแลไมโครกรีนอัตโนมัติผ่านเว็บแอปพลิเคชัน</a>
+					<span class="ce-conf-authors">- พัฒนกาญจน์ ทิมแท้, ศุภณัฐ อุริต, อาทิตย์ จันทราวัช, รวิ อุตตมธนินทร์ และ ขวัญเรือน รัศมี, การประชุมวิชาการระดับชาติ The National Conference on Science Technology and Innovation 2024 Hybrid Conference</span></li>
+				<li class="ce-conf-item"><a class="ce-conf-link" href="https://drive.google.com/file/d/1i5XziRdL5X6I70wGJRiqoEjnM1VqvN3F/view?usp=drive_link" rel="noopener noreferrer" target="_blank">ระบบเฝ้ามองการเจริญเติบโตของพืช โดยใช้ภาพในการประมวลผล</a>
+					<span class="ce-conf-authors">- ธนาคาร หล่อนสิ่ว, นรภัทร แก้วเกษม, สิทธิพงษ์ หนูแป้นน้อย, รวิ อุตตมธนินทร์ และ ขวัญเรือน รัศมี, การประชุมวิชาการระดับชาติ The National Conference on Science Technology and Innovation 2024 Hybrid Conference</span></li>
+				<li class="ce-conf-item"><a class="ce-conf-link" href="https://drive.google.com/file/d/1QCNlOYS4SfrV8df6zmK80o_rZ1LGhthU/view?usp=drive_link" rel="noopener noreferrer" target="_blank">การพัฒนาต้นแบบถังขยะรีไซเคิลอัจฉริยะ (The development of smart recycling bin model)</a>
+					<span class="ce-conf-authors">- กฤษณะพงศ์ จันทร์เพ็ญ, ชุติมา บูรณะ, ธัญญารัตน์ ไอซิม, ขวัญเรือน รัศมี และ รวิ อุตตมธนินทร์, งานประชุมวิชาการระดับชาติ ในระดับปริญญาตรี คณะวิทยาการจัดการ มหาวิทยาลัยราชภัฏจันทรเกษม ประจำปี 2565 (MSCC2022)</span></li>
+				<li class="ce-conf-item"><a class="ce-conf-link" href="https://drive.google.com/file/d/14p23JXK29LqdZpbZinNbt0JdVsq3_JLa/view?usp=drive_link" rel="noopener noreferrer" target="_blank">ตู้ต้นแบบขนาดเล็กสำหรับดูแลต้นสตรอว์เบอร์รีควบคุมผ่านเว็บแอปพลิเคชัน</a>
+					<span class="ce-conf-authors">- เพชรรัตน์ สว่างวงษ์, ปริญญา โพธิ์นุช, ณัฐภัทร เกิดแก้ว และ รวิ อุตตมธนินทร์, การประชุมสวนสุนันทาวิชาการระดับชาติ ครั้งที่ 10 การวิจัยเพื่อความยั่งยืน ภายใต้ชีวิตวิถีใหม่ หลังโควิด-19 มหาวิทยาลัยราชภัฏสวนสุนันทา</span></li>
+				<li class="ce-conf-item"><a class="ce-conf-link" href="https://drive.google.com/file/d/1IAV1RVuZaB5jnbncl2uZ0Dp41zp-GPw6/view?usp=drive_link" rel="noopener noreferrer" target="_blank">การเร่งความเร็วการตรวจจับใบหน้าและการรู้จำใบหน้ามนุษย์บนโปรแกรมประยุลต์เว็บโดยใช้หน่วยประมวลผลกราฟิก (Accelerated Human Face Detection and Face Recognition on Web Application using Graphics Processing Unit)</a>
+					<span class="ce-conf-authors">- กุลปรียา ลาภกิจดี, ดัชเชษฐ รัตนบุตรเบญจ, อรญา เงางาม, อภิสิทธิ์ รัตนาตรานุรักษ์ และ รวิ อุตตมธนินทร์, การประชุมวิชาการระดับชาติและนานาชาติ มหาวิทยาลัยศรีปทุม ออนไลน์ ครั้งที่ ๑๖ ประจำปี ๒๕๖๔</span></li>
+				<li class="ce-conf-item"><a class="ce-conf-link" href="https://drive.google.com/file/d/1lsElQ1BUH7dfv6nH5UHNvJOXsvAyt2-q/view?usp=drive_link" rel="noopener noreferrer" target="_blank">หุ่นยนต์เคลื่อนที่อัตโนมัติสำหรับการขนส่งภายในอาคาร (Automated Mobile Robots for Indoor Transportation)</a>
+					<span class="ce-conf-authors">- คำนึง วงศ์ปรีชากร, รวิ อุตตมธนินทร์, ขวัญเรือน รัศมี, สุริยะ จ๋อยฟอง, วิวัฒน์ชัย พยอมแย้ม และ ปาริค อารยสมัย, การประชุมวิชาการระดับชาติด้านทรัพยากรธรรมชาติและวิทยาศาสตร์สุขภาพ ครั้งที่ ๒ ณ คณะทรัพยากรธรรมชาติ มหาวิทยาลัยเทคโนโลยีราชมงคลอีสาน วิทยาเขตสกลนคร</span></li>
+			</ul>
+		</div>
+	</details>
+	<!-- งานประชุมวิชาการระดับชาติ รหัส 59 -->
+	<details class="ce-conf-year">
+		<summary class="ce-conf-summary"><span class="ce-conf-summary-title"><span>งานประชุมวิชาการระดับชาติ รหัส 59</span><span class="ce-conf-count">2 บทความ</span></span><span class="ce-conf-toggle"><span class="ce-conf-chevron">▼</span></span></summary>
+		<div class="ce-conf-body">
+
+			<ul class="ce-conf-list">
+				<li class="ce-conf-item"><a class="ce-conf-link" href="https://drive.google.com/drive/folders/1ZFI7HHjiPQkSet1w3cX6FL14evlP64fz?usp=drive_link" rel="noopener noreferrer" target="_blank">การศึกษาแนวทางวิธีการเดินรถแทรกเตอร์ขนาดเล็กสำหรับตัดหญ้าที่เหมาะสมที่สุด</a>
+					<span class="ce-conf-authors">- กีรติ สุมามาร และ ชินวัฒน์ ทรงวิเชียร, งานประชุมวิชาการระดับชาติในระดับปริญญาตรี คณะวิทยาการจัดการ มหาวิทยาลัยราชภัฏจันทรเกษม ประจำปี 2565 (MSCC2022)</span></li>
+				<li class="ce-conf-item"><a class="ce-conf-link" href="https://drive.google.com/file/d/1dYHnwhfngFnyOKPnLO-PnnDtCm0-OCWI/view?usp=drive_link" rel="noopener noreferrer" target="_blank">เครื่องดูแลพืชด้วยระบบคอมพิวเตอร์ขนาดเล็ก</a>
+					<span class="ce-conf-authors">- ภัทราวดี ปิลอง, สิริภณ เวียงสิมา, ธิดามาศ ผาอิดดี และ รวิ อุตตมธนินทร์, รายงานสืบเนื่องจากการประชุมวิชาการระดับชาติ วิทยาศาสตร์ เทคโนโลยีและนวัตกรรม (มหาวิทยาลัยแม่โจ้) ครั้งที่ 2</span></li>
+			</ul>
+		</div>
+	</details>
+	<!-- งานประชุมวิชาการระดับชาติ รหัส 58 -->
+	<details class="ce-conf-year">
+		<summary class="ce-conf-summary"><span class="ce-conf-summary-title"><span>งานประชุมวิชาการระดับชาติ รหัส 58</span><span class="ce-conf-count">1 บทความ</span></span><span class="ce-conf-toggle"><span class="ce-conf-chevron">▼</span></span></summary>
+		<div class="ce-conf-body">
+
+			<ul class="ce-conf-list">
+				<li class="ce-conf-item"><a class="ce-conf-link" href="https://drive.google.com/file/d/1ddAQxxBp-boYsTPqdK2SGbJesh9fGhRF?usp=drive_link" rel="noopener noreferrer" target="_blank">เครื่องต้นแบบเพื่อช่วยการเรียนรู้อักษรเบรลล์สำหรับผู้พิการทางสายตา</a>
+					<span class="ce-conf-authors">- เปรม เวชยานนท์, เลอพงษ์ จ่ายยัง, นฤเบศร์ ขวัญโชคชัย และ รวิ อุตตมธนินทร์, ในงานประชุมวิชาการระดับชาติ วิทยาศาสตร์ เทคโนโลยีและนวัตกรรม ครั้งที่ ๒ ประจำปี ๒๕๖๔</span></li>
+			</ul>
+		</div>
+	</details>
+</div>

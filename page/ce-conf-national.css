@@ -1,0 +1,421 @@
+/* CE SSRU National Conference Archive — UI Motion & Editorial Stylesheet */
+
+@keyframes ceConfCardIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes ceConfBodyReveal {
+  from {
+    opacity: 0;
+    transform: translateY(-6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.ce-conf-wrap {
+  font-family: "IBM Plex Sans Thai", "Sarabun", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 16px 12px 24px;
+  color: #1f2937;
+  line-height: 1.65;
+  text-align: left;
+  box-sizing: border-box;
+  interpolate-size: allow-keywords;
+}
+
+.ce-conf-wrap *,
+.ce-conf-wrap *::before,
+.ce-conf-wrap *::after {
+  box-sizing: border-box;
+}
+
+/* Cohort Accordion Card */
+.ce-conf-wrap .ce-conf-year {
+  margin-bottom: 14px;
+  border: 1px solid #d8e4d8;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px rgba(27, 94, 32, 0.04);
+  transition: border-color 0.24s ease, box-shadow 0.28s cubic-bezier(0.22, 1, 0.36, 1);
+  animation: ceConfCardIn 0.48s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.ce-conf-wrap .ce-conf-year:nth-of-type(1) { animation-delay: 0.03s; }
+.ce-conf-wrap .ce-conf-year:nth-of-type(2) { animation-delay: 0.08s; }
+.ce-conf-wrap .ce-conf-year:nth-of-type(3) { animation-delay: 0.13s; }
+.ce-conf-wrap .ce-conf-year:nth-of-type(4) { animation-delay: 0.18s; }
+.ce-conf-wrap .ce-conf-year:nth-of-type(5) { animation-delay: 0.23s; }
+.ce-conf-wrap .ce-conf-year:nth-of-type(6) { animation-delay: 0.28s; }
+
+.ce-conf-wrap .ce-conf-year:hover {
+  border-color: #b7d3b9;
+  box-shadow: 0 6px 18px rgba(27, 94, 32, 0.08);
+}
+
+.ce-conf-wrap .ce-conf-year[open] {
+  border-color: #81c784;
+  box-shadow: 0 8px 24px rgba(27, 94, 32, 0.1);
+}
+
+/* Smooth modern <details> content height & opacity transition */
+.ce-conf-wrap .ce-conf-year::details-content,
+.ce-conf-wrap .ce-conf-sub::details-content {
+  block-size: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition:
+    block-size 0.34s cubic-bezier(0.22, 1, 0.36, 1),
+    opacity 0.24s ease,
+    content-visibility 0.34s allow-discrete;
+}
+
+.ce-conf-wrap .ce-conf-year[open]::details-content,
+.ce-conf-wrap .ce-conf-sub[open]::details-content {
+  block-size: auto;
+  opacity: 1;
+}
+
+/* Summary Header */
+.ce-conf-wrap .ce-conf-summary {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  background-color: #f3f8f3;
+  padding: 14px 18px;
+  font-size: 16.5px;
+  font-weight: 700;
+  cursor: pointer;
+  color: #1b5e20;
+  outline: none;
+  list-style: none;
+  user-select: none;
+  transition: background-color 0.22s ease, color 0.22s ease, transform 0.15s ease;
+}
+
+.ce-conf-wrap .ce-conf-summary::-webkit-details-marker {
+  display: none;
+}
+
+.ce-conf-wrap .ce-conf-summary::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  background-color: #2e7d32;
+  transform: scaleY(0);
+  transform-origin: center;
+  transition: transform 0.26s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.ce-conf-wrap .ce-conf-summary:hover {
+  background-color: #e8f3e8;
+}
+
+.ce-conf-wrap .ce-conf-summary:hover::before,
+.ce-conf-wrap .ce-conf-year[open] > .ce-conf-summary::before {
+  transform: scaleY(1);
+}
+
+.ce-conf-wrap .ce-conf-summary:active {
+  transform: scale(0.996);
+}
+
+.ce-conf-wrap .ce-conf-summary:focus-visible {
+  outline: 2px solid #2e7d32;
+  outline-offset: -2px;
+}
+
+.ce-conf-wrap .ce-conf-summary-title {
+  display: inline-flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.ce-conf-wrap .ce-conf-count {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 600;
+  color: #2e7d32;
+  background-color: #e0efe1;
+  padding: 2px 9px;
+  border-radius: 999px;
+  transition: background-color 0.22s ease, color 0.22s ease;
+}
+
+.ce-conf-wrap .ce-conf-year[open] > .ce-conf-summary .ce-conf-count {
+  background-color: #2e7d32;
+  color: #ffffff;
+}
+
+.ce-conf-wrap .ce-conf-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 12.5px;
+  font-weight: 600;
+  color: #2e7d32;
+  flex-shrink: 0;
+}
+
+.ce-conf-wrap .ce-conf-toggle::before {
+  content: "คลิกเพื่อขยาย";
+}
+
+.ce-conf-wrap .ce-conf-year[open] > .ce-conf-summary .ce-conf-toggle::before,
+.ce-conf-wrap .ce-conf-sub[open] > .ce-conf-sub-summary .ce-conf-toggle::before {
+  content: "คลิกเพื่อย่อ";
+}
+
+.ce-conf-wrap .ce-conf-chevron {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background-color: rgba(46, 125, 50, 0.12);
+  color: #1b5e20;
+  font-size: 10px;
+  line-height: 1;
+  transition: transform 0.3s cubic-bezier(0.22, 1, 0.36, 1), background-color 0.22s ease, color 0.22s ease;
+}
+
+.ce-conf-wrap .ce-conf-year[open] > .ce-conf-summary .ce-conf-chevron,
+.ce-conf-wrap .ce-conf-sub[open] > .ce-conf-sub-summary .ce-conf-chevron {
+  transform: rotate(180deg);
+  background-color: #2e7d32;
+  color: #ffffff;
+}
+
+/* Body Reveal */
+.ce-conf-wrap .ce-conf-body {
+  padding: 16px 18px;
+  border-top: 1px solid #e2ece2;
+  background-color: #ffffff;
+}
+
+.ce-conf-wrap .ce-conf-year[open] > .ce-conf-body {
+  animation: ceConfBodyReveal 0.3s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+/* Proceeding Callout */
+.ce-conf-wrap .ce-conf-callout {
+  margin-bottom: 14px;
+  background-color: #f0f7f0;
+  padding: 13px 16px;
+  border-radius: 6px;
+  border-left: 4px solid #2e7d32;
+}
+
+.ce-conf-wrap .ce-conf-callout-title {
+  margin: 0 0 6px 0;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #1b5e20;
+}
+
+.ce-conf-wrap .ce-conf-callout-meta {
+  margin: 0;
+  font-size: 13.5px;
+  color: #4b5563;
+  line-height: 1.6;
+}
+
+.ce-conf-wrap .ce-conf-callout-meta a {
+  color: #1b5e20;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: color 0.2s ease;
+}
+
+.ce-conf-wrap .ce-conf-callout-meta a:hover {
+  color: #2e7d32;
+}
+
+/* Nested Paper List Details */
+.ce-conf-wrap .ce-conf-sub {
+  margin-top: 10px;
+  border: 1px solid #e5ece5;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #fafcfa;
+  transition: border-color 0.22s ease;
+}
+
+.ce-conf-wrap .ce-conf-sub[open] {
+  border-color: #c8dfc9;
+}
+
+.ce-conf-wrap .ce-conf-sub-summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  color: #1b5e20;
+  outline: none;
+  list-style: none;
+  user-select: none;
+  transition: background-color 0.2s ease;
+}
+
+.ce-conf-wrap .ce-conf-sub-summary::-webkit-details-marker {
+  display: none;
+}
+
+.ce-conf-wrap .ce-conf-sub-summary:hover {
+  background-color: #eef5ee;
+}
+
+.ce-conf-wrap .ce-conf-sub-summary:focus-visible {
+  outline: 2px solid #2e7d32;
+  outline-offset: -2px;
+}
+
+.ce-conf-wrap .ce-conf-sub-body {
+  padding: 14px 16px;
+  border-top: 1px solid #e5ece5;
+  background-color: #ffffff;
+}
+
+.ce-conf-wrap .ce-conf-sub[open] > .ce-conf-sub-body {
+  animation: ceConfBodyReveal 0.26s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+/* Papers List & Items */
+.ce-conf-wrap .ce-conf-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.ce-conf-wrap .ce-conf-item {
+  position: relative;
+  padding: 10px 12px 10px 16px;
+  margin-bottom: 8px;
+  border-radius: 6px;
+  border-left: 3px solid transparent;
+  transition: background-color 0.2s ease, border-left-color 0.22s ease, transform 0.22s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.ce-conf-wrap .ce-conf-item:last-child {
+  margin-bottom: 0;
+}
+
+.ce-conf-wrap .ce-conf-item:hover {
+  background-color: #f6faf6;
+  border-left-color: #2e7d32;
+  transform: translateX(3px);
+}
+
+.ce-conf-wrap .ce-conf-code {
+  display: inline-block;
+  font-weight: 700;
+  color: #1b5e20;
+  background-color: #e8f3e8;
+  padding: 1px 7px;
+  border-radius: 4px;
+  font-size: 13px;
+  margin-right: 4px;
+}
+
+.ce-conf-wrap .ce-conf-link {
+  color: #1b5e20;
+  font-weight: 600;
+  text-decoration: none;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 1.5px;
+  transition: color 0.2s ease, background-size 0.28s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.ce-conf-wrap .ce-conf-link:hover,
+.ce-conf-wrap .ce-conf-link:focus-visible {
+  color: #2e7d32;
+  background-size: 100% 1.5px;
+  text-decoration: none;
+  outline: none;
+}
+
+.ce-conf-wrap .ce-conf-title-text {
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.ce-conf-wrap .ce-conf-authors {
+  display: block;
+  margin-top: 4px;
+  font-size: 13.5px;
+  color: #52606d;
+  line-height: 1.55;
+}
+
+.ce-conf-wrap .ce-conf-status {
+  color: #c62828;
+  font-style: italic;
+  font-weight: 500;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .ce-conf-wrap {
+    padding: 10px 4px 18px;
+  }
+
+  .ce-conf-wrap .ce-conf-summary {
+    padding: 12px 14px;
+    font-size: 15px;
+  }
+
+  .ce-conf-wrap .ce-conf-toggle::before {
+    display: none;
+  }
+
+  .ce-conf-wrap .ce-conf-body {
+    padding: 12px 14px;
+  }
+
+  .ce-conf-wrap .ce-conf-item {
+    padding: 8px 10px 8px 12px;
+  }
+}
+
+/* Accessibility: Respect Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  .ce-conf-wrap .ce-conf-year,
+  .ce-conf-wrap .ce-conf-year::details-content,
+  .ce-conf-wrap .ce-conf-sub::details-content,
+  .ce-conf-wrap .ce-conf-year[open] > .ce-conf-body,
+  .ce-conf-wrap .ce-conf-sub[open] > .ce-conf-sub-body,
+  .ce-conf-wrap .ce-conf-summary,
+  .ce-conf-wrap .ce-conf-summary::before,
+  .ce-conf-wrap .ce-conf-chevron,
+  .ce-conf-wrap .ce-conf-item,
+  .ce-conf-wrap .ce-conf-link {
+    animation: none !important;
+    transition: none !important;
+  }
+}
