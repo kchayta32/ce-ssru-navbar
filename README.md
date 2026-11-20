@@ -14,3 +14,9 @@ Stylesheets สำหรับเพิ่ม UI Motion และ Animation ใ�
 ```html
 <link href="https://cdn.jsdelivr.net/gh/kchayta32/ce-ssru-navbar@v1.0.3/page/ce-conf-national.css" rel="stylesheet">
 ```
+
+### 3. หน้างานประชุมวิชาการระดับนานาชาติ (`page/ce-conf-international.css`)
+รองรับทั้งเวอร์ชันภาษาไทย (`.ce-intl-wrap`) และเวอร์ชันภาษาอังกฤษ (`.ce-intl-wrap.ce-intl-en`)
+```html
+<link href="https://cdn.jsdelivr.net/gh/kchayta32/ce-ssru-navbar@v1.0.4/page/ce-conf-international.css" rel="stylesheet">
+```

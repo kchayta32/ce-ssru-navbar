@@ -1,0 +1,310 @@
+/* CE SSRU International Conference Archive — UI Motion & Editorial Stylesheet */
+
+@keyframes ceIntlCardIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes ceIntlBodyReveal {
+  from {
+    opacity: 0;
+    transform: translateY(-6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.ce-intl-wrap {
+  font-family: "IBM Plex Sans Thai", "Sarabun", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 16px 12px 24px;
+  color: #1f2937;
+  line-height: 1.65;
+  text-align: left;
+  box-sizing: border-box;
+  interpolate-size: allow-keywords;
+}
+
+.ce-intl-wrap *,
+.ce-intl-wrap *::before,
+.ce-intl-wrap *::after {
+  box-sizing: border-box;
+}
+
+/* Cohort Accordion Card */
+.ce-intl-wrap .ce-intl-year {
+  margin-bottom: 14px;
+  border: 1px solid #d6e3f0;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 102, 204, 0.05);
+  transition: border-color 0.24s ease, box-shadow 0.28s cubic-bezier(0.22, 1, 0.36, 1);
+  animation: ceIntlCardIn 0.48s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.ce-intl-wrap .ce-intl-year:nth-of-type(1) { animation-delay: 0.03s; }
+.ce-intl-wrap .ce-intl-year:nth-of-type(2) { animation-delay: 0.08s; }
+.ce-intl-wrap .ce-intl-year:nth-of-type(3) { animation-delay: 0.13s; }
+.ce-intl-wrap .ce-intl-year:nth-of-type(4) { animation-delay: 0.18s; }
+
+.ce-intl-wrap .ce-intl-year:hover {
+  border-color: #a8cbe8;
+  box-shadow: 0 6px 18px rgba(0, 102, 204, 0.09);
+}
+
+.ce-intl-wrap .ce-intl-year[open] {
+  border-color: #7db3e8;
+  box-shadow: 0 8px 24px rgba(0, 102, 204, 0.11);
+}
+
+/* Smooth modern <details> content height & opacity transition */
+.ce-intl-wrap .ce-intl-year::details-content {
+  block-size: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition:
+    block-size 0.34s cubic-bezier(0.22, 1, 0.36, 1),
+    opacity 0.24s ease,
+    content-visibility 0.34s allow-discrete;
+}
+
+.ce-intl-wrap .ce-intl-year[open]::details-content {
+  block-size: auto;
+  opacity: 1;
+}
+
+/* Summary Header */
+.ce-intl-wrap .ce-intl-summary {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  background-color: #f2f7fc;
+  padding: 14px 18px;
+  font-size: 16.5px;
+  font-weight: 700;
+  cursor: pointer;
+  color: #00529b;
+  outline: none;
+  list-style: none;
+  user-select: none;
+  transition: background-color 0.22s ease, color 0.22s ease, transform 0.15s ease;
+}
+
+.ce-intl-wrap .ce-intl-summary::-webkit-details-marker {
+  display: none;
+}
+
+.ce-intl-wrap .ce-intl-summary::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  background-color: #0066cc;
+  transform: scaleY(0);
+  transform-origin: center;
+  transition: transform 0.26s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.ce-intl-wrap .ce-intl-summary:hover {
+  background-color: #e6f0fa;
+}
+
+.ce-intl-wrap .ce-intl-summary:hover::before,
+.ce-intl-wrap .ce-intl-year[open] > .ce-intl-summary::before {
+  transform: scaleY(1);
+}
+
+.ce-intl-wrap .ce-intl-summary:active {
+  transform: scale(0.996);
+}
+
+.ce-intl-wrap .ce-intl-summary:focus-visible {
+  outline: 2px solid #0066cc;
+  outline-offset: -2px;
+}
+
+.ce-intl-wrap .ce-intl-summary-title {
+  display: inline-flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.ce-intl-wrap .ce-intl-count {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 600;
+  color: #0066cc;
+  background-color: #dfecfa;
+  padding: 2px 9px;
+  border-radius: 999px;
+  transition: background-color 0.22s ease, color 0.22s ease;
+}
+
+.ce-intl-wrap .ce-intl-year[open] > .ce-intl-summary .ce-intl-count {
+  background-color: #0066cc;
+  color: #ffffff;
+}
+
+.ce-intl-wrap .ce-intl-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 12.5px;
+  font-weight: 600;
+  color: #0066cc;
+  flex-shrink: 0;
+}
+
+.ce-intl-wrap .ce-intl-toggle::before {
+  content: "คลิกเพื่อขยาย";
+}
+
+.ce-intl-wrap .ce-intl-year[open] > .ce-intl-summary .ce-intl-toggle::before {
+  content: "คลิกเพื่อย่อ";
+}
+
+.ce-intl-wrap.ce-intl-en .ce-intl-toggle::before {
+  content: "Click to expand";
+}
+
+.ce-intl-wrap.ce-intl-en .ce-intl-year[open] > .ce-intl-summary .ce-intl-toggle::before {
+  content: "Click to collapse";
+}
+
+.ce-intl-wrap .ce-intl-chevron {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background-color: rgba(0, 102, 204, 0.12);
+  color: #00529b;
+  font-size: 10px;
+  line-height: 1;
+  transition: transform 0.3s cubic-bezier(0.22, 1, 0.36, 1), background-color 0.22s ease, color 0.22s ease;
+}
+
+.ce-intl-wrap .ce-intl-year[open] > .ce-intl-summary .ce-intl-chevron {
+  transform: rotate(180deg);
+  background-color: #0066cc;
+  color: #ffffff;
+}
+
+/* Body Reveal */
+.ce-intl-wrap .ce-intl-body {
+  padding: 16px 18px;
+  border-top: 1px solid #e1ebf5;
+  background-color: #ffffff;
+}
+
+.ce-intl-wrap .ce-intl-year[open] > .ce-intl-body {
+  animation: ceIntlBodyReveal 0.3s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+/* Papers List & Items */
+.ce-intl-wrap .ce-intl-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.ce-intl-wrap .ce-intl-item {
+  position: relative;
+  padding: 10px 12px 10px 16px;
+  margin-bottom: 8px;
+  border-radius: 6px;
+  border-left: 3px solid transparent;
+  transition: background-color 0.2s ease, border-left-color 0.22s ease, transform 0.22s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.ce-intl-wrap .ce-intl-item:last-child {
+  margin-bottom: 0;
+}
+
+.ce-intl-wrap .ce-intl-item:hover {
+  background-color: #f4f9fe;
+  border-left-color: #0076a3;
+  transform: translateX(3px);
+}
+
+.ce-intl-wrap .ce-intl-link {
+  color: #005c8a;
+  font-weight: 600;
+  text-decoration: none;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 1.5px;
+  transition: color 0.2s ease, background-size 0.28s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.ce-intl-wrap .ce-intl-link:hover,
+.ce-intl-wrap .ce-intl-link:focus-visible {
+  color: #0066cc;
+  background-size: 100% 1.5px;
+  text-decoration: none;
+  outline: none;
+}
+
+.ce-intl-wrap .ce-intl-authors {
+  display: block;
+  margin-top: 4px;
+  font-size: 13.5px;
+  color: #52606d;
+  line-height: 1.55;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .ce-intl-wrap {
+    padding: 10px 4px 18px;
+  }
+
+  .ce-intl-wrap .ce-intl-summary {
+    padding: 12px 14px;
+    font-size: 15px;
+  }
+
+  .ce-intl-wrap .ce-intl-toggle::before {
+    display: none;
+  }
+
+  .ce-intl-wrap .ce-intl-body {
+    padding: 12px 14px;
+  }
+
+  .ce-intl-wrap .ce-intl-item {
+    padding: 8px 10px 8px 12px;
+  }
+}
+
+/* Accessibility: Respect Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  .ce-intl-wrap .ce-intl-year,
+  .ce-intl-wrap .ce-intl-year::details-content,
+  .ce-intl-wrap .ce-intl-year[open] > .ce-intl-body,
+  .ce-intl-wrap .ce-intl-summary,
+  .ce-intl-wrap .ce-intl-summary::before,
+  .ce-intl-wrap .ce-intl-chevron,
+  .ce-intl-wrap .ce-intl-item,
+  .ce-intl-wrap .ce-intl-link {
+    animation: none !important;
+    transition: none !important;
+  }
+}

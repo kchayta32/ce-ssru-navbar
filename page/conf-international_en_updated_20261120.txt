@@ -1,0 +1,53 @@
+<p>
+	<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@400;500;600;700&display=swap" rel="stylesheet">
+</p>
+
+<p>
+	<link href="https://cdn.jsdelivr.net/gh/kchayta32/ce-ssru-navbar@v1.0.4/page/ce-conf-international.css" rel="stylesheet">
+</p>
+<div class="ce-intl-wrap ce-intl-en">
+	<details class="ce-intl-year" open="">
+		<summary class="ce-intl-summary"><span class="ce-intl-summary-title"><span>International Conference Proceedings (Cohort 64)</span><span class="ce-intl-count">2 Papers</span></span><span class="ce-intl-toggle"><span class="ce-intl-chevron">▼</span></span></summary>
+		<div class="ce-intl-body">
+
+			<ul class="ce-intl-list">
+				<li class="ce-intl-item"><a class="ce-intl-link" href="https://drive.google.com/file/d/1rgWPEeSNKQiEYdEqf4Fn3V5ExwXF_r-b/view?usp=drive_link" rel="noopener noreferrer" target="_blank">Embedded System-Based Prototype for Chick Feed Mixing</a>
+					<span class="ce-intl-authors">- Panyawat Rongchai, Pharida Srirueang, Sanrutai Tangpriyarak, Kwanruan Rusmee, Sethakarn Prongnuch, Tadchanon Chuman. 2025 International Conference on Power, Energy and Innovations (ICPEI 2025), October 15-17, 2025, Pattaya City, THAILAND</span></li>
+				<li class="ce-intl-item"><a class="ce-intl-link" href="https://drive.google.com/file/d/1xXNago0VoSjAxtJAcTS2ULEeA0sWXCek/view?usp=drive_link" rel="noopener noreferrer" target="_blank">Design and Implementation of an Interactive Robotics Training Platform Using BlockMicc Programming</a>
+					<span class="ce-intl-authors">- Kridsada Wangkaew, Artit Suanpraserth, Sathaporn Suprom and Sethakarn Prongnuch. 2025 5th International Conference on Robotics, Automation, and Artificial Intelligence (RAAI 2025), December 18-20, 2025, Singapore</span></li>
+			</ul>
+		</div>
+	</details>
+	<details class="ce-intl-year" open="">
+		<summary class="ce-intl-summary"><span class="ce-intl-summary-title"><span>International Conference Proceedings (Cohort 62)</span><span class="ce-intl-count">2 Papers</span></span><span class="ce-intl-toggle"><span class="ce-intl-chevron">▼</span></span></summary>
+		<div class="ce-intl-body">
+
+			<ul class="ce-intl-list">
+				<li class="ce-intl-item"><a class="ce-intl-link" href="https://drive.google.com/file/d/14IRnq3emucYAZL0k6fa1YMvJanfz5B7f/view?usp=drive_link" rel="noopener noreferrer" target="_blank">Low-Cost Embedded Solution for Traffic Sign Recognition on Thailand&#39;s Asian Highways</a>
+					<span class="ce-intl-authors">- Thanakrit Methamaniyanon, Thanakorn Namman, Sarunporn Ploykhoksoong, Kwanruan Rusmee, Sethakarn Prongnuch. 2025 - 10th International Conference on Business and Industrial Research (ICBIR2025), Thai-Nichi Institute of Technology, Bangkok, Thailand, May 22-23, 2025</span></li>
+				<li class="ce-intl-item"><a class="ce-intl-link" href="https://drive.google.com/file/d/1i8F3cNa5jEr3vPhiObzyCqs5dI8k7cRd/view?usp=drive_link" rel="noopener noreferrer" target="_blank">Robot Arm Control System via Ethernet With Kinect V2 Camera for Use in Hazardous Areas</a>
+					<span class="ce-intl-authors">- Kanok Suphalak, Nattapol Klanpet, Nuttakit Sikaressakul, and Sethakarn Prongnuch. 2024 15th International Conference on Robotics, Engineering, Science, and Technology (RESTCON), Siam Bayshore, Pattaya, Thailand, February 16-18, 2024</span></li>
+			</ul>
+		</div>
+	</details>
+	<details class="ce-intl-year">
+		<summary class="ce-intl-summary"><span class="ce-intl-summary-title"><span>International Conference Proceedings (Cohort 59)</span><span class="ce-intl-count">1 Paper</span></span><span class="ce-intl-toggle"><span class="ce-intl-chevron">▼</span></span></summary>
+		<div class="ce-intl-body">
+
+			<ul class="ce-intl-list">
+				<li class="ce-intl-item"><a class="ce-intl-link" href="https://drive.google.com/file/d/1qr7yn4Nu3AQCKjQDYQQBwnu4QGt8EwZ9/view?usp=drive_link" rel="noopener noreferrer" target="_blank">Design and Implementation of Mini-UAV for Indoor Surveillance</a>
+					<span class="ce-intl-authors">- Natthawat Boonyathanmig, Sarun Gongmanee, Prachaya Kayunyeam, Piyavat Wutticho and Sethakarn Prongnuch. Department of Computer Engineering, Faculty of Industrial Technology, Suan Sunandha Rajabhat University, Bangkok, Thailand. 2021 International Electrical Engineering Congress (iEECON 2021), March 10-12, 2021, Pattaya, THAILAND</span></li>
+			</ul>
+		</div>
+	</details>
+	<details class="ce-intl-year">
+		<summary class="ce-intl-summary"><span class="ce-intl-summary-title"><span>International Conference Proceedings (Cohort 58)</span><span class="ce-intl-count">1 Paper</span></span><span class="ce-intl-toggle"><span class="ce-intl-chevron">▼</span></span></summary>
+		<div class="ce-intl-body">
+
+			<ul class="ce-intl-list">
+				<li class="ce-intl-item"><a class="ce-intl-link" href="https://drive.google.com/file/d/18ShHJl-rpV9qDSb3jr3FR-F4dv8cjJA4/view?usp=drive_link" rel="noopener noreferrer" target="_blank">Augmented Reality Application for education on Android Operating System</a>
+					<span class="ce-intl-authors">- Apisit Rattanatranurak, Apichart Sungkao, and Piyanut Khongtanomphan. Department of Computer Engineering, Faculty of Industrial Technology, Suan Sunandha Rajabhat University, Bangkok, Thailand</span></li>
+			</ul>
+		</div>
+	</details>
+</div>
