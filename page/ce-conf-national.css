@@ -183,6 +183,15 @@
   content: "คลิกเพื่อย่อ";
 }
 
+.ce-conf-wrap.ce-conf-en .ce-conf-toggle::before {
+  content: "Click to expand";
+}
+
+.ce-conf-wrap.ce-conf-en .ce-conf-year[open] > .ce-conf-summary .ce-conf-toggle::before,
+.ce-conf-wrap.ce-conf-en .ce-conf-sub[open] > .ce-conf-sub-summary .ce-conf-toggle::before {
+  content: "Click to collapse";
+}
+
 .ce-conf-wrap .ce-conf-chevron {
   display: inline-flex;
   align-items: center;
