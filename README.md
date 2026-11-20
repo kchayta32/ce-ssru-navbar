@@ -33,8 +33,8 @@ Stylesheets สำหรับเพิ่ม UI Motion และ Animation ใ�
 <link href="https://cdn.jsdelivr.net/gh/kchayta32/ce-ssru-navbar@v1.0.8/event/ce-handbook.css" rel="stylesheet">
 ```
 
-### 6. หน้ากิจกรรมวิชาการ (`page/ce-activities.css`)
-รองรับทั้งเวอร์ชันภาษาไทย (`.ce-act-wrap`) และเวอร์ชันภาษาอังกฤษ (`.ce-act-wrap.ce-act-en`) แสดงรายการประกาศกิจกรรมวิชาการ ประจำปีการศึกษา 2566–2569 โดยเปิดแสดงปีการศึกษาล่าสุด (2569) อัตโนมัติ และซ่อนปีการศึกษาก่อนหน้า (2568–2566) ไว้ใน `<details>` accordion พร้อม UI motion, แทนที่ไอคอน `http://` เดิมด้วย CSS SVG mask และเชื่อมต่อทั้งหมดผ่าน `https://`
+### 6. หน้ากิจกรรมสาขาวิชาและประกาศกิจกรรมวิชาการ (`page/ce-activities.css`)
+รองรับทั้งเวอร์ชันภาษาไทย (`.ce-act-wrap`) และเวอร์ชันภาษาอังกฤษ (`.ce-act-wrap.ce-act-en`) แบ่งออกเป็น 2 ส่วนหลัก ได้แก่ **กิจกรรมภายในสาขาที่กำลังจะเกิดขึ้น** (แบบ Calendar Date Block + `<details>` ขยายดูรายละเอียดกำหนดการและสถานที่) และ **ประกาศกิจกรรมวิชาการ** ประจำปีการศึกษา 2566–2569 โดยเปิดแสดงปีการศึกษาล่าสุด (2569) อัตโนมัติ และซ่อนปีการศึกษาก่อนหน้า (2568–2566) ไว้ใน `<details>` accordion พร้อม UI motion, ไอคอนผ่าน CSS SVG mask (ปลอดภัยต่อ Froala CMS) และเชื่อมต่อทั้งหมดผ่าน `https://`
 ```html
-<link href="https://cdn.jsdelivr.net/gh/kchayta32/ce-ssru-navbar@v1.0.9/page/ce-activities.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/gh/kchayta32/ce-ssru-navbar@v1.1.0/page/ce-activities.css" rel="stylesheet">
 ```
