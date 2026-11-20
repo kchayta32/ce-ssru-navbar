@@ -26,3 +26,9 @@ Stylesheets สำหรับเพิ่ม UI Motion และ Animation ใ�
 ```html
 <link href="https://cdn.jsdelivr.net/gh/kchayta32/ce-ssru-navbar@v1.0.7/news/ce-news.css" rel="stylesheet">
 ```
+
+### 5. หน้าคู่มือนักศึกษาใหม่ (`event/ce-handbook.css`)
+แสดงรายการคู่มือนักศึกษาใหม่ ประจำปีการศึกษา 2562–2569 พร้อม motion ระหว่างเลือกปีการศึกษา, ป้าย `NEW` สำหรับฉบับล่าสุด และไอคอนผ่าน CSS Unicode
+```html
+<link href="https://cdn.jsdelivr.net/gh/kchayta32/ce-ssru-navbar@v1.0.8/event/ce-handbook.css" rel="stylesheet">
+```

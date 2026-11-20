@@ -1,0 +1,37 @@
+<p>
+	<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@400;500;600;700&display=swap" rel="stylesheet">
+</p>
+
+<p>
+	<link href="https://cdn.jsdelivr.net/gh/kchayta32/ce-ssru-navbar@v1.0.8/event/ce-handbook.css" rel="stylesheet">
+</p>
+<div class="ce-hb-wrap">
+	<header class="ce-hb-header">
+		<div class="ce-hb-meta"><span class="ce-hb-badge ce-emo-before ce-emo-book">คู่มือนักศึกษาใหม่ ภาคปกติ ระดับปริญญาตรี</span> <span class="ce-hb-range ce-emo-before ce-emo-cal">ปีการศึกษา 2562 – 2569</span></div>
+
+		<h1 class="ce-hb-title">คู่มือนักศึกษา ประจำปีการศึกษาต่างๆ</h1>
+
+		<p class="ce-hb-desc">เลือกปีการศึกษาที่ต้องการเพื่อเปิดอ่านหรือดาวน์โหลดคู่มือนักศึกษา (ไฟล์ PDF)</p>
+	</header>
+
+	<a class="ce-hb-featured" href="https://cts.ssru.ac.th/File/IS/Announce/Files/5ww33qpb.pdf" rel="noopener noreferrer" target="_blank">
+		<span class="ce-hb-featured-info"><span class="ce-hb-new-pill ce-emo-before ce-emo-spark">NEW • ปีการศึกษา 2569</span> <span class="ce-hb-featured-title">คู่มือนักศึกษา ประจำปีการศึกษา 2569</span> <span class="ce-hb-featured-sub ce-emo-before ce-emo-doc">ฉบับล่าสุดสำหรับนักศึกษาใหม่ ภาคปกติ ระดับปริญญาตรี</span></span>
+		<span class="ce-hb-cta">เปิดอ่าน PDF</span>
+	</a>
+
+	<div class="ce-hb-section-head">
+		<h2 class="ce-hb-section-title">เลือกดูคู่มือนักศึกษาปีการศึกษาก่อนหน้า</h2>
+		<span class="ce-hb-section-hint">ปีการศึกษา 2568 – 2562</span></div>
+
+	<div class="ce-hb-grid">
+		<a class="ce-hb-card" href="https://cts.ssru.ac.th/File/IS/Announce/Files/fgpltsey.pdf" rel="noopener noreferrer" target="_blank"><span class="ce-hb-year-pill">2568</span> <span class="ce-hb-card-body"><span class="ce-hb-card-title">คู่มือนักศึกษา</span> <span class="ce-hb-card-sub ce-emo-before ce-emo-doc">ประจำปีการศึกษา 2568</span></span> <span class="ce-hb-action">PDF</span></a>
+		<a class="ce-hb-card" href="https://cts.ssru.ac.th/File/IS/Announce/Files/kr5s1xqf.pdf" rel="noopener noreferrer" target="_blank"><span class="ce-hb-year-pill">2567</span> <span class="ce-hb-card-body"><span class="ce-hb-card-title">คู่มือนักศึกษา</span> <span class="ce-hb-card-sub ce-emo-before ce-emo-doc">ประจำปีการศึกษา 2567</span></span> <span class="ce-hb-action">PDF</span></a>
+		<a class="ce-hb-card" href="https://cts.ssru.ac.th/File/IS/Announce/Files/uqucqmjv.pdf" rel="noopener noreferrer" target="_blank"><span class="ce-hb-year-pill">2566</span> <span class="ce-hb-card-body"><span class="ce-hb-card-title">คู่มือนักศึกษา</span> <span class="ce-hb-card-sub ce-emo-before ce-emo-doc">ประจำปีการศึกษา 2566</span></span> <span class="ce-hb-action">PDF</span></a>
+		<a class="ce-hb-card" href="https://cts.ssru.ac.th/File/IS/Announce/Files/vpwz0krr.pdf" rel="noopener noreferrer" target="_blank"><span class="ce-hb-year-pill">2565</span> <span class="ce-hb-card-body"><span class="ce-hb-card-title">คู่มือนักศึกษา</span> <span class="ce-hb-card-sub ce-emo-before ce-emo-doc">ประจำปีการศึกษา 2565</span></span> <span class="ce-hb-action">PDF</span></a>
+		<a class="ce-hb-card" href="https://cts.ssru.ac.th/File/IS/Announce/Files/yhsu31sd.pdf" rel="noopener noreferrer" target="_blank"><span class="ce-hb-year-pill">2564</span> <span class="ce-hb-card-body"><span class="ce-hb-card-title">คู่มือนักศึกษา</span> <span class="ce-hb-card-sub ce-emo-before ce-emo-doc">ประจำปีการศึกษา 2564</span></span> <span class="ce-hb-action">PDF</span></a>
+		<a class="ce-hb-card" href="https://cts.ssru.ac.th/File/IS/Announce/Files/wqgzfx1r.pdf" rel="noopener noreferrer" target="_blank"><span class="ce-hb-year-pill">2563</span> <span class="ce-hb-card-body"><span class="ce-hb-card-title">คู่มือนักศึกษา</span> <span class="ce-hb-card-sub ce-emo-before ce-emo-doc">ประจำปีการศึกษา 2563</span></span> <span class="ce-hb-action">PDF</span></a>
+		<a class="ce-hb-card" href="https://cts.ssru.ac.th/File/IS/Announce/Files/ioxthvcf.pdf" rel="noopener noreferrer" target="_blank"><span class="ce-hb-year-pill">2562</span> <span class="ce-hb-card-body"><span class="ce-hb-card-title">คู่มือนักศึกษา</span> <span class="ce-hb-card-sub ce-emo-before ce-emo-doc">ประจำปีการศึกษา 2562</span></span> <span class="ce-hb-action">PDF</span></a>
+	</div>
+
+	<p class="ce-hb-note ce-emo-before ce-emo-info">เอกสารทั้งหมดเปิดในแท็บใหม่จากระบบฐานข้อมูลประกาศสำนักส่งเสริมวิชาการและงานทะเบียน (cts.ssru.ac.th)</p>
+</div>

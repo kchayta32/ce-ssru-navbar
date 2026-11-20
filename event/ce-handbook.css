@@ -1,0 +1,444 @@
+@charset "UTF-8";
+/* CE SSRU Student Handbook Directory Stylesheet (v1.0.8) — Froala & <base>-Safe */
+
+@keyframes ceHbReveal {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes ceHbNewPulse {
+  0%, 100% {
+    box-shadow: 0 0 0 0 rgba(185, 28, 28, 0.35);
+  }
+  50% {
+    box-shadow: 0 0 0 6px rgba(185, 28, 28, 0);
+  }
+}
+
+/* ===== Root Shell ===== */
+.ce-hb-wrap {
+  --ce-ink: #1f2937;
+  --ce-muted: #4b5563;
+  --ce-paper: #ffffff;
+  --ce-tint: #fffbf5;
+  --ce-crimson: #b91c1c;
+  --ce-amber: #f59e0b;
+  --ce-border: #e5e7eb;
+
+  font-family: "IBM Plex Sans Thai", "Sarabun", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 20px 14px 36px;
+  color: var(--ce-ink);
+  background-color: var(--ce-paper);
+  line-height: 1.65;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+.ce-hb-wrap *,
+.ce-hb-wrap *::before,
+.ce-hb-wrap *::after {
+  box-sizing: border-box;
+}
+
+/* ===== CSS-Injected Emojis (Non-Empty Elements Only) ===== */
+.ce-hb-wrap .ce-emo-before::before {
+  display: inline-block;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  margin-right: 0.4em;
+  vertical-align: -0.05em;
+}
+
+.ce-hb-wrap .ce-emo-book::before  { content: "\1F4D8"; }
+.ce-hb-wrap .ce-emo-cal::before   { content: "\1F4C5"; }
+.ce-hb-wrap .ce-emo-doc::before   { content: "\1F4C4"; }
+.ce-hb-wrap .ce-emo-spark::before { content: "\2728"; }
+.ce-hb-wrap .ce-emo-info::before  { content: "\2139\FE0F"; }
+
+/* ===== Editorial Header ===== */
+.ce-hb-wrap .ce-hb-header {
+  padding-bottom: 18px;
+  margin-bottom: 22px;
+  border-bottom: 2px solid var(--ce-amber);
+  animation: ceHbReveal 0.42s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.ce-hb-wrap .ce-hb-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px 14px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: var(--ce-muted);
+}
+
+.ce-hb-wrap .ce-hb-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 12px;
+  border-radius: 999px;
+  background-color: #fef3c7;
+  border: 1px solid #fcd34d;
+  color: #92400e;
+  font-size: 13.5px;
+  font-weight: 600;
+}
+
+.ce-hb-wrap .ce-hb-range {
+  display: inline-flex;
+  align-items: center;
+  font-weight: 500;
+}
+
+.ce-hb-wrap .ce-hb-title {
+  margin: 0;
+  font-size: clamp(22px, 3vw, 28px);
+  font-weight: 700;
+  line-height: 1.35;
+  color: var(--ce-ink);
+}
+
+.ce-hb-wrap .ce-hb-desc {
+  margin: 6px 0 0;
+  font-size: 15.5px;
+  color: var(--ce-muted);
+}
+
+/* ===== Featured Latest Handbook (2569) ===== */
+.ce-hb-wrap .ce-hb-featured {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px 20px;
+  padding: 20px 22px;
+  margin-bottom: 22px;
+  border-radius: 14px;
+  background: linear-gradient(135deg, #fffbeb 0%, #fff7ed 100%);
+  border: 1.5px solid #f59e0b;
+  box-shadow: 0 6px 20px rgba(245, 158, 11, 0.12);
+  text-decoration: none !important;
+  color: var(--ce-ink) !important;
+  overflow: hidden;
+  animation: ceHbReveal 0.48s cubic-bezier(0.22, 1, 0.36, 1) 0.05s both;
+  transition:
+    transform 0.28s cubic-bezier(0.22, 1, 0.36, 1),
+    box-shadow 0.28s cubic-bezier(0.22, 1, 0.36, 1),
+    border-color 0.24s ease;
+}
+
+.ce-hb-wrap .ce-hb-featured::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 5px;
+  background-color: var(--ce-crimson);
+  transform: scaleY(0.55);
+  transition: transform 0.28s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.ce-hb-wrap .ce-hb-featured:hover,
+.ce-hb-wrap .ce-hb-featured:focus-visible {
+  transform: translateY(-3px);
+  border-color: var(--ce-crimson);
+  box-shadow: 0 14px 30px rgba(185, 28, 28, 0.14);
+  outline: none;
+  text-decoration: none !important;
+}
+
+.ce-hb-wrap .ce-hb-featured:hover::before,
+.ce-hb-wrap .ce-hb-featured:focus-visible::before {
+  transform: scaleY(1);
+}
+
+.ce-hb-wrap .ce-hb-featured-info {
+  display: block;
+  flex: 1 1 320px;
+  min-width: 0;
+}
+
+.ce-hb-wrap .ce-hb-new-pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 10px;
+  margin-bottom: 8px;
+  border-radius: 999px;
+  background-color: var(--ce-crimson);
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  animation: ceHbNewPulse 2.4s ease-in-out infinite;
+}
+
+.ce-hb-wrap .ce-hb-featured-title {
+  display: block;
+  margin: 0;
+  font-size: 19px;
+  font-weight: 700;
+  color: #111827;
+}
+
+.ce-hb-wrap .ce-hb-featured-sub {
+  display: block;
+  margin: 4px 0 0;
+  font-size: 14.5px;
+  color: var(--ce-muted);
+}
+
+.ce-hb-wrap .ce-hb-cta {
+  display: inline-flex;
+  align-items: center;
+  padding: 9px 18px;
+  border-radius: 9px;
+  background-color: var(--ce-crimson);
+  color: #ffffff;
+  font-size: 14.5px;
+  font-weight: 600;
+  white-space: nowrap;
+  transition:
+    background-color 0.22s ease,
+    transform 0.28s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.ce-hb-wrap .ce-hb-featured:hover .ce-hb-cta,
+.ce-hb-wrap .ce-hb-featured:focus-visible .ce-hb-cta {
+  background-color: #991b1b;
+  transform: translateX(4px);
+}
+
+/* ===== Section Label ===== */
+.ce-hb-wrap .ce-hb-section-head {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 6px 14px;
+  margin-bottom: 12px;
+}
+
+.ce-hb-wrap .ce-hb-section-title {
+  margin: 0;
+  font-size: 16.5px;
+  font-weight: 700;
+  color: var(--ce-ink);
+}
+
+.ce-hb-wrap .ce-hb-section-hint {
+  font-size: 13.5px;
+  color: var(--ce-muted);
+}
+
+/* ===== Academic Year Selector Grid (2568 - 2562) ===== */
+.ce-hb-wrap .ce-hb-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
+.ce-hb-wrap .ce-hb-card:last-child:nth-child(odd) {
+  grid-column: 1 / -1;
+}
+
+.ce-hb-wrap .ce-hb-card {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 15px 16px 15px 18px;
+  border-radius: 12px;
+  border: 1px solid var(--ce-border);
+  background-color: #ffffff;
+  color: var(--ce-ink) !important;
+  text-decoration: none !important;
+  overflow: hidden;
+  animation: ceHbReveal 0.45s cubic-bezier(0.22, 1, 0.36, 1) both;
+  transition:
+    transform 0.28s cubic-bezier(0.22, 1, 0.36, 1),
+    border-color 0.24s ease,
+    background-color 0.24s ease,
+    box-shadow 0.28s cubic-bezier(0.22, 1, 0.36, 1),
+    opacity 0.24s ease;
+}
+
+.ce-hb-wrap .ce-hb-card:nth-child(1) { animation-delay: 0.08s; }
+.ce-hb-wrap .ce-hb-card:nth-child(2) { animation-delay: 0.12s; }
+.ce-hb-wrap .ce-hb-card:nth-child(3) { animation-delay: 0.16s; }
+.ce-hb-wrap .ce-hb-card:nth-child(4) { animation-delay: 0.20s; }
+.ce-hb-wrap .ce-hb-card:nth-child(5) { animation-delay: 0.24s; }
+.ce-hb-wrap .ce-hb-card:nth-child(6) { animation-delay: 0.28s; }
+.ce-hb-wrap .ce-hb-card:nth-child(7) { animation-delay: 0.32s; }
+
+/* Animated Left Selection Rail */
+.ce-hb-wrap .ce-hb-card::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 10px;
+  bottom: 10px;
+  width: 4px;
+  border-radius: 0 4px 4px 0;
+  background-color: var(--ce-crimson);
+  transform: scaleY(0);
+  transform-origin: center;
+  transition: transform 0.26s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* Spotlight Focus: Gently Dim Siblings While Selecting a Year */
+.ce-hb-wrap .ce-hb-grid:has(.ce-hb-card:hover) .ce-hb-card:not(:hover),
+.ce-hb-wrap .ce-hb-grid:has(.ce-hb-card:focus-visible) .ce-hb-card:not(:focus-visible) {
+  opacity: 0.74;
+}
+
+.ce-hb-wrap .ce-hb-card:hover,
+.ce-hb-wrap .ce-hb-card:focus-visible {
+  transform: translateY(-3px);
+  border-color: var(--ce-amber);
+  background-color: var(--ce-tint);
+  box-shadow: 0 10px 22px rgba(31, 41, 55, 0.09);
+  opacity: 1;
+  outline: none;
+  text-decoration: none !important;
+}
+
+.ce-hb-wrap .ce-hb-card:hover::before,
+.ce-hb-wrap .ce-hb-card:focus-visible::before {
+  transform: scaleY(1);
+}
+
+.ce-hb-wrap .ce-hb-year-pill {
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 68px;
+  padding: 8px 10px;
+  border-radius: 9px;
+  background-color: #f3f4f6;
+  border: 1px solid #e5e7eb;
+  color: #1f2937;
+  font-size: 16px;
+  font-weight: 700;
+  transition:
+    background-color 0.24s ease,
+    border-color 0.24s ease,
+    color 0.24s ease,
+    transform 0.28s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.ce-hb-wrap .ce-hb-card:hover .ce-hb-year-pill,
+.ce-hb-wrap .ce-hb-card:focus-visible .ce-hb-year-pill {
+  background-color: var(--ce-crimson);
+  border-color: var(--ce-crimson);
+  color: #ffffff;
+  transform: scale(1.05);
+}
+
+.ce-hb-wrap .ce-hb-card-body {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.ce-hb-wrap .ce-hb-card-title {
+  display: block;
+  font-size: 15.5px;
+  font-weight: 700;
+  color: var(--ce-ink);
+  line-height: 1.35;
+}
+
+.ce-hb-wrap .ce-hb-card-sub {
+  display: block;
+  margin-top: 3px;
+  font-size: 13px;
+  color: var(--ce-muted);
+}
+
+.ce-hb-wrap .ce-hb-action {
+  flex: 0 0 auto;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background-color: #f9fafb;
+  border: 1px solid var(--ce-border);
+  font-size: 12.5px;
+  font-weight: 600;
+  color: var(--ce-muted);
+  transition:
+    background-color 0.22s ease,
+    border-color 0.22s ease,
+    color 0.22s ease,
+    transform 0.28s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.ce-hb-wrap .ce-hb-card:hover .ce-hb-action,
+.ce-hb-wrap .ce-hb-card:focus-visible .ce-hb-action {
+  background-color: #fef3c7;
+  border-color: var(--ce-amber);
+  color: #92400e;
+  transform: translateX(3px);
+}
+
+/* ===== Footer Note ===== */
+.ce-hb-wrap .ce-hb-note {
+  margin-top: 20px;
+  padding: 12px 16px;
+  border-radius: 10px;
+  background-color: #f9fafb;
+  border: 1px solid var(--ce-border);
+  font-size: 14px;
+  color: var(--ce-muted);
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 680px) {
+  .ce-hb-wrap {
+    padding: 14px 10px 28px;
+  }
+
+  .ce-hb-wrap .ce-hb-grid {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .ce-hb-wrap .ce-hb-featured {
+    padding: 16px;
+  }
+
+  .ce-hb-wrap .ce-hb-cta {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+/* ===== Reduced Motion ===== */
+@media (prefers-reduced-motion: reduce) {
+  .ce-hb-wrap .ce-hb-header,
+  .ce-hb-wrap .ce-hb-featured,
+  .ce-hb-wrap .ce-hb-card,
+  .ce-hb-wrap .ce-hb-new-pill {
+    animation: none;
+  }
+
+  .ce-hb-wrap .ce-hb-featured,
+  .ce-hb-wrap .ce-hb-featured::before,
+  .ce-hb-wrap .ce-hb-cta,
+  .ce-hb-wrap .ce-hb-card,
+  .ce-hb-wrap .ce-hb-card::before,
+  .ce-hb-wrap .ce-hb-year-pill,
+  .ce-hb-wrap .ce-hb-action {
+    transition: none;
+  }
+}
