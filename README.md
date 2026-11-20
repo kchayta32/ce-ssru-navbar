@@ -5,5 +5,5 @@ Stylesheet สำหรับเพิ่ม UI Motion และ Animation ใ�
 ## การใช้งานผ่าน jsDelivr CDN
 
 ```html
-<link href="https://cdn.jsdelivr.net/gh/kchayta32/ce-ssru-navbar@main/ce-navbar.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/gh/kchayta32/ce-ssru-navbar@v1.0.1/ce-navbar.css" rel="stylesheet">
 ```

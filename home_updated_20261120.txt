@@ -21,19 +21,15 @@
 </p>
 
 <p>
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.2/css/hover-min.css" rel="stylesheet">
-</p>
-
-<p>
-	<link href="https://cdn.jsdelivr.net/gh/kchayta32/ce-ssru-navbar@main/ce-navbar.css" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/gh/kchayta32/ce-ssru-navbar@v1.0.1/ce-navbar.css" rel="stylesheet">
 </p>
 <div class="container">
 
 	<p><img class="fr-fil fr-dii" style="width: 200px; height: auto; padding-bottom: 25px;" src="http://www.ce.fit.ssru.ac.th/useruploads/images/20240708/64ba22a4500b4931dee4925c8369e5cec5e492df.png"></p>
-	<nav class="navbar navbar-default ce-navbar animate__animated animate__fadeInDown" style="border: none; border-radius: 10px; box-shadow: 0 6px 20px rgba(31, 41, 55, 0.12);">
+	<nav class="navbar navbar-default ce-navbar animate__animated animate__fadeInDown" style="position: relative; z-index: 1030; border: none; border-radius: 10px; box-shadow: 0 6px 20px rgba(31, 41, 55, 0.12);">
 		<div class="container-fluid" style="background: linear-gradient(90deg, #FFB562 0%, #FFA742 100%); border-radius: 10px;">
 			<div class="navbar-header">
-				<button class="navbar-toggle collapsed" data-target="#navbar" data-toggle="collapse" type="button" style="border-color: #1F2937;"><span class="sr-only">Toggle navigation</span><span class="icon-bar" style="background-color: #1F2937;"></span><span class="icon-bar" style="background-color: #1F2937;"></span><span class="icon-bar" style="background-color: #1F2937;"></span></button>
+				<button class="navbar-toggle collapsed" data-target="#navbar" data-toggle="collapse" type="button" style="border-color: #1F2937; padding: 6px 10px;"><span style="color: #1F2937; font-size: 18px; line-height: 1;">&#9776;</span></button>
 				<a class="navbar-brand" href="http://www.ce.fit.ssru.ac.th" style="padding: 5px 12px; height: auto;"><img class="pic fr-fic fr-dii" style="width: 52px; height: auto;" src="http://www.ce.fit.ssru.ac.th/useruploads/images/20240708/2863c4680874270e8b1b550e7e95043fa96e7727.png"></a>
 			</div>
 			<div class="navbar-collapse collapse" id="navbar">
@@ -41,7 +37,7 @@
 				<ul class="nav navbar-nav" style='color: #1F2937; font-family: "Athiti", sans-serif; font-size: 19px; font-weight: bold;'>
 					<li class="dropdown"><a class="dropdown-toggle hvr-underline-from-center" data-toggle="dropdown" href="#" style="color: #1F2937;"><i class="fa fa-graduation-cap fa-x"></i> นักศึกษา</a>
 
-						<ul class="dropdown-menu animate__animated animate__fadeIn" style='color: #1F2937; font-family: "Athiti", sans-serif; font-size: 18px; font-weight: bold; animation-duration: 0.22s; border-radius: 10px; border: 1px solid rgba(31,41,55,0.08); box-shadow: 0 12px 28px rgba(17,24,39,0.14); margin-top: 4px; overflow: hidden;'>
+						<ul class="dropdown-menu animate__animated animate__fadeIn" style='color: #1F2937; font-family: "Athiti", sans-serif; font-size: 18px; font-weight: bold; z-index: 1050; animation-duration: 0.22s; border-radius: 10px; border: 1px solid rgba(31,41,55,0.08); box-shadow: 0 12px 28px rgba(17,24,39,0.14); margin-top: 4px; overflow: hidden;'>
 							<li class="animate__animated animate__fadeInDown" style="animation-duration: 0.22s; animation-delay: 0.03s;"><a class="hvr-forward" href="http://www.ce.fit.ssru.ac.th/page/student" style="display: block;">รายชื่อนักศึกษา</a></li>
 							<li class="animate__animated animate__fadeInDown" style="animation-duration: 0.22s; animation-delay: 0.06s;"><a class="hvr-forward" href="#" style="display: block;">ผลงานนักศึกษา</a></li>
 							<li class="animate__animated animate__fadeInDown" style="animation-duration: 0.22s; animation-delay: 0.09s;"><a class="hvr-forward" href="http://www.ce.fit.ssru.ac.th/page/intern" style="display: block;">สถานที่ฝึกประสบการณ์วิชาชีพ</a></li>
@@ -53,7 +49,7 @@
 					<li><a class="hvr-underline-from-center" href="http://www.ce.fit.ssru.ac.th/page/teacherss" style="color: #1F2937;"><i class="fa fa-user"></i> อาจารย์</a></li>
 					<li class="dropdown"><a aria-expanded="false" class="dropdown-toggle hvr-underline-from-center" data-toggle="dropdown" href="#" style="color: #1F2937;"><i class="fa fa-file"></i> ปริญญานิพนธ์</a>
 
-						<ul class="dropdown-menu animate__animated animate__fadeIn" style='font-family: "Athiti", sans-serif; font-size: 18px; font-weight: bold; animation-duration: 0.22s; border-radius: 10px; border: 1px solid rgba(31,41,55,0.08); box-shadow: 0 12px 28px rgba(17,24,39,0.14); margin-top: 4px; overflow: hidden; width: 500px; padding: 15px;'>
+						<ul class="dropdown-menu animate__animated animate__fadeIn" style='font-family: "Athiti", sans-serif; font-size: 18px; font-weight: bold; z-index: 1050; animation-duration: 0.22s; border-radius: 10px; border: 1px solid rgba(31,41,55,0.08); box-shadow: 0 12px 28px rgba(17,24,39,0.14); margin-top: 4px; overflow: hidden; width: 500px; padding: 15px;'>
 							<li>
 								<div class="row">
 									<!-- คอลัมน์รหัส 53-59 -->
@@ -89,7 +85,7 @@
 					</li>
 					<li class="dropdown"><a class="dropdown-toggle hvr-underline-from-center" data-toggle="dropdown" href="#" style="color: #1F2937;"><i class="fa fa-file"></i> การเผยแพร่งานวิจัย</a>
 
-						<ul class="dropdown-menu animate__animated animate__fadeIn" style='font-family: "Athiti", sans-serif; font-size: 18px; font-weight: bold; animation-duration: 0.22s; border-radius: 10px; border: 1px solid rgba(31,41,55,0.08); box-shadow: 0 12px 28px rgba(17,24,39,0.14); margin-top: 4px; overflow: hidden;'>
+						<ul class="dropdown-menu animate__animated animate__fadeIn" style='font-family: "Athiti", sans-serif; font-size: 18px; font-weight: bold; z-index: 1050; animation-duration: 0.22s; border-radius: 10px; border: 1px solid rgba(31,41,55,0.08); box-shadow: 0 12px 28px rgba(17,24,39,0.14); margin-top: 4px; overflow: hidden;'>
 							<li class="animate__animated animate__fadeInDown" style="animation-duration: 0.22s; animation-delay: 0.03s;"><a class="hvr-forward" href="http://www.ce.fit.ssru.ac.th/page/conf-national" style="display: block;">งานประชุมวิชาการระดับชาติ</a></li>
 							<li class="animate__animated animate__fadeInDown" style="animation-duration: 0.22s; animation-delay: 0.06s;"><a class="hvr-forward" href="http://www.ce.fit.ssru.ac.th/page/conf-international" style="display: block;">งานประชุมวิชาการระดับนานาชาติ</a></li>
 							<li class="animate__animated animate__fadeInDown" style="animation-duration: 0.22s; animation-delay: 0.09s;"><a class="hvr-forward" href="http://www.ce.fit.ssru.ac.th/page/journal" style="display: block;">วารสารวิชาการ</a></li>
@@ -103,7 +99,7 @@
 				<ul class="nav navbar-nav navbar-right" style='font-family: "Athiti", sans-serif; font-size: 19px; font-weight: bold;'>
 					<li class="dropdown"><a class="dropdown-toggle hvr-underline-from-center" data-toggle="dropdown" href="#" style="color: #1F2937;"><i class="fa fa-sitemap"></i> หลักสูตร</a>
 
-						<ul class="dropdown-menu animate__animated animate__fadeIn" style='font-family: "Athiti", sans-serif; font-size: 18px; font-weight: bold; animation-duration: 0.22s; border-radius: 10px; border: 1px solid rgba(31,41,55,0.08); box-shadow: 0 12px 28px rgba(17,24,39,0.14); margin-top: 4px; overflow: hidden;'>
+						<ul class="dropdown-menu animate__animated animate__fadeIn" style='font-family: "Athiti", sans-serif; font-size: 18px; font-weight: bold; z-index: 1050; animation-duration: 0.22s; border-radius: 10px; border: 1px solid rgba(31,41,55,0.08); box-shadow: 0 12px 28px rgba(17,24,39,0.14); margin-top: 4px; overflow: hidden;'>
 							<li class="animate__animated animate__fadeInDown" style="animation-duration: 0.22s; animation-delay: 0.03s;"><a class="hvr-forward" href="http://www.ce.fit.ssru.ac.th/page/curricurum2553" style="display: block;">โครงสร้างหลักสูตร พ.ศ. 2553</a></li>
 							<li class="animate__animated animate__fadeInDown" style="animation-duration: 0.22s; animation-delay: 0.06s;"><a class="hvr-forward" href="http://www.ce.fit.ssru.ac.th/page/curricurum2558" style="display: block;">โครงสร้างหลักสูตร พ.ศ. 2558</a></li>
 							<li class="animate__animated animate__fadeInDown" style="animation-duration: 0.22s; animation-delay: 0.09s;"><a class="hvr-forward" href="http://www.ce.fit.ssru.ac.th/page/curricurum2563" style="display: block;">โครงสร้างหลักสูตร พ.ศ. 2563</a></li>
@@ -116,7 +112,7 @@
 					<li><a class="hvr-underline-from-center" href="http://www.ce.fit.ssru.ac.th/page/download" style="color: #1F2937;"><i class="fa fa-download fa-x"></i> ดาวน์โหลดเอกสาร</a></li>
 					<li class="dropdown"><a class="dropdown-toggle hvr-underline-from-center" data-toggle="dropdown" href="#" style="color: #1F2937;"><i class="fa fa-bookmark"></i> เกี่ยวกับเรา</a>
 
-						<ul class="dropdown-menu animate__animated animate__fadeIn" style='font-family: "Athiti", sans-serif; font-size: 18px; font-weight: bold; animation-duration: 0.22s; border-radius: 10px; border: 1px solid rgba(31,41,55,0.08); box-shadow: 0 12px 28px rgba(17,24,39,0.14); margin-top: 4px; overflow: hidden;'>
+						<ul class="dropdown-menu animate__animated animate__fadeIn" style='font-family: "Athiti", sans-serif; font-size: 18px; font-weight: bold; z-index: 1050; animation-duration: 0.22s; border-radius: 10px; border: 1px solid rgba(31,41,55,0.08); box-shadow: 0 12px 28px rgba(17,24,39,0.14); margin-top: 4px; overflow: hidden;'>
 							<li class="animate__animated animate__fadeInDown" style="animation-duration: 0.22s; animation-delay: 0.03s;">
 								<a class="fr-fic fr-dib hvr-forward" href="https://www.facebook.com/groups/272767896216878/" style="display: block;"><img class="fr-fic fr-dib" style="width: 24px; float: left; margin-right: 8px;" src="http://www.ce.fit.ssru.ac.th/useruploads/images/20180530/98e2a9ace5cc145c0c16bc35a9696e5de4e2d4ad.png"> Facebook</a>
 							</li>

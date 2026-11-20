@@ -23,6 +23,8 @@
 }
 
 .ce-navbar {
+  position: relative !important;
+  z-index: 1030 !important;
   animation: ceNavReveal 0.45s cubic-bezier(0.22, 1, 0.36, 1) both;
   border: none !important;
   border-radius: 10px !important;
@@ -86,6 +88,8 @@
 }
 
 .ce-navbar .dropdown.open > .dropdown-menu {
+  z-index: 1050 !important;
+  max-width: calc(100vw - 32px);
   animation: ceDropIn 0.24s cubic-bezier(0.22, 1, 0.36, 1) both !important;
   transform-origin: top center;
   border-radius: 10px;
