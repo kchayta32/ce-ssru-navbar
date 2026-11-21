@@ -1,7 +1,4 @@
-<div style="max-width: 1080px; margin: 0 auto; font-family: 'IBM Plex Sans Thai', 'Sarabun', sans-serif;">
-	<iframe src="https://kchayta32.github.io/ce-ssru-navbar/page/borrow-app.html" title="ระบบยืม-คืนอุปกรณ์ IoT สาขาวิชาวิศวกรรมคอมพิวเตอร์ มรภ.สวนสุนันทา" width="100%" height="920" style="width: 100%; height: 920px; border: 1px solid #cbd5e1; border-radius: 12px; display: block; background: #ffffff;" loading="lazy"></iframe>
-	<div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px; margin-top: 10px; font-size: 13.5px; color: #475569;">
-		<span>หมายเหตุ: สามารถเลื่อนดูรายการอุปกรณ์และกดดาวน์โหลดไฟล์ PDF, Word, Excel, CSV หรือ JSON ได้จากกรอบระบบด้านบนโดยตรง</span>
-		<a href="https://kchayta32.github.io/ce-ssru-navbar/page/borrow-app.html" target="_blank" rel="noopener noreferrer" style="color: #1e3a8a; font-weight: 700; text-decoration: none;">เปิดระบบแบบเต็มหน้าจอ (แท็บใหม่) &nearr;</a>
-	</div>
+<div style="width:100%; max-width:1080px; margin:0 auto; font-family:'IBM Plex Sans Thai',sans-serif;">
+	<iframe frameborder="0" height="1060" src="https://kchayta32.github.io/ce-ssru-navbar/page/borrow-app.html" style="width:100%; height:1060px; border:0; border-radius:12px; display:block; background:#ffffff;" title="ระบบยืม-คืนอุปกรณ์ IoT สาขาวิชาวิศวกรรมคอมพิวเตอร์ มรภ.สวนสุนันทา" width="100%"></iframe>
+	<p style="text-align:center; font-size:13px; color:#64748b; margin:12px 0 4px 0;">หากหน้าต่างระบบไม่แสดงผล สามารถ <a href="https://kchayta32.github.io/ce-ssru-navbar/page/borrow-app.html" rel="noopener noreferrer" target="_blank" style="color:#1e3a8a; font-weight:bold; text-decoration:underline;">เปิดระบบยืม–คืนอุปกรณ์ IoT แบบเต็มหน้าจอในแท็บใหม่</a></p>
 </div>
