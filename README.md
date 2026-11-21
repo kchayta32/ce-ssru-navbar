@@ -50,3 +50,10 @@ Stylesheets สำหรับเพิ่ม UI Motion และ Animation ใ�
 ```html
 <img src="https://cdn.jsdelivr.net/gh/kchayta32/ce-ssru-navbar@v1.1.3/banner_intern_2066x761.png" alt="สถานที่ฝึกประสบการณ์วิชาชีพ">
 ```
+
+### 9. ระบบยืม–คืนอุปกรณ์ IoT (`page/ce-borrow.css`, `page/ce-borrow.js`)
+ออกแบบใหม่ทั้งระบบสำหรับ CMS/Froala ประกอบด้วย 3 โหมด (**ทำรายการยืม**, **ส่งคืนและตรวจรับ**, และ **ระเบียบและขั้นตอน**) ค้นหา/กรองคลังอุปกรณ์เซนเซอร์ 23 รายการ + เพิ่มอุปกรณ์นอกรายการ, บันทึกร่างอัตโนมัติ, นำเข้าไฟล์ `.json` ตอนยืมเพื่อทำรายการคืนได้ทันที และดาวน์โหลดเอกสารออกมาเป็นไฟล์ **PDF (`.pdf`), Word (`.doc`), Excel (`.xlsx`), CSV (`.csv`), JSON (`.json`)** ได้โดยตรงไม่ต้องกด `Ctrl+P`
+```html
+<link href="https://cdn.jsdelivr.net/gh/kchayta32/ce-ssru-navbar@v1.1.4/page/ce-borrow.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/kchayta32/ce-ssru-navbar@v1.1.4/page/ce-borrow.js"></script>
+```
