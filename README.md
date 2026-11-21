@@ -51,9 +51,9 @@ Stylesheets สำหรับเพิ่ม UI Motion และ Animation ใ�
 <img src="https://cdn.jsdelivr.net/gh/kchayta32/ce-ssru-navbar@v1.1.3/banner_intern_2066x761.png" alt="สถานที่ฝึกประสบการณ์วิชาชีพ">
 ```
 
-### 9. ระบบยืม–คืนอุปกรณ์ IoT (`page/ce-borrow.css`, `page/ce-borrow.js`)
-ออกแบบใหม่ทั้งระบบสำหรับ CMS/Froala ประกอบด้วย 3 โหมด (**ทำรายการยืม**, **ส่งคืนและตรวจรับ**, และ **ระเบียบและขั้นตอน**) ค้นหา/กรองคลังอุปกรณ์เซนเซอร์ 23 รายการ + เพิ่มอุปกรณ์นอกรายการ, บันทึกร่างอัตโนมัติ, นำเข้าไฟล์ `.json` ตอนยืมเพื่อทำรายการคืนได้ทันที และดาวน์โหลดเอกสารออกมาเป็นไฟล์ **PDF (`.pdf`), Word (`.doc`), Excel (`.xlsx`), CSV (`.csv`), JSON (`.json`)** ได้โดยตรงไม่ต้องกด `Ctrl+P`
+### 9. ระบบยืม–คืนอุปกรณ์ IoT (`page/borrow-app.html`, `page/ce-borrow.css`, `page/ce-borrow.js`)
+ออกแบบใหม่ทั้งระบบสำหรับ CMS/Froala ประกอบด้วย 3 โหมด (**ทำรายการยืม**, **ส่งคืนและตรวจรับ**, และ **ระเบียบและขั้นตอน**) ค้นหา/กรองคลังอุปกรณ์เซนเซอร์ 23 รายการ + เพิ่มอุปกรณ์นอกรายการ, บันทึกร่างอัตโนมัติ, นำเข้าไฟล์ `.json` ตอนยืมเพื่อทำรายการคืนได้ทันที และดาวน์โหลดเอกสารออกมาเป็นไฟล์ **PDF (`.pdf`), Word (`.doc`), Excel (`.xlsx`), CSV (`.csv`), JSON (`.json`)** ได้โดยตรงไม่ต้องกด `Ctrl+P` โดยฝังผ่าน GitHub Pages `<iframe>` เพื่อเลี่ยงข้อจำกัดการตัด `<script>` ของ Froala CMS
 ```html
-<link href="https://cdn.jsdelivr.net/gh/kchayta32/ce-ssru-navbar@v1.1.4/page/ce-borrow.css" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/gh/kchayta32/ce-ssru-navbar@v1.1.4/page/ce-borrow.js"></script>
+<iframe src="https://kchayta32.github.io/ce-ssru-navbar/page/borrow-app.html" width="100%" height="920" style="width: 100%; height: 920px; border: 1px solid #cbd5e1; border-radius: 12px; display: block; background: #ffffff;"></iframe>
 ```
+*(โหลด CSS/JS ภายในผ่าน jsDelivr `https://cdn.jsdelivr.net/gh/kchayta32/ce-ssru-navbar@v1.1.5/page/ce-borrow.css` และ `ce-borrow.js`)*

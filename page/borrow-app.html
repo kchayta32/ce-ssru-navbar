@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ระบบยืม–คืนอุปกรณ์ IoT | สาขาวิชาวิศวกรรมคอมพิวเตอร์ มรภ.สวนสุนันทา</title>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/gh/kchayta32/ce-ssru-navbar@v1.1.5/page/ce-borrow.css" rel="stylesheet">
+</head>
+<body style="margin: 0; padding: 0; background: #ffffff;">
+<div class="ce-bw-wrap" id="ce-borrow-app" data-mode="borrow">
+	<header class="ce-bw-header">
+		<div class="ce-bw-header-top">
+			<a class="ce-bw-back" href="http://www.ce.fit.ssru.ac.th/" target="_top">&larr; กลับหน้าหลักสาขาวิชา</a>
+			<span class="ce-bw-dept-tag"><span class="ce-bw-ico ce-bw-ico-chip"></span> สาขาวิชาวิศวกรรมคอมพิวเตอร์ • มรภ.สวนสุนันทา</span>
+		</div>
+		<div class="ce-bw-header-main">
+			<div>
+				<h1 class="ce-bw-title">ระบบยืม–คืนอุปกรณ์ IoT</h1>
+				<p class="ce-bw-subtitle">เลือกอุปกรณ์เซนเซอร์ กรอกข้อมูลผู้ยืมหรือตรวจรับส่งคืน แล้วดาวน์โหลดเอกสารเป็น PDF, Word, Excel, CSV หรือ JSON ได้ทันทีโดยไม่ต้องกด Ctrl+P</p>
+			</div>
+			<div class="ce-bw-header-specs">
+				<span class="ce-bw-spec-pill">คลังมาตรฐาน <strong>23 รายการ</strong></span>
+				<span class="ce-bw-spec-pill">ส่งออกได้ <strong>5 รูปแบบไฟล์</strong></span>
+			</div>
+		</div>
+	</header>
+
+	<nav class="ce-bw-modes" role="tablist" aria-label="โหมดการทำงานระบบยืมคืน">
+		<button type="button" class="ce-bw-mode-btn is-active" data-tab="borrow" role="tab" aria-selected="true"><span class="ce-bw-ico ce-bw-ico-borrow"></span> 1. ทำรายการยืมอุปกรณ์</button>
+		<button type="button" class="ce-bw-mode-btn" data-tab="return" role="tab" aria-selected="false"><span class="ce-bw-ico ce-bw-ico-return"></span> 2. ส่งคืนและตรวจรับ</button>
+		<button type="button" class="ce-bw-mode-btn" data-tab="policy" role="tab" aria-selected="false"><span class="ce-bw-ico ce-bw-ico-book"></span> 3. ระเบียบและขั้นตอน</button>
+	</nav>
+
+	<div class="ce-bw-grid">
+		<div class="ce-bw-main">
+			<section class="ce-bw-import-box" id="ce-bw-import-box">
+				<div class="ce-bw-import-row">
+					<div class="ce-bw-import-text">
+						<h3><span class="ce-bw-ico ce-bw-ico-upload"></span> นำเข้าข้อมูลจากไฟล์ .json ตอนยืม (หรือลากไฟล์มาวาง)</h3>
+						<p>หากเคยดาวน์โหลดไฟล์ .json ไว้ตอนยืม สามารถเลือกไฟล์เพื่อดึงข้อมูลผู้ยืมและรายการอุปกรณ์มาตรวจรับส่งคืนอัตโนมัติ</p>
+					</div>
+					<div class="ce-bw-import-actions">
+						<label class="ce-bw-file-label" for="ce-bw-json-input"><span class="ce-bw-ico ce-bw-ico-upload"></span> เลือกไฟล์ .json</label>
+						<input class="ce-bw-file-input" id="ce-bw-json-input" type="file" accept=".json,application/json">
+					</div>
+				</div>
+			</section>
+
+			<section class="ce-bw-panel">
+				<div class="ce-bw-panel-head">
+					<div class="ce-bw-panel-title-group">
+						<span class="ce-bw-panel-icon"><span class="ce-bw-ico ce-bw-ico-chip"></span></span>
+						<div>
+							<h2 class="ce-bw-panel-title">คลังอุปกรณ์เซนเซอร์ IoT (ชุด BBox-01 และอุปกรณ์เสริม)</h2>
+							<p class="ce-bw-panel-sub">ติ๊กเลือกอุปกรณ์ที่ต้องการ ระบุจำนวน และสามารถเพิ่มอุปกรณ์นอกรายการได้ด้านล่าง</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="ce-bw-toolbar">
+					<div class="ce-bw-search-row">
+						<div class="ce-bw-search-field">
+							<span class="ce-bw-ico ce-bw-ico-search"></span>
+							<input type="text" id="ce-bw-search" class="ce-bw-search-input" placeholder="ค้นหาอุปกรณ์ เช่น DHT11, HC-SR04...">
+						</div>
+						<div class="ce-bw-bulk-actions">
+							<button type="button" class="ce-bw-btn-ghost" id="ce-bw-select-kit">เลือกทั้งชุด (23 รายการ)</button>
+							<button type="button" class="ce-bw-btn-ghost is-danger" id="ce-bw-clear-sel">ล้างรายการที่เลือก</button>
+						</div>
+					</div>
+					<div class="ce-bw-cats" role="group" aria-label="กรองตามหมวดหมู่">
+						<button type="button" class="ce-bw-cat-pill is-active" data-cat="all">ทั้งหมด (23)</button>
+						<button type="button" class="ce-bw-cat-pill" data-cat="selected">เฉพาะที่เลือก</button>
+						<button type="button" class="ce-bw-cat-pill" data-cat="kit">ชุดกล่องและสาย</button>
+						<button type="button" class="ce-bw-cat-pill" data-cat="env">สภาพแวดล้อม</button>
+						<button type="button" class="ce-bw-cat-pill" data-cat="light">แสงและอินฟราเรด</button>
+						<button type="button" class="ce-bw-cat-pill" data-cat="motion">ระยะและเคลื่อนไหว</button>
+						<button type="button" class="ce-bw-cat-pill" data-cat="power">ไฟฟ้าและแม่เหล็ก</button>
+						<button type="button" class="ce-bw-cat-pill" data-cat="audio">เสียงและสัมผัส</button>
+					</div>
+				</div>
+
+				<div class="ce-bw-table-wrap">
+					<table class="ce-bw-table">
+						<thead>
+							<tr>
+								<th class="col-check">เลือก</th>
+								<th class="col-sku">รหัส</th>
+								<th>ชื่ออุปกรณ์ / รุ่นเซนเซอร์</th>
+								<th class="col-qty">จำนวน</th>
+							</tr>
+						</thead>
+						<tbody id="ce-bw-catalog-body">
+							<tr class="ce-bw-item-row" data-sku="IOT-01" data-cat="kit" data-cat-label="ชุดกล่องและสาย" data-name="กล่องเก็บชุดเซนเซอร์ IoT รุ่น BBox-01" data-en="IoT Sensor Kit Storage Box (BBox-01)">
+								<td class="col-check"><input type="checkbox" class="ce-bw-chk"></td>
+								<td class="col-sku"><span class="ce-bw-sku">IOT-01</span></td>
+								<td><span class="ce-bw-item-name">กล่องเก็บชุดเซนเซอร์ IoT รุ่น BBox-01</span><div class="ce-bw-item-meta"><span class="ce-bw-item-en">IoT Sensor Kit Storage Box (BBox-01)</span></div></td>
+								<td class="col-qty"><input type="number" class="ce-bw-qty-input" min="1" value="1"></td>
+							</tr>
+							<tr class="ce-bw-item-row" data-sku="IOT-02" data-cat="env" data-cat-label="สภาพแวดล้อม" data-name="เซนเซอร์วัดอุณหภูมิและความชื้น DHT11" data-en="DHT11 Temperature and Humidity Sensor">
+								<td class="col-check"><input type="checkbox" class="ce-bw-chk"></td>
+								<td class="col-sku"><span class="ce-bw-sku">IOT-02</span></td>
+								<td><span class="ce-bw-item-name">เซนเซอร์วัดอุณหภูมิและความชื้น DHT11</span><div class="ce-bw-item-meta"><span class="ce-bw-item-en">DHT11 Temperature and Humidity Sensor</span></div></td>
+								<td class="col-qty"><input type="number" class="ce-bw-qty-input" min="1" value="1"></td>
+							</tr>
+							<tr class="ce-bw-item-row" data-sku="IOT-03" data-cat="motion" data-cat-label="ระยะและเคลื่อนไหว" data-name="เซนเซอร์ตรวจจับการเคลื่อนไหวอินฟราเรด SR501" data-en="SR501 Infrared Motion Sensor / PIR">
+								<td class="col-check"><input type="checkbox" class="ce-bw-chk"></td>
+								<td class="col-sku"><span class="ce-bw-sku">IOT-03</span></td>
+								<td><span class="ce-bw-item-name">เซนเซอร์ตรวจจับการเคลื่อนไหวอินฟราเรด SR501</span><div class="ce-bw-item-meta"><span class="ce-bw-item-en">SR501 Infrared Motion Sensor / PIR</span></div></td>
+								<td class="col-qty"><input type="number" class="ce-bw-qty-input" min="1" value="1"></td>
+							</tr>
+							<tr class="ce-bw-item-row" data-sku="IOT-04" data-cat="env" data-cat-label="สภาพแวดล้อม" data-name="เซนเซอร์วัดความดันอากาศและอุณหภูมิ BMP280" data-en="GY-BMP280 Pressure Sensor">
+								<td class="col-check"><input type="checkbox" class="ce-bw-chk"></td>
+								<td class="col-sku"><span class="ce-bw-sku">IOT-04</span></td>
+								<td><span class="ce-bw-item-name">เซนเซอร์วัดความดันอากาศและอุณหภูมิ BMP280</span><div class="ce-bw-item-meta"><span class="ce-bw-item-en">GY-BMP280 Pressure Sensor</span></div></td>
+								<td class="col-qty"><input type="number" class="ce-bw-qty-input" min="1" value="1"></td>
+							</tr>
+							<tr class="ce-bw-item-row" data-sku="IOT-05" data-cat="light" data-cat-label="แสงและอินฟราเรด" data-name="เซนเซอร์ตรวจจับแสงแบบโฟโต LM393" data-en="LM393 Photosensitive Sensor">
+								<td class="col-check"><input type="checkbox" class="ce-bw-chk"></td>
+								<td class="col-sku"><span class="ce-bw-sku">IOT-05</span></td>
+								<td><span class="ce-bw-item-name">เซนเซอร์ตรวจจับแสงแบบโฟโต LM393</span><div class="ce-bw-item-meta"><span class="ce-bw-item-en">LM393 Photosensitive Sensor</span></div></td>
+								<td class="col-qty"><input type="number" class="ce-bw-qty-input" min="1" value="1"></td>
+							</tr>
+							<tr class="ce-bw-item-row" data-sku="IOT-06" data-cat="env" data-cat-label="สภาพแวดล้อม" data-name="เซนเซอร์วัดความชื้นในดิน" data-en="Soil Moisture Sensor">
+								<td class="col-check"><input type="checkbox" class="ce-bw-chk"></td>
+								<td class="col-sku"><span class="ce-bw-sku">IOT-06</span></td>
+								<td><span class="ce-bw-item-name">เซนเซอร์วัดความชื้นในดิน</span><div class="ce-bw-item-meta"><span class="ce-bw-item-en">Soil Moisture Sensor</span></div></td>
+								<td class="col-qty"><input type="number" class="ce-bw-qty-input" min="1" value="1"></td>
+							</tr>
+							<tr class="ce-bw-item-row" data-sku="IOT-07" data-cat="light" data-cat-label="แสงและอินฟราเรด" data-name="เซนเซอร์เลเซอร์สีแดง KY-008" data-en="KY-008 Red Laser Sensor">
+								<td class="col-check"><input type="checkbox" class="ce-bw-chk"></td>
+								<td class="col-sku"><span class="ce-bw-sku">IOT-07</span></td>
+								<td><span class="ce-bw-item-name">เซนเซอร์เลเซอร์สีแดง KY-008</span><div class="ce-bw-item-meta"><span class="ce-bw-item-en">KY-008 Red Laser Sensor</span></div></td>
+								<td class="col-qty"><input type="number" class="ce-bw-qty-input" min="1" value="1"></td>
+							</tr>
+							<tr class="ce-bw-item-row" data-sku="IOT-08" data-cat="audio" data-cat-label="เสียงและสัมผัส" data-name="เซนเซอร์สัมผัสแบบทัช TTP223B" data-en="TTP223B Touch Sensor">
+								<td class="col-check"><input type="checkbox" class="ce-bw-chk"></td>
+								<td class="col-sku"><span class="ce-bw-sku">IOT-08</span></td>
+								<td><span class="ce-bw-item-name">เซนเซอร์สัมผัสแบบทัช TTP223B</span><div class="ce-bw-item-meta"><span class="ce-bw-item-en">TTP223B Touch Sensor</span></div></td>
+								<td class="col-qty"><input type="number" class="ce-bw-qty-input" min="1" value="1"></td>
+							</tr>
+							<tr class="ce-bw-item-row" data-sku="IOT-09" data-cat="env" data-cat-label="สภาพแวดล้อม" data-name="เซนเซอร์วัดระดับน้ำ" data-en="Water Level Sensor">
+								<td class="col-check"><input type="checkbox" class="ce-bw-chk"></td>
+								<td class="col-sku"><span class="ce-bw-sku">IOT-09</span></td>
+								<td><span class="ce-bw-item-name">เซนเซอร์วัดระดับน้ำ</span><div class="ce-bw-item-meta"><span class="ce-bw-item-en">Water Level Sensor</span></div></td>
+								<td class="col-qty"><input type="number" class="ce-bw-qty-input" min="1" value="1"></td>
+							</tr>
+							<tr class="ce-bw-item-row" data-sku="IOT-10" data-cat="power" data-cat-label="ไฟฟ้าและแม่เหล็ก" data-name="เซนเซอร์วัดแรงดันไฟฟ้า" data-en="Voltage Sensor">
+								<td class="col-check"><input type="checkbox" class="ce-bw-chk"></td>
+								<td class="col-sku"><span class="ce-bw-sku">IOT-10</span></td>
+								<td><span class="ce-bw-item-name">เซนเซอร์วัดแรงดันไฟฟ้า</span><div class="ce-bw-item-meta"><span class="ce-bw-item-en">Voltage Sensor</span></div></td>
+								<td class="col-qty"><input type="number" class="ce-bw-qty-input" min="1" value="1"></td>
+							</tr>
+							<tr class="ce-bw-item-row" data-sku="IOT-11" data-cat="motion" data-cat-label="ระยะและเคลื่อนไหว" data-name="เซนเซอร์วัดความเร็ว" data-en="Speed Sensor">
+								<td class="col-check"><input type="checkbox" class="ce-bw-chk"></td>
+								<td class="col-sku"><span class="ce-bw-sku">IOT-11</span></td>
+								<td><span class="ce-bw-item-name">เซนเซอร์วัดความเร็ว</span><div class="ce-bw-item-meta"><span class="ce-bw-item-en">Speed Sensor</span></div></td>
+								<td class="col-qty"><input type="number" class="ce-bw-qty-input" min="1" value="1"></td>
+							</tr>
+							<tr class="ce-bw-item-row" data-sku="IOT-12" data-cat="power" data-cat-label="ไฟฟ้าและแม่เหล็ก" data-name="เซนเซอร์ฮอลล์แม่เหล็กเชิงเส้น KY-024" data-en="KY-024 Linear Hall Magnetic Sensor">
+								<td class="col-check"><input type="checkbox" class="ce-bw-chk"></td>
+								<td class="col-sku"><span class="ce-bw-sku">IOT-12</span></td>
+								<td><span class="ce-bw-item-name">เซนเซอร์ฮอลล์แม่เหล็กเชิงเส้น KY-024</span><div class="ce-bw-item-meta"><span class="ce-bw-item-en">KY-024 Linear Hall Magnetic Sensor</span></div></td>
+								<td class="col-qty"><input type="number" class="ce-bw-qty-input" min="1" value="1"></td>
+							</tr>
+							<tr class="ce-bw-item-row" data-sku="IOT-13" data-cat="kit" data-cat-label="ชุดกล่องและสาย" data-name="สายดูปองต์ ตัวผู้-ตัวเมีย" data-en="DuPont Cable Male to Female">
+								<td class="col-check"><input type="checkbox" class="ce-bw-chk"></td>
+								<td class="col-sku"><span class="ce-bw-sku">IOT-13</span></td>
+								<td><span class="ce-bw-item-name">สายดูปองต์ ตัวผู้-ตัวเมีย</span><div class="ce-bw-item-meta"><span class="ce-bw-item-en">DuPont Cable Male to Female</span></div></td>
+								<td class="col-qty"><input type="number" class="ce-bw-qty-input" min="1" value="1"></td>
+							</tr>
+							<tr class="ce-bw-item-row" data-sku="IOT-14" data-cat="motion" data-cat-label="ระยะและเคลื่อนไหว" data-name="เซนเซอร์อัลตราโซนิกวัดระยะ HC-SR04" data-en="HC-SR04 Ultrasonic Distance Sensor">
+								<td class="col-check"><input type="checkbox" class="ce-bw-chk"></td>
+								<td class="col-sku"><span class="ce-bw-sku">IOT-14</span></td>
+								<td><span class="ce-bw-item-name">เซนเซอร์อัลตราโซนิกวัดระยะ HC-SR04</span><div class="ce-bw-item-meta"><span class="ce-bw-item-en">HC-SR04 Ultrasonic Distance Sensor</span></div></td>
+								<td class="col-qty"><input type="number" class="ce-bw-qty-input" min="1" value="1"></td>
+							</tr>
+							<tr class="ce-bw-item-row" data-sku="IOT-15" data-cat="motion" data-cat-label="ระยะและเคลื่อนไหว" data-name="เซนเซอร์ตรวจจับแรงสั่นสะเทือน SW-420" data-en="SW-420 Vibration Switch Sensor">
+								<td class="col-check"><input type="checkbox" class="ce-bw-chk"></td>
+								<td class="col-sku"><span class="ce-bw-sku">IOT-15</span></td>
+								<td><span class="ce-bw-item-name">เซนเซอร์ตรวจจับแรงสั่นสะเทือน SW-420</span><div class="ce-bw-item-meta"><span class="ce-bw-item-en">SW-420 Vibration Switch Sensor</span></div></td>
+								<td class="col-qty"><input type="number" class="ce-bw-qty-input" min="1" value="1"></td>
+							</tr>
+							<tr class="ce-bw-item-row" data-sku="IOT-16" data-cat="light" data-cat-label="แสงและอินฟราเรด" data-name="โมดูลตรวจจับเส้น/การสะท้อนแสง TCRT5000" data-en="TCRT5000 Tracking Module">
+								<td class="col-check"><input type="checkbox" class="ce-bw-chk"></td>
+								<td class="col-sku"><span class="ce-bw-sku">IOT-16</span></td>
+								<td><span class="ce-bw-item-name">โมดูลตรวจจับเส้น/การสะท้อนแสง TCRT5000</span><div class="ce-bw-item-meta"><span class="ce-bw-item-en">TCRT5000 Tracking Module</span></div></td>
+								<td class="col-qty"><input type="number" class="ce-bw-qty-input" min="1" value="1"></td>
+							</tr>
+							<tr class="ce-bw-item-row" data-sku="IOT-17" data-cat="audio" data-cat-label="เสียงและสัมผัส" data-name="เซนเซอร์ตรวจจับเสียง KY-037" data-en="KY-037 Microphone Sensor">
+								<td class="col-check"><input type="checkbox" class="ce-bw-chk"></td>
+								<td class="col-sku"><span class="ce-bw-sku">IOT-17</span></td>
+								<td><span class="ce-bw-item-name">เซนเซอร์ตรวจจับเสียง KY-037</span><div class="ce-bw-item-meta"><span class="ce-bw-item-en">KY-037 Microphone Sensor</span></div></td>
+								<td class="col-qty"><input type="number" class="ce-bw-qty-input" min="1" value="1"></td>
+							</tr>
+							<tr class="ce-bw-item-row" data-sku="IOT-18" data-cat="light" data-cat-label="แสงและอินฟราเรด" data-name="เซนเซอร์ตรวจจับแสง KY-018" data-en="KY-018 Photosensitive Sensor">
+								<td class="col-check"><input type="checkbox" class="ce-bw-chk"></td>
+								<td class="col-sku"><span class="ce-bw-sku">IOT-18</span></td>
+								<td><span class="ce-bw-item-name">เซนเซอร์ตรวจจับแสง KY-018</span><div class="ce-bw-item-meta"><span class="ce-bw-item-en">KY-018 Photosensitive Sensor</span></div></td>
+								<td class="col-qty"><input type="number" class="ce-bw-qty-input" min="1" value="1"></td>
+							</tr>
+							<tr class="ce-bw-item-row" data-sku="IOT-19" data-cat="motion" data-cat-label="ระยะและเคลื่อนไหว" data-name="เซนเซอร์หลบหลีกสิ่งกีดขวาง" data-en="Obstacle Avoidance Sensor">
+								<td class="col-check"><input type="checkbox" class="ce-bw-chk"></td>
+								<td class="col-sku"><span class="ce-bw-sku">IOT-19</span></td>
+								<td><span class="ce-bw-item-name">เซนเซอร์หลบหลีกสิ่งกีดขวาง</span><div class="ce-bw-item-meta"><span class="ce-bw-item-en">Obstacle Avoidance Sensor</span></div></td>
+								<td class="col-qty"><input type="number" class="ce-bw-qty-input" min="1" value="1"></td>
+							</tr>
+							<tr class="ce-bw-item-row" data-sku="IOT-20" data-cat="env" data-cat-label="สภาพแวดล้อม" data-name="เซนเซอร์ตรวจจับหยดฝน" data-en="Raindrop Sensor">
+								<td class="col-check"><input type="checkbox" class="ce-bw-chk"></td>
+								<td class="col-sku"><span class="ce-bw-sku">IOT-20</span></td>
+								<td><span class="ce-bw-item-name">เซนเซอร์ตรวจจับหยดฝน</span><div class="ce-bw-item-meta"><span class="ce-bw-item-en">Raindrop Sensor</span></div></td>
+								<td class="col-qty"><input type="number" class="ce-bw-qty-input" min="1" value="1"></td>
+							</tr>
+							<tr class="ce-bw-item-row" data-sku="IOT-21" data-cat="motion" data-cat-label="ระยะและเคลื่อนไหว" data-name="เซนเซอร์ตรวจจับการเอียง" data-en="Angle Tilt Switch Sensor">
+								<td class="col-check"><input type="checkbox" class="ce-bw-chk"></td>
+								<td class="col-sku"><span class="ce-bw-sku">IOT-21</span></td>
+								<td><span class="ce-bw-item-name">เซนเซอร์ตรวจจับการเอียง</span><div class="ce-bw-item-meta"><span class="ce-bw-item-en">Angle Tilt Switch Sensor</span></div></td>
+								<td class="col-qty"><input type="number" class="ce-bw-qty-input" min="1" value="1"></td>
+							</tr>
+							<tr class="ce-bw-item-row" data-sku="IOT-22" data-cat="light" data-cat-label="แสงและอินฟราเรด" data-name="เซนเซอร์รับสัญญาณอินฟราเรด KY-022" data-en="KY-022 Infrared Receiver Sensor">
+								<td class="col-check"><input type="checkbox" class="ce-bw-chk"></td>
+								<td class="col-sku"><span class="ce-bw-sku">IOT-22</span></td>
+								<td><span class="ce-bw-item-name">เซนเซอร์รับสัญญาณอินฟราเรด KY-022</span><div class="ce-bw-item-meta"><span class="ce-bw-item-en">KY-022 Infrared Receiver Sensor</span></div></td>
+								<td class="col-qty"><input type="number" class="ce-bw-qty-input" min="1" value="1"></td>
+							</tr>
+							<tr class="ce-bw-item-row" data-sku="IOT-23" data-cat="power" data-cat-label="ไฟฟ้าและแม่เหล็ก" data-name="เซนเซอร์ฮอลล์แม่เหล็ก KY-003" data-en="KY-003 Hall Magnetic Sensor">
+								<td class="col-check"><input type="checkbox" class="ce-bw-chk"></td>
+								<td class="col-sku"><span class="ce-bw-sku">IOT-23</span></td>
+								<td><span class="ce-bw-item-name">เซนเซอร์ฮอลล์แม่เหล็ก KY-003</span><div class="ce-bw-item-meta"><span class="ce-bw-item-en">KY-003 Hall Magnetic Sensor</span></div></td>
+								<td class="col-qty"><input type="number" class="ce-bw-qty-input" min="1" value="1"></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+
+				<div class="ce-bw-empty-filter" id="ce-bw-empty-filter">ไม่พบรายการอุปกรณ์ที่ตรงกับคำค้นหาหรือหมวดหมู่นี้</div>
+
+				<div class="ce-bw-custom-box">
+					<p class="ce-bw-custom-title"><span class="ce-bw-ico ce-bw-ico-plus"></span> เพิ่มอุปกรณ์นอกรายการ (เช่น บอร์ด ESP32, Arduino Uno, Raspberry Pi, Relay)</p>
+					<div class="ce-bw-custom-form">
+						<input type="text" id="ce-bw-custom-name" class="ce-bw-custom-name" placeholder="ระบุชื่อบอร์ดหรืออุปกรณ์เพิ่มเติม...">
+						<input type="number" id="ce-bw-custom-qty" class="ce-bw-custom-qty" min="1" value="1" aria-label="จำนวนอุปกรณ์เพิ่มเติม">
+						<button type="button" id="ce-bw-add-custom" class="ce-bw-btn-add"><span class="ce-bw-ico ce-bw-ico-plus"></span> เพิ่มรายการ</button>
+					</div>
+					<div class="ce-bw-custom-list" id="ce-bw-custom-list"></div>
+				</div>
+			</section>
+
+			<section class="ce-bw-panel">
+				<div class="ce-bw-panel-head">
+					<div class="ce-bw-panel-title-group">
+						<span class="ce-bw-panel-icon"><span class="ce-bw-ico ce-bw-ico-user"></span></span>
+						<div>
+							<h2 class="ce-bw-panel-title">ข้อมูลผู้ยืม / ผู้ส่งคืน และกำหนดระยะเวลา</h2>
+							<p class="ce-bw-panel-sub">กรอกข้อมูลให้ครบถ้วน ระบบบันทึกข้อมูลร่างอัตโนมัติในเบราว์เซอร์</p>
+						</div>
+					</div>
+				</div>
+				<div class="ce-bw-panel-body">
+					<div class="ce-bw-form-grid">
+						<div class="ce-bw-field">
+							<label class="ce-bw-label" for="bw-student-id">รหัสนักศึกษา <span class="ce-bw-req">*</span></label>
+							<input type="text" id="bw-student-id" class="ce-bw-input" placeholder="เช่น 66122201001">
+						</div>
+						<div class="ce-bw-field">
+							<label class="ce-bw-label" for="bw-full-name">ชื่อ-สกุล <span class="ce-bw-req">*</span></label>
+							<input type="text" id="bw-full-name" class="ce-bw-input" placeholder="ชื่อ นามสกุล">
+						</div>
+						<div class="ce-bw-field">
+							<label class="ce-bw-label" for="bw-year">ชั้นปี <span class="ce-bw-req">*</span></label>
+							<select id="bw-year" class="ce-bw-select">
+								<option value="">-- เลือกชั้นปี --</option>
+								<option value="ปี 1">ปี 1</option>
+								<option value="ปี 2">ปี 2</option>
+								<option value="ปี 3">ปี 3</option>
+								<option value="ปี 4">ปี 4</option>
+								<option value="ปี 5+">ปี 5+</option>
+							</select>
+						</div>
+						<div class="ce-bw-field">
+							<label class="ce-bw-label" for="bw-phone">เบอร์โทรศัพท์ติดต่อ</label>
+							<input type="tel" id="bw-phone" class="ce-bw-input" placeholder="เช่น 08x-xxx-xxxx">
+						</div>
+						<div class="ce-bw-field">
+							<label class="ce-bw-label" for="bw-course">รายวิชา / ชื่อโครงงาน</label>
+							<input type="text" id="bw-course" class="ce-bw-input" placeholder="เช่น IoT / ปริญญานิพนธ์">
+						</div>
+						<div class="ce-bw-field">
+							<label class="ce-bw-label" for="bw-advisor">อาจารย์ที่ปรึกษา / ผู้สอน</label>
+							<input type="text" id="bw-advisor" class="ce-bw-input" placeholder="ระบุชื่ออาจารย์ประจำวิชา">
+						</div>
+						<div class="ce-bw-field">
+							<label class="ce-bw-label" for="bw-borrow-date">วันที่ยืมอุปกรณ์</label>
+							<input type="date" id="bw-borrow-date" class="ce-bw-input">
+						</div>
+						<div class="ce-bw-field">
+							<label class="ce-bw-label" for="bw-due-date">กำหนดส่งคืน</label>
+							<input type="date" id="bw-due-date" class="ce-bw-input">
+							<div class="ce-bw-duration-pills">
+								<button type="button" class="ce-bw-dur-btn" data-days="7">+7 วัน</button>
+								<button type="button" class="ce-bw-dur-btn" data-days="14">+14 วัน</button>
+								<button type="button" class="ce-bw-dur-btn" data-days="30">+30 วัน</button>
+								<button type="button" class="ce-bw-dur-btn" data-days="60">+60 วัน</button>
+							</div>
+						</div>
+						<div class="ce-bw-field ce-bw-return-only">
+							<label class="ce-bw-label" for="bw-return-date">วันที่ส่งคืนจริง</label>
+							<input type="date" id="bw-return-date" class="ce-bw-input">
+						</div>
+						<div class="ce-bw-field ce-bw-return-only">
+							<label class="ce-bw-label" for="bw-inspector">ผู้ตรวจรับคืน (เจ้าหน้าที่/อาจารย์)</label>
+							<input type="text" id="bw-inspector" class="ce-bw-input" placeholder="ระบุชื่อผู้ตรวจรับอุปกรณ์">
+						</div>
+						<div class="ce-bw-field is-full">
+							<label class="ce-bw-label" for="bw-purpose">เหตุผลในการยืม / รายละเอียดการใช้งาน <span class="ce-bw-req">*</span></label>
+							<textarea id="bw-purpose" class="ce-bw-textarea" rows="3" placeholder="ระบุเหตุผลในการยืม เช่น ใช้ทดสอบระบบตรวจวัดในรายวิชา IoT หรือโปรเจกต์จบ..."></textarea>
+						</div>
+						<div class="ce-bw-field is-full ce-bw-borrow-only">
+							<label class="ce-bw-terms" id="bw-terms-label" for="bw-terms">
+								<input type="checkbox" id="bw-terms">
+								<span>ข้าพเจ้าขอรับรองว่าจะดูแลรักษาอุปกรณ์ที่ยืมให้อยู่ในสภาพสมบูรณ์ ใช้งานด้านการศึกษาเท่านั้น และส่งคืนตามกำหนดเวลาที่ระบุไว้</span>
+							</label>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+
+		<aside class="ce-bw-sidebar">
+			<div class="ce-bw-dock">
+				<div class="ce-bw-dock-head">
+					<div class="ce-bw-doc-code-row">
+						<span class="ce-bw-doc-label">เลขที่อ้างอิง</span>
+						<span class="ce-bw-doc-id" id="ce-bw-doc-id">CE-IOT-2569</span>
+					</div>
+					<h2 class="ce-bw-dock-title" id="ce-bw-dock-title">สรุปรายการคำขอยืมอุปกรณ์</h2>
+				</div>
+				<div class="ce-bw-dock-body">
+					<div class="ce-bw-metrics">
+						<div class="ce-bw-metric">
+							<span class="ce-bw-metric-val" id="ce-bw-metric-kinds">0</span>
+							<span class="ce-bw-metric-lbl">ชนิดอุปกรณ์</span>
+						</div>
+						<div class="ce-bw-metric">
+							<span class="ce-bw-metric-val" id="ce-bw-metric-qty">0</span>
+							<span class="ce-bw-metric-lbl">จำนวนรวม (ชิ้น)</span>
+						</div>
+					</div>
+
+					<ul class="ce-bw-slip-list" id="ce-bw-slip-list">
+						<li class="ce-bw-slip-empty">ยังไม่ได้เลือกอุปกรณ์ กรุณาติ๊กเลือกรายการทางซ้าย</li>
+					</ul>
+
+					<div class="ce-bw-status-box is-warn" id="ce-bw-status-box">กรุณาเลือกอุปกรณ์อย่างน้อย 1 รายการ</div>
+
+					<p class="ce-bw-export-head"><span class="ce-bw-ico ce-bw-ico-download"></span> ดาวน์โหลดไฟล์ทันที (ไม่ต้องกด Ctrl+P)</p>
+					<div class="ce-bw-export-stack">
+						<button type="button" class="ce-bw-btn-export is-primary" id="ce-bw-exp-pdf">
+							<span><span class="ce-bw-ico ce-bw-ico-file"></span> ดาวน์โหลดเอกสาร PDF</span>
+							<span class="ce-bw-ext-badge">.pdf</span>
+						</button>
+						<button type="button" class="ce-bw-btn-export" id="ce-bw-exp-doc">
+							<span><span class="ce-bw-ico ce-bw-ico-file"></span> ดาวน์โหลดไฟล์ Word</span>
+							<span class="ce-bw-ext-badge">.doc</span>
+						</button>
+						<button type="button" class="ce-bw-btn-export" id="ce-bw-exp-xlsx">
+							<span><span class="ce-bw-ico ce-bw-ico-file"></span> ดาวน์โหลดตาราง Excel</span>
+							<span class="ce-bw-ext-badge">.xlsx</span>
+						</button>
+						<div class="ce-bw-export-mini-row">
+							<button type="button" class="ce-bw-btn-mini" id="ce-bw-exp-csv">CSV</button>
+							<button type="button" class="ce-bw-btn-mini" id="ce-bw-exp-json">JSON</button>
+							<button type="button" class="ce-bw-btn-mini" id="ce-bw-exp-print"><span class="ce-bw-ico ce-bw-ico-print"></span> พิมพ์</button>
+						</div>
+					</div>
+
+					<div class="ce-bw-dock-foot">
+						<span>บันทึกร่างอัตโนมัติแล้ว</span>
+						<button type="button" class="ce-bw-reset-link" id="ce-bw-reset-all">ล้างข้อมูลทั้งหมด</button>
+					</div>
+				</div>
+			</div>
+		</aside>
+	</div>
+
+	<section class="ce-bw-policy-view">
+		<div class="ce-bw-steps">
+			<div class="ce-bw-step-card">
+				<span class="ce-bw-step-num">STEP 01</span>
+				<h3>เลือกอุปกรณ์และกรอกข้อมูล</h3>
+				<p>เลือกเซนเซอร์จากคลัง 23 รายการหรือเพิ่มอุปกรณ์เสริม กรอกรหัสนักศึกษา รายวิชา และกำหนดวันส่งคืน</p>
+			</div>
+			<div class="ce-bw-step-card">
+				<span class="ce-bw-step-num">STEP 02</span>
+				<h3>ดาวน์โหลดเอกสารทันที</h3>
+				<p>กดดาวน์โหลดเป็นไฟล์ PDF, Word, Excel หรือ JSON ได้เลยจากแผงสรุปรายการ โดยไม่ต้องกด Ctrl+P</p>
+			</div>
+			<div class="ce-bw-step-card">
+				<span class="ce-bw-step-num">STEP 03</span>
+				<h3>ยื่นรับอุปกรณ์ที่สาขาวิชา</h3>
+				<p>นำไฟล์ PDF/Word ที่ลงนามอาจารย์ที่ปรึกษาแล้วมายื่นรับอุปกรณ์ได้ที่ห้องปฏิบัติการ อาคาร 47</p>
+			</div>
+			<div class="ce-bw-step-card">
+				<span class="ce-bw-step-num">STEP 04</span>
+				<h3>นำไฟล์ .json มาทำรายการคืน</h3>
+				<p>เมื่อใช้งานเสร็จ เปิดแท็บส่งคืนและนำเข้าไฟล์ .json เพื่อตรวจรับสภาพอุปกรณ์และออกใบส่งคืน</p>
+			</div>
+		</div>
+
+		<div class="ce-bw-panel">
+			<div class="ce-bw-panel-head">
+				<div class="ce-bw-panel-title-group">
+					<span class="ce-bw-panel-icon"><span class="ce-bw-ico ce-bw-ico-book"></span></span>
+					<div>
+						<h2 class="ce-bw-panel-title">ระเบียบการยืม–คืนอุปกรณ์ปฏิบัติการ IoT</h2>
+						<p class="ce-bw-panel-sub">สาขาวิชาวิศวกรรมคอมพิวเตอร์ คณะวิศวกรรมศาสตร์และเทคโนโลยีอุตสาหกรรม มหาวิทยาลัยราชภัฏสวนสุนันทา</p>
+					</div>
+				</div>
+			</div>
+			<div class="ce-bw-panel-body">
+				<ol class="ce-bw-rules-list">
+					<li><strong>ผู้มีสิทธิ์ยืมอุปกรณ์:</strong> นักศึกษาสาขาวิชาวิศวกรรมคอมพิวเตอร์ หรือผู้เรียนในรายวิชาที่สาขาวิชาเปิดสอน โดยต้องระบุรหัสนักศึกษา รายวิชา และอาจารย์ผู้รับผิดชอบ</li>
+					<li><strong>ระยะเวลาการยืม:</strong> ยืมเพื่องานปฏิบัติการทั่วไปครั้งละ 7–14 วัน หรือยืมสำหรับทำปริญญานิพนธ์/โครงงานระยะยาวได้ตามกำหนดที่อาจารย์ที่ปรึกษาอนุมัติ</li>
+					<li><strong>การตรวจสอบก่อนรับและส่งคืน:</strong> กรุณาตรวจเช็กอุปกรณ์และสายเชื่อมต่อร่วมกับเจ้าหน้าที่ทุกครั้ง หากพบอุปกรณ์ชำรุดก่อนยืมให้แจ้งบันทึกในหมายเหตุทันที</li>
+					<li><strong>แนะนำให้บันทึกไฟล์ .json เก็บไว้ด้วย:</strong> นอกจากไฟล์ PDF สำหรับยื่นเอกสารแล้ว แนะนำให้กดดาวน์โหลดไฟล์ .json เก็บไว้ เพื่อนำกลับมาอัปโหลดในแท็บ "ส่งคืนอุปกรณ์" ได้โดยไม่ต้องกรอกข้อมูลซ้ำ</li>
+					<li><strong>กรณีอุปกรณ์ชำรุดหรือสูญหาย:</strong> หากเกิดความเสียหายจากการใช้งานผิดประเภทหรือไม่ส่งคืนตามกำหนด ให้แจ้งอาจารย์ประจำวิชาและเจ้าหน้าที่ห้องปฏิบัติการเพื่อดำเนินการซ่อมแซมหรือชดเชยตามระเบียบ</li>
+				</ol>
+			</div>
+		</div>
+	</section>
+
+	<footer class="ce-bw-footer">
+		<p style="margin:0;">&copy; สาขาวิชาวิศวกรรมคอมพิวเตอร์ คณะวิศวกรรมศาสตร์และเทคโนโลยีอุตสาหกรรม มหาวิทยาลัยราชภัฏสวนสุนันทา</p>
+	</footer>
+</div>
+<script src="https://cdn.jsdelivr.net/gh/kchayta32/ce-ssru-navbar@v1.1.5/page/ce-borrow.js"></script>
+</body>
+</html>
