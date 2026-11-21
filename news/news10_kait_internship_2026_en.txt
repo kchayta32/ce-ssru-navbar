@@ -1,0 +1,107 @@
+<p>
+	<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@400;500;600;700&display=swap" rel="stylesheet">
+</p>
+
+<p>
+	<link href="https://cdn.jsdelivr.net/gh/kchayta32/ce-ssru-navbar@v1.1.9/news/ce-news.css" rel="stylesheet">
+</p>
+<div class="ce-news-wrap" lang="en">
+	<header class="ce-news-header">
+		<div class="ce-news-meta-row"><span class="ce-news-badge ce-emo-before ce-emo-handshake">International Exchange Program</span> <span class="ce-news-date ce-emo-before ce-emo-cal">November 18, 2026</span></div>
+
+		<h1 class="ce-news-title">CE SSRU Students Participate in the KAIT Technical Internship Program (Fall 2026) in Japan</h1>
+
+		<p class="ce-news-subtitle ce-emo-before ce-emo-pin">Kanagawa Institute of Technology, Japan (November 11 – December 21, 2026)</p>
+	</header>
+
+	<div class="ce-news-body">
+		<p class="ce-news-lead">Students from the Faculty of Engineering and Industrial Technology, Suan Sunandha Rajabhat University, joined an international academic exchange workshop with <strong>Kanagawa Institute of Technology (KAIT), Japan</strong>, under the <strong>KAIT Technical Internship Program (Fall 2026)</strong>.</p>
+
+		<div class="ce-news-callout">
+			<h2 class="ce-news-callout-title ce-emo-before ce-emo-target">Program Delegation &amp; Details</h2>
+
+			<ul class="ce-news-list">
+				<li><strong>Supervising Faculty Member:</strong> Asst. Prof. Dr. Kraiop Charoensopa</li>
+				<li><strong>Computer Engineering Students:</strong>
+					<ul>
+						<li>Miss Anantaya Chancharoen</li>
+						<li>Miss Thanaphon Wiratmongkhonchai</li>
+						<li>Miss Kesinee Saesantia</li>
+					</ul>
+				</li>
+				<li><strong>Program Duration:</strong> November 11 – December 21, 2026</li>
+				<li><strong>Objectives:</strong> To promote cultural exchange, teaching and learning collaboration, and hands-on professional internship experience</li>
+			</ul>
+		</div>
+
+		<p><strong>Photo Credit:</strong> Asst. Prof. Dr. Kraiop Charoensopa</p>
+
+		<p class="ce-news-tags">#SSRU #SDG_SSRU #SuanSunandhaRajabhatUniversity #EITSSRU</p>
+	</div>
+	<section class="ce-news-gallery">
+		<div class="ce-news-gallery-head">
+			<h2 class="ce-news-gallery-title ce-emo-before ce-emo-photo">Exchange Program Photo Gallery</h2>
+			<span class="ce-news-gallery-hint">Click any photo to view full size</span></div>
+		<div class="ce-photo-grid">
+			<details class="ce-lb-item ce-lb-item--hero">
+				<summary class="ce-photo-tile ce-photo-tile--hero"><span class="ce-photo-frame"><img alt="KAIT Technical Internship Program Fall 2026 Japan Photo 1" src="https://cdn.jsdelivr.net/gh/kchayta32/ce-ssru-navbar@v1.1.9/news/images/post10/photo1.jpg"></span><span class="ce-photo-zoom-badge">Zoom 1/5</span><span class="ce-lb-close-fab">Close ×</span></summary>
+				<div class="ce-lb-modal">
+					<div class="ce-lb-dialog">
+						<figure class="ce-lb-figure"><img alt="KAIT Technical Internship Program Fall 2026 Japan Photo 1" src="https://cdn.jsdelivr.net/gh/kchayta32/ce-ssru-navbar@v1.1.9/news/images/post10/photo1.jpg"></figure>
+						<div class="ce-lb-toolbar"><span class="ce-lb-counter">Photo 1 / 5 — Click anywhere to close</span></div>
+					</div>
+				</div>
+			</details>
+			<details class="ce-lb-item">
+				<summary class="ce-photo-tile"><span class="ce-photo-frame"><img alt="KAIT Technical Internship Program Fall 2026 Japan Photo 2" src="https://cdn.jsdelivr.net/gh/kchayta32/ce-ssru-navbar@v1.1.9/news/images/post10/photo2.jpg"></span><span class="ce-photo-zoom-badge">2/5</span><span class="ce-lb-close-fab">Close ×</span></summary>
+				<div class="ce-lb-modal">
+					<div class="ce-lb-dialog">
+						<figure class="ce-lb-figure"><img alt="KAIT Technical Internship Program Fall 2026 Japan Photo 2" src="https://cdn.jsdelivr.net/gh/kchayta32/ce-ssru-navbar@v1.1.9/news/images/post10/photo2.jpg"></figure>
+						<div class="ce-lb-toolbar"><span class="ce-lb-counter">Photo 2 / 5 — Click anywhere to close</span></div>
+					</div>
+				</div>
+			</details>
+			<details class="ce-lb-item">
+				<summary class="ce-photo-tile"><span class="ce-photo-frame"><img alt="KAIT Technical Internship Program Fall 2026 Japan Photo 3" src="https://cdn.jsdelivr.net/gh/kchayta32/ce-ssru-navbar@v1.1.9/news/images/post10/photo3.jpg"></span><span class="ce-photo-zoom-badge">3/5</span><span class="ce-lb-close-fab">Close ×</span></summary>
+				<div class="ce-lb-modal">
+					<div class="ce-lb-dialog">
+						<figure class="ce-lb-figure"><img alt="KAIT Technical Internship Program Fall 2026 Japan Photo 3" src="https://cdn.jsdelivr.net/gh/kchayta32/ce-ssru-navbar@v1.1.9/news/images/post10/photo3.jpg"></figure>
+						<div class="ce-lb-toolbar"><span class="ce-lb-counter">Photo 3 / 5 — Click anywhere to close</span></div>
+					</div>
+				</div>
+			</details>
+			<details class="ce-lb-item">
+				<summary class="ce-photo-tile"><span class="ce-photo-frame"><img alt="KAIT Technical Internship Program Fall 2026 Japan Photo 4" src="https://cdn.jsdelivr.net/gh/kchayta32/ce-ssru-navbar@v1.1.9/news/images/post10/photo4.jpg"></span><span class="ce-photo-zoom-badge">4/5</span><span class="ce-lb-close-fab">Close ×</span></summary>
+				<div class="ce-lb-modal">
+					<div class="ce-lb-dialog">
+						<figure class="ce-lb-figure"><img alt="KAIT Technical Internship Program Fall 2026 Japan Photo 4" src="https://cdn.jsdelivr.net/gh/kchayta32/ce-ssru-navbar@v1.1.9/news/images/post10/photo4.jpg"></figure>
+						<div class="ce-lb-toolbar"><span class="ce-lb-counter">Photo 4 / 5 — Click anywhere to close</span></div>
+					</div>
+				</div>
+			</details>
+			<details class="ce-lb-item">
+				<summary class="ce-photo-tile"><span class="ce-photo-frame"><img alt="KAIT Technical Internship Program Fall 2026 Japan Photo 5" src="https://cdn.jsdelivr.net/gh/kchayta32/ce-ssru-navbar@v1.1.9/news/images/post10/photo5.jpg"></span><span class="ce-photo-zoom-badge">5/5 (+6)</span><span class="ce-lb-close-fab">Close ×</span></summary>
+				<div class="ce-lb-modal">
+					<div class="ce-lb-dialog">
+						<figure class="ce-lb-figure"><img alt="KAIT Technical Internship Program Fall 2026 Japan Photo 5" src="https://cdn.jsdelivr.net/gh/kchayta32/ce-ssru-navbar@v1.1.9/news/images/post10/photo5.jpg"></figure>
+						<div class="ce-lb-toolbar"><span class="ce-lb-counter">Photo 5 / 5 — Click anywhere to close</span></div>
+					</div>
+				</div>
+			</details>
+		</div>
+		<div class="ce-photo-more-bar">
+			<span>6 more photos are available in the original Facebook album.</span>
+			<a class="ce-photo-more-btn" href="https://www.facebook.com/ssru.fit/posts/pfbid0e1rSmqTTWuENMHtuS9x4c6j24vGRKfLL61oZ7wAst6YvjKskrJWyFcN7gMzceFR4l" rel="noopener noreferrer" target="_blank">View All Photos on Facebook</a>
+		</div>
+	</section>
+	<footer class="ce-news-footer">
+		<p class="ce-news-channels-title">Follow Computer Engineering &amp; Faculty of Engineering and Industrial Technology</p>
+
+		<ul class="ce-news-channels">
+			<li><a class="ce-emo-before ce-emo-globe" href="http://www.ce.fit.ssru.ac.th" rel="noopener noreferrer" target="_blank">CE SSRU Website</a></li>
+			<li><a class="ce-emo-before ce-emo-fb" href="https://www.facebook.com/ssru.fit" rel="noopener noreferrer" target="_blank">EIT SSRU Facebook</a></li>
+			<li><a class="ce-emo-before ce-emo-globe" href="https://eit.ssru.ac.th/" rel="noopener noreferrer" target="_blank">EIT SSRU Website</a></li>
+			<li><a class="ce-emo-before ce-emo-yt" href="https://www.youtube.com/@cessru672" rel="noopener noreferrer" target="_blank">YouTube</a></li>
+		</ul>
+	</footer>
+</div>
