@@ -61,3 +61,9 @@ Stylesheets สำหรับเพิ่ม UI Motion และ Animation ใ�
 <link href="https://cdn.jsdelivr.net/gh/kchayta32/ce-ssru-navbar@v1.1.5/page/ce-borrow.css" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/gh/kchayta32/ce-ssru-navbar@v1.1.5/page/ce-borrow.js"></script>
 ```
+
+### 10. แบนเนอร์หน้าแรก: ระบบยืม–คืนอุปกรณ์ IoT (`banner_borrow_2066x761.png`)
+แบนเนอร์ขนาด `2066 × 761 px` (`72 DPI`) สำหรับสไลด์หน้าแรก (`home_updated_20261121.txt`) เชื่อมต่อไปยังหน้า `/page/borrow` วางต่อท้ายสไลด์ `สถานที่ฝึกประสบการณ์วิชาชีพ (39 องค์กรพันธมิตร)`
+```html
+<img src="https://cdn.jsdelivr.net/gh/kchayta32/ce-ssru-navbar@v1.1.6/banner_borrow_2066x761.png" alt="ระบบยืม–คืนอุปกรณ์ IoT">
+```
