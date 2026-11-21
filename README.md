@@ -44,3 +44,9 @@ Stylesheets สำหรับเพิ่ม UI Motion และ Animation ใ�
 ```html
 <link href="https://cdn.jsdelivr.net/gh/kchayta32/ce-ssru-navbar@v1.1.2/page/ce-intern.css" rel="stylesheet">
 ```
+
+### 8. แบนเนอร์หน้าแรก: สถานที่ฝึกประสบการณ์วิชาชีพ (`banner_intern_2066x761.png`)
+แบนเนอร์ขนาด `2066 × 761 px` (`72 DPI`) สำหรับสไลด์หน้าแรก (`home_updated_20261121.txt`) เชื่อมต่อไปยังหน้า `/page/intern` วางต่อท้ายสไลด์ `เปิดรับสมัครรอบ Portfolio`
+```html
+<img src="https://cdn.jsdelivr.net/gh/kchayta32/ce-ssru-navbar@v1.1.3/banner_intern_2066x761.png" alt="สถานที่ฝึกประสบการณ์วิชาชีพ">
+```
