@@ -58,8 +58,8 @@ Stylesheets สำหรับเพิ่ม UI Motion และ Animation ใ�
 <iframe src="https://kchayta32.github.io/ce-ssru-navbar/page/borrow-app.html" width="100%" height="1060" frameborder="0" style="width:100%; height:1060px; border:0; border-radius:12px; display:block; background:#ffffff;"></iframe>
 
 <!-- ไฟล์ Asset ที่โหลดผ่าน jsDelivr ภายใน borrow-app.html -->
-<link href="https://cdn.jsdelivr.net/gh/kchayta32/ce-ssru-navbar@v1.1.5/page/ce-borrow.css" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/gh/kchayta32/ce-ssru-navbar@v1.1.5/page/ce-borrow.js"></script>
+<link href="https://cdn.jsdelivr.net/gh/kchayta32/ce-ssru-navbar@v1.1.7/page/ce-borrow.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/kchayta32/ce-ssru-navbar@v1.1.7/page/ce-borrow.js"></script>
 ```
 
 ### 10. แบนเนอร์หน้าแรก: ระบบยืม–คืนอุปกรณ์ IoT (`banner_borrow_2066x761.png`)
