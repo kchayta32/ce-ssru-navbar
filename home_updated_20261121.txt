@@ -142,7 +142,7 @@
 		<!-- Indicators -->
 
 		<ol class="carousel-indicators">
-			<li data-slide-to="0" data-target="#myCarousel">
+			<li class="active" data-slide-to="0" data-target="#myCarousel">
 				<br>
 			</li>
 			<li data-slide-to="1" data-target="#myCarousel">
@@ -154,7 +154,7 @@
 			<li data-slide-to="3" data-target="#myCarousel">
 				<br>
 			</li>
-			<li class="active" data-slide-to="4" data-target="#myCarousel">
+			<li data-slide-to="4" data-target="#myCarousel">
 				<br>
 			</li>
 			<li data-slide-to="5" data-target="#myCarousel">
@@ -163,7 +163,7 @@
 		</ol>
 		<!-- Wrapper for slides -->
 		<div class="carousel-inner">
-			<div class="item">
+			<div class="item active">
 				<a href="http://admission.ssru.ac.th/" rel="noopener noreferrer" target="_blank"><img class="fr-fic fr-dib" style="width: 100%; height: 100%;" src="http://www.ce.fit.ssru.ac.th/useruploads/images/20261120/94bece6752e36db7dea9fe5c7a4394dfac106cb5.jpg"></a>
 				<div class="myIndicator">
 					<div class="myCarouselTitle">Computer Engineering รับสมัครนักศึกษา 2570</div>
@@ -187,7 +187,7 @@
 					<div class="myCarouselTitle">Computer Engineering, SSRU</div>
 				</div>
 			</div>
-			<div class="item active">
+			<div class="item">
 				<a href="http://ce.fit.ssru.ac.th/announcement/view/20260528" rel="noopener noreferrer" target="_blank"><img class="fr-fic fr-dib" style="width: 100%; height: 100%;" src="http://www.ce.fit.ssru.ac.th/useruploads/images/20260910/36901e92481e94086f7f7ad5785c236046cc517d.png"></a>
 				<div class="carousel-caption">
 
