@@ -85,3 +85,14 @@ Stylesheets สำหรับเพิ่ม UI Motion และ Animation ใ�
 ```html
 <link href="https://cdn.jsdelivr.net/gh/kchayta32/ce-ssru-navbar@v1.1.8/page/ce-patent.css" rel="stylesheet">
 ```
+
+### 14. หน้าผลงานนักศึกษาแยกตามรายปี (`student-works/index.html`, `student-works/ce-student-works.css`, `student-works/ce-student-works.js`)
+รวบรวมผลงานนักศึกษา รางวัล งานประชุมวิชาการระดับชาติ/นานาชาติ อนุสิทธิบัตร และโครงการแลกเปลี่ยนต่างประเทศแยกเป็นรายปี (พ.ศ. 2562–2569) จาก `http://www.ce.fit.ssru.ac.th/home` และเพจ Facebook `ComputerEngineeringSSRU` พร้อม **Expanding-Card Hero Carousel Motion** (การ์ดฝั่งขวาขยายเต็มจอเป็นพื้นหลังต่อเนื่อง + แถบความคืบหน้าอัตโนมัติ + เลือกกรองรายปี) และ **คลังผลงานรายปี + Modal รายละเอียด** โหลด CSS/JS/รูปภาพผ่าน jsDelivr (`https://`) และฝังใน CMS Froala ด้วย `<iframe>` (`student-works/froala_student_works.txt`)
+```html
+<!-- สำหรับวางใน Froala CMS Code View (student-works/froala_student_works.txt) -->
+<iframe src="https://kchayta32.github.io/ce-ssru-navbar/student-works/" width="100%" height="920" frameborder="0" style="width:100%; height:920px; border:0; border-radius:14px; display:block; background:#090d16;"></iframe>
+
+<!-- ไฟล์ Asset ที่โหลดผ่าน jsDelivr ภายใน student-works/index.html -->
+<link href="https://cdn.jsdelivr.net/gh/kchayta32/ce-ssru-navbar@v1.2.0/student-works/ce-student-works.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/kchayta32/ce-ssru-navbar@v1.2.0/student-works/ce-student-works.js"></script>
+```
