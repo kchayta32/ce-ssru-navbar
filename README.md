@@ -40,7 +40,7 @@ Stylesheets สำหรับเพิ่ม UI Motion และ Animation ใ�
 ```
 
 ### 7. หน้าสถานที่ฝึกประสบการณ์วิชาชีพ (`page/ce-intern.css`)
-ออกแบบใหม่สำหรับ CMS/Froala พร้อมคลังไอคอนองค์กร 39 แห่ง (`page/intern-icons/`), Dual-Row Marquee Motion แสดงโลโก้และชื่อสถานประกอบการใน Section แรก, ตารางรายละเอียดที่อยู่และเบอร์โทรคลิกโทรออกได้ใน Section ถัดมา และ Scroll-Driven Reveal Animation (`animation-timeline: view()`) แสดงผลทีละ Section เมื่อเลื่อนเมาส์ เชื่อมต่อทั้งหมดผ่าน `https://`
+ออกแบบใหม่สำหรับ CMS/Froala พร้อมคลังไอคอนองค์กร 39 แห่ง (`page/intern-icons/`), Dual-Row Marquee Motion แสดงโลโก้และชื่อสถานประกอบการใน Section แรก, ตารางรายละเอียดที่อยู่และเบอร์โทรคลิกโทรออกได้ใน Section ถัดมา และ Scroll-Driven Reveal Animation (`animation-timeline: view()`) แสดงผลทีละ Section เมื่อเลื่อนเมาส์ โดยโหลดไอคอนทั้งหมดผ่าน CSS เพื่อคุมขนาด HTML ให้ปลอดภัยต่อขีดจำกัด `TEXT` (64KB) ของฐานข้อมูล CMS และเชื่อมต่อทั้งหมดผ่าน `https://`
 ```html
-<link href="https://cdn.jsdelivr.net/gh/kchayta32/ce-ssru-navbar@v1.1.1/page/ce-intern.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/gh/kchayta32/ce-ssru-navbar@v1.1.2/page/ce-intern.css" rel="stylesheet">
 ```
