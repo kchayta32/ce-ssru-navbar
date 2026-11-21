@@ -1,0 +1,90 @@
+<p>
+	<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@400;500;600;700&display=swap" rel="stylesheet">
+</p>
+
+<p>
+	<link href="https://cdn.jsdelivr.net/gh/kchayta32/ce-ssru-navbar@v1.1.8/page/ce-patent.css" rel="stylesheet">
+</p>
+<div class="ce-patent-wrap">
+	<!-- เอกสารการจดสิทธิบัตร รหัส 62 -->
+	<details class="ce-patent-year" open="">
+		<summary class="ce-patent-summary"><span class="ce-patent-summary-title"><span>เอกสารการจดสิทธิบัตร รหัส 62</span><span class="ce-patent-count">1 รายการ</span></span><span class="ce-patent-toggle"><span class="ce-patent-chevron">▼</span></span></summary>
+		<div class="ce-patent-body">
+
+			<ul class="ce-patent-list">
+				<li class="ce-patent-item"><strong class="ce-patent-title">1. การพัฒนาต้นแบบตู้เพาะชำและดูแลต้นกล้าผักควบคุมผ่านเว็บแอปพลิเคชัน</strong>
+					<span class="ce-patent-people">ผู้ประดิษฐ์: นางสาววิวรรณรัตน์ สารมาตย์ (62122519019), นางสาวพิมพกานต์ คิดอ่าน (62122519020)<br>อาจารย์ที่ปรึกษา: ผู้ช่วยศาสตราจารย์ ดร.รวิ อุตตมธนินทร์</span>
+					<div class="ce-patent-actions"><a class="ce-patent-doc-btn" href="https://drive.google.com/file/d/1S9JGGycB4lDPZlRTYAuw9n5h_u0yqY_7/view?usp=drive_link" rel="noopener noreferrer" target="_blank">ลิงก์อนุสิทธิบัตร</a></div>
+				</li>
+			</ul>
+		</div>
+	</details>
+	<!-- เอกสารการจดสิทธิบัตร รหัส 61 -->
+	<details class="ce-patent-year" open="">
+		<summary class="ce-patent-summary"><span class="ce-patent-summary-title"><span>เอกสารการจดสิทธิบัตร รหัส 61</span><span class="ce-patent-count">5 รายการ</span></span><span class="ce-patent-toggle"><span class="ce-patent-chevron">▼</span></span></summary>
+		<div class="ce-patent-body">
+
+			<ul class="ce-patent-list">
+				<li class="ce-patent-item"><strong class="ce-patent-title">1. ตู้ต้นแบบปลูกและดูแลไมโครกรีนอัตโนมัติผ่านเว็บแอปพลิเคชัน</strong>
+					<span class="ce-patent-people">ผู้ประดิษฐ์: นายพัฒนกาญจน์ ทิมแท้ (61122519005), นายอาทิตย์ จันทราวัช (61122519024), นายศุภณัฐ อุริต (61122519045)<br>อาจารย์ที่ปรึกษา: ผู้ช่วยศาสตราจารย์ ดร.รวิ อุตตมธนินทร์</span>
+					<div class="ce-patent-actions"><a class="ce-patent-doc-btn" href="https://drive.google.com/file/d/1LqwksPIG4BIuE2QAujKNrfkbSbFEmID5/view?usp=drive_link" rel="noopener noreferrer" target="_blank">ลิงก์อนุสิทธิบัตร</a></div>
+				</li>
+				<li class="ce-patent-item"><strong class="ce-patent-title">2. ระบบเฝ้ามองการเจริญเติบโตของพืชด้วยการประมวลผลภาพ</strong>
+					<span class="ce-patent-people">ผู้ประดิษฐ์: นายสิทธิพงษ์ หนูแป้นน้อย (รหัส 61122519027), นายธนาคาร หล่อนสิ่ว (รหัส 61122519029), นายนรภัทร แก้วเกษม (รหัส 61122519040)<br>อาจารย์ที่ปรึกษา: ผู้ช่วยศาสตราจารย์ ดร.รวิ อุตตมธนินทร์</span>
+					<div class="ce-patent-actions"><a class="ce-patent-doc-btn" href="https://drive.google.com/file/d/1UEsoviGjBPI_U6Ux6jz1ywBRHm4XJrBm/view?usp=drive_link" rel="noopener noreferrer" target="_blank">ลิงก์อนุสิทธิบัตร</a></div>
+				</li>
+				<li class="ce-patent-item"><strong class="ce-patent-title">3. ถังขยะรีไซเคิลอัจฉริยะ</strong>
+					<span class="ce-patent-people">ผู้ประดิษฐ์: นายกฤษณะพงศ์ จันทร์เพ็ญ (รหัสนักศึกษา 61122519013), นางสาวชุติมา บูรณะ (รหัสนักศึกษา 61122519022), นางสาวธัญญารัตน์ ไอซิม (รหัสนักศึกษา 61122519036)<br>อาจารย์ที่ปรึกษา: ผศ.ขวัญเรือน รัศมี, ผศ.ดร.รวิ อุตตมธนินทร์</span>
+					<div class="ce-patent-actions"><a class="ce-patent-doc-btn" href="https://drive.google.com/file/d/1Z0OFsvaSRTNRT1epxaZMfOfllPM5bqi1/view?usp=drive_link" rel="noopener noreferrer" target="_blank">ลิงก์อนุสิทธิบัตร</a></div>
+				</li>
+				<li class="ce-patent-item"><strong class="ce-patent-title">4. ตู้ต้นแบบขนาดเล็กสำหรับดูแลต้นสตรอว์เบอร์รีควบคุมผ่านเว็บแอปพลิเคชัน</strong>
+					<span class="ce-patent-people">ผู้ประดิษฐ์: นางสาวเพชรรัตน์ สว่างวงษ์ (61122519006), นายปริญญา โพธิ์นุช (61122519018), นายณัฐภัทร เกิดแก้ว (61122519019)<br>อาจารย์ที่ปรึกษา: ผู้ช่วยศาสตราจารย์ ดร.รวิ อุตตมธนินทร์</span>
+					<div class="ce-patent-actions"><a class="ce-patent-doc-btn" href="https://drive.google.com/file/d/1q5tS39eWWAyTWIZ-sj_MU8nCEprMNj-a/view?usp=drive_link" rel="noopener noreferrer" target="_blank">ลิงก์อนุสิทธิบัตร</a></div>
+				</li>
+				<li class="ce-patent-item"><strong class="ce-patent-title">5. หุ่นยนต์เคลื่อนที่อัตโนมัติสำหรับการขนส่งภายในอาคาร</strong>
+					<span class="ce-patent-people">ผู้ประดิษฐ์: นายสุริยะ จ๋อยฟอง (61122519028), นายวิวัฒน์ชัย พยอมแย้ม (61122519039), นายปาริค อารยสมัย (61122519044)<br>อาจารย์ที่ปรึกษา: ผู้ช่วยศาสตราจารย์ ดร.รวิ อุตตมธนินทร์</span>
+					<div class="ce-patent-actions"><a class="ce-patent-doc-btn" href="https://drive.google.com/file/d/1gNAkPfZqQkbCU-0pKi_FZijrkEEEkxLO/view?usp=drive_link" rel="noopener noreferrer" target="_blank">ลิงก์อนุสิทธิบัตร</a>
+						<a class="ce-patent-doc-btn" href="https://drive.google.com/file/d/1TjXFHCwLLEAUGg8votJwsYnS-YBFLXmK/view?usp=drive_link" rel="noopener noreferrer" target="_blank">ลิงก์สิทธิบัตรการออกแบบผลิตภัณฑ์</a></div>
+				</li>
+			</ul>
+		</div>
+	</details>
+	<!-- เอกสารการจดสิทธิบัตร รหัส 60 -->
+	<details class="ce-patent-year" open="">
+		<summary class="ce-patent-summary"><span class="ce-patent-summary-title"><span>เอกสารการจดสิทธิบัตร รหัส 60</span><span class="ce-patent-count">1 รายการ</span></span><span class="ce-patent-toggle"><span class="ce-patent-chevron">▼</span></span></summary>
+		<div class="ce-patent-body">
+
+			<ul class="ce-patent-list">
+				<li class="ce-patent-item"><strong class="ce-patent-title">1. การจำแนกชนิดเม็ดยาโดยใช้เทคนิคการเรียนรู้เชิงลึก</strong>
+					<span class="ce-patent-people">ผู้ประดิษฐ์: นางสาววริษา กองไชย (รหัส 60122519017), นางสาวศิริลักษณ์ คงศรี (รหัส 60122519027)<br>อาจารย์ที่ปรึกษา: ผู้ช่วยศาสตราจารย์ ดร.รวิ อุตตมธนินทร์</span>
+					<div class="ce-patent-actions"><a class="ce-patent-doc-btn" href="https://drive.google.com/file/d/1GOZGYf4lG-V7ZslMiZXeZMGf0gomdbD_/view?usp=drive_link" rel="noopener noreferrer" target="_blank">ลิงก์อนุสิทธิบัตร</a></div>
+				</li>
+			</ul>
+		</div>
+	</details>
+	<!-- เอกสารการจดสิทธิบัตร รหัส 59 -->
+	<details class="ce-patent-year" open="">
+		<summary class="ce-patent-summary"><span class="ce-patent-summary-title"><span>เอกสารการจดสิทธิบัตร รหัส 59</span><span class="ce-patent-count">1 รายการ</span></span><span class="ce-patent-toggle"><span class="ce-patent-chevron">▼</span></span></summary>
+		<div class="ce-patent-body">
+
+			<ul class="ce-patent-list">
+				<li class="ce-patent-item"><strong class="ce-patent-title">1. เครื่องแจ้งเตือนการรับประทานยาสำหรับผู้สูงอายุ (THE NOTIFICATION MACHINE TO MEDICATION FOR THE ELDERLY)</strong>
+					<span class="ce-patent-people">ผู้ประดิษฐ์: พรรณนิภา มาทวงค์ (รหัสนักศึกษา 59122519054)<br>อาจารย์ที่ปรึกษา: อาจารย์ ดร.รวิ อุตตมธนินทร์</span>
+					<div class="ce-patent-actions"><a class="ce-patent-doc-btn" href="https://drive.google.com/file/d/17e5SV-WM8vY8dR9-A5F0zDXsoRpOD_vD/view?usp=drive_link" rel="noopener noreferrer" target="_blank">ลิงก์อนุสิทธิบัตร</a>
+						<a class="ce-patent-doc-btn" href="https://drive.google.com/file/d/1DIICFsvZq0eSH1lUV1OMPDHveEl72dZe/view?usp=drive_link" rel="noopener noreferrer" target="_blank">ลิงก์สิทธิบัตรออกแบบ</a></div>
+				</li>
+			</ul>
+		</div>
+	</details>
+	<!-- เอกสารการจดสิทธิบัตร รหัส 58 -->
+	<details class="ce-patent-year">
+		<summary class="ce-patent-summary"><span class="ce-patent-summary-title"><span>เอกสารการจดสิทธิบัตร รหัส 58</span><span class="ce-patent-count">2 รายการ</span></span><span class="ce-patent-toggle"><span class="ce-patent-chevron">▼</span></span></summary>
+		<div class="ce-patent-body">
+
+			<ul class="ce-patent-list">
+				<li class="ce-patent-item"><a class="ce-patent-title-link" href="https://drive.google.com/file/d/1XDkFNFt8tWm3MgFtbwu72hnK9-n6ih5j/view?usp=drive_link" rel="noopener noreferrer" target="_blank">1. เอกสารการจดสิทธิบัตรตะกร้าอัจฉริยะ 4.0</a></li>
+				<li class="ce-patent-item"><a class="ce-patent-title-link" href="https://drive.google.com/file/d/1eMlwflTQPG1m2GG23aKeY85e5Z2kcymv/view?usp=drive_link" rel="noopener noreferrer" target="_blank">2. เอกสารการจดอนุสิทธิบัตรเครื่องต้นแบบเพื่อช่วยการเรียนรู้อักษรเบรลล์สำหรับผู้พิการทางสายตา</a></li>
+			</ul>
+		</div>
+	</details>
+</div>

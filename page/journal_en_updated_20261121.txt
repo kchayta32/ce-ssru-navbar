@@ -1,0 +1,88 @@
+<p>
+	<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@400;500;600;700&display=swap" rel="stylesheet">
+</p>
+
+<p>
+	<link href="https://cdn.jsdelivr.net/gh/kchayta32/ce-ssru-navbar@v1.1.8/page/ce-journal.css" rel="stylesheet">
+</p>
+<div class="ce-journal-wrap ce-journal-en">
+	<!-- Academic Journals (Cohort 66) -->
+	<details class="ce-journal-year" open="">
+		<summary class="ce-journal-summary"><span class="ce-journal-summary-title"><span>Academic Journals (Cohort 66)</span><span class="ce-journal-count">1 Article</span></span><span class="ce-journal-toggle"><span class="ce-journal-chevron">▼</span></span></summary>
+		<div class="ce-journal-body">
+
+			<ul class="ce-journal-list">
+				<li class="ce-journal-item"><a class="ce-journal-link" href="https://ph01.tci-thaijo.org/index.php/fit-ssru/article/view/263418/176075" rel="noopener noreferrer" target="_blank">BraillePlay: A Game-Based Braille Learning System for Visually Impaired Children</a>
+					<span class="ce-journal-meta">- Ravi Uttamatanin, Kitti Chaita. The Journal of Industrial Technology Suan Sunandha Rajabhat University, Vol. 14, No. 1 (2026): January–June 2026 (Department of Computer Engineering, Faculty of Engineering and Industrial Technology, Suan Sunandha Rajabhat University)</span></li>
+			</ul>
+		</div>
+	</details>
+	<!-- Academic Journals (Cohort 64) -->
+	<details class="ce-journal-year">
+		<summary class="ce-journal-summary"><span class="ce-journal-summary-title"><span>Academic Journals (Cohort 64)</span><span class="ce-journal-count">1 Article</span></span><span class="ce-journal-toggle"><span class="ce-journal-chevron">▼</span></span></summary>
+		<div class="ce-journal-body">
+
+			<ul class="ce-journal-list">
+				<li class="ce-journal-item"><a class="ce-journal-link" href="https://drive.google.com/file/d/1pK43vgI_1ykKZSqwHogRPm9GQRsLZMZB/view?usp=drive_link" rel="noopener noreferrer" target="_blank">Name Verification System for Graduation Ceremony using RFID Technology</a>
+					<span class="ce-journal-meta">- Sethakarn Prongnuch, Phanuphong Saisaeng, Treephech Phumjaroendee, Samita Arsakati, Ongart Tangphubet, Ravi Uttamatanin, and Chonmapat Torasa. Engineering Journal of Siam University, Vol. 25, No. 2, Issue 49, July–December 2024, pp. 35–48 (Department of Robotics Engineering, Department of Computer Engineering, Faculty of Engineering and Industrial Technology, Suan Sunandha Rajabhat University)</span></li>
+			</ul>
+		</div>
+	</details>
+	<!-- Academic Journals (Cohort 62) -->
+	<details class="ce-journal-year">
+		<summary class="ce-journal-summary"><span class="ce-journal-summary-title"><span>Academic Journals (Cohort 62)</span><span class="ce-journal-count">1 Article</span></span><span class="ce-journal-toggle"><span class="ce-journal-chevron">▼</span></span></summary>
+		<div class="ce-journal-body">
+
+			<ul class="ce-journal-list">
+				<li class="ce-journal-item"><a class="ce-journal-link" href="https://drive.google.com/file/d/1A2Ik0vZB-0MaquMO5oEm74baExBM8WJV/view?usp=drive_link" rel="noopener noreferrer" target="_blank">Personal Dental News Mobile Application for Service and Education</a>
+					<span class="ce-journal-meta">- Sethakarn Prongnuch, Phattarawut Pikultong, Phatchaphong Phadongyang, Kwanruan Rusmee, and Wattana Boon-on. Engineering Journal of Siam University, Vol. 24, No. 2, Issue 47, July–December 2023 (Department of Robotics Engineering, Department of Computer Engineering, Faculty of Industrial Technology, Suan Sunandha Rajabhat University / Wattana Dental Clinic)</span></li>
+			</ul>
+		</div>
+	</details>
+	<!-- Academic Journals (Cohort 61) -->
+	<details class="ce-journal-year">
+		<summary class="ce-journal-summary"><span class="ce-journal-summary-title"><span>Academic Journals (Cohort 61)</span><span class="ce-journal-count">1 Article</span></span><span class="ce-journal-toggle"><span class="ce-journal-chevron">▼</span></span></summary>
+		<div class="ce-journal-body">
+
+			<ul class="ce-journal-list">
+				<li class="ce-journal-item"><a class="ce-journal-link" href="https://drive.google.com/file/d/1_v75lBsxOfIzf-2VrKrV1zpUUw-adTD7/view?usp=drive_link" rel="noopener noreferrer" target="_blank">The Control of Humidity Algorithm for Orchids Care Platform using Internet of Things Technology</a>
+					<span class="ce-journal-meta">- Sethakarn Prongnuch, Methawee Todkaew, Phattarakorn Unnawetwanich, Burin Thuen-thamkaew, Patinya Saeng-arun, Suraphan Rattanawadee, and Kraipop Charoensopha. Engineering Journal of Siam University, Vol. 22, No. 2, Issue 43, July–December 2021 (Department of Computer Engineering, Department of Product and Packaging Design, Department of Management Technology, Faculty of Industrial Technology, Suan Sunandha Rajabhat University)</span></li>
+			</ul>
+		</div>
+	</details>
+	<!-- Academic Journals (Cohort 60) -->
+	<details class="ce-journal-year">
+		<summary class="ce-journal-summary"><span class="ce-journal-summary-title"><span>Academic Journals (Cohort 60)</span><span class="ce-journal-count">2 Articles</span></span><span class="ce-journal-toggle"><span class="ce-journal-chevron">▼</span></span></summary>
+		<div class="ce-journal-body">
+
+			<ul class="ce-journal-list">
+				<li class="ce-journal-item"><a class="ce-journal-link" href="https://drive.google.com/drive/folders/1yZDs-NhETlLpKojns7uWu76WXqZVP2vU?usp=drive_link" rel="noopener noreferrer" target="_blank">Augmented Reality Navigation Mobile Application for Study Architecture of Palace Building in Suan Sunandha Rajabhat University</a>
+					<span class="ce-journal-meta">- Suriyan Chansawang, Chatchai Chaichok, Matthana Matwong, Sethakarn Prongnuch, and Kwanruan Rusmee. Engineering Journal of Siam University (Department of Architecture, College of Architecture, and Department of Computer Engineering / Robotics Engineering, Faculty of Industrial Technology, Suan Sunandha Rajabhat University)</span></li>
+				<li class="ce-journal-item"><a class="ce-journal-link" href="https://drive.google.com/file/d/18LHRWkY9r-Ju3D6lddqZP-JW5_uEz7s_/view?usp=drive_link" rel="noopener noreferrer" target="_blank">4-Wheel Vehicle Identification System with Deep Learning on Embedded Cluster</a>
+					<span class="ce-journal-meta">- Manmai Thitiyakun, Yanakorn Phoncharoen, Kamin Saengsri, Asst. Prof. Kwanruan Rusmee, Dr. Sethakarn Prongnuch, and Dr. Ravi Uttamatanin. Department of Computer Engineering, Faculty of Industrial Technology, Suan Sunandha Rajabhat University</span></li>
+			</ul>
+		</div>
+	</details>
+	<!-- Academic Journals (Cohort 59) -->
+	<details class="ce-journal-year">
+		<summary class="ce-journal-summary"><span class="ce-journal-summary-title"><span>Academic Journals (Cohort 59)</span><span class="ce-journal-count">1 Article</span></span><span class="ce-journal-toggle"><span class="ce-journal-chevron">▼</span></span></summary>
+		<div class="ce-journal-body">
+
+			<ul class="ce-journal-list">
+				<li class="ce-journal-item"><a class="ce-journal-link" href="https://drive.google.com/file/d/1PwLhWloMc7yHWi_l_a5wPzcfXYXdB5Fb/view?usp=drive_link" rel="noopener noreferrer" target="_blank">Student Request Form Web Application</a>
+					<span class="ce-journal-meta">- Chiabwoot Ratanavilisagul, Theerayut Termtaem, Tawan Khemthong, Supakit Kitnabamroongsak, and Apisit Rattanatranurak. Department of Computer and Information Science, Faculty of Applied Science, King Mongkut&#39;s University of Technology North Bangkok, and Department of Computer Engineering, Faculty of Industrial Technology, Suan Sunandha Rajabhat University</span></li>
+			</ul>
+		</div>
+	</details>
+	<!-- Academic Journals (Cohort 56) -->
+	<details class="ce-journal-year">
+		<summary class="ce-journal-summary"><span class="ce-journal-summary-title"><span>Academic Journals (Cohort 56)</span><span class="ce-journal-count">1 Article</span></span><span class="ce-journal-toggle"><span class="ce-journal-chevron">▼</span></span></summary>
+		<div class="ce-journal-body">
+
+			<ul class="ce-journal-list">
+				<li class="ce-journal-item"><a class="ce-journal-link" href="https://drive.google.com/file/d/1vrTNCz5NY6qq1qhi00Wcd7f4Na7OfAja/view?usp=drive_link" rel="noopener noreferrer" target="_blank">Development of a Prototype Braille Printer</a>
+					<span class="ce-journal-meta">- Methinee Premthong, Narawan Hengmee, Krissanaphan Chadkhong, Sethakarn Prongnuch, Prungsak Attaphut, and Apirak Thitinarumit. The 5th Suan Sunandha National Academic Conference on &quot;Research for Sustainable Development&quot;</span></li>
+			</ul>
+		</div>
+	</details>
+</div>

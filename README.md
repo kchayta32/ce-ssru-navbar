@@ -67,3 +67,21 @@ Stylesheets สำหรับเพิ่ม UI Motion และ Animation ใ�
 ```html
 <img src="https://cdn.jsdelivr.net/gh/kchayta32/ce-ssru-navbar@v1.1.6/banner_borrow_2066x761.png" alt="ระบบยืม–คืนอุปกรณ์ IoT">
 ```
+
+### 11. หน้าวารสารวิชาการ (`page/ce-journal.css`)
+รองรับทั้งเวอร์ชันภาษาไทย (`.ce-journal-wrap`) และเวอร์ชันภาษาอังกฤษ (`.ce-journal-wrap.ce-journal-en`) สำหรับบทความวารสารวิชาการ รหัส 56–66 พร้อม UI motion (`ceJournalCardIn`, `<details>::details-content` smooth transition, left accent bar, rotating chevron badge, underline ink-draw) และเชื่อมต่อผ่าน `https://`
+```html
+<link href="https://cdn.jsdelivr.net/gh/kchayta32/ce-ssru-navbar@v1.1.8/page/ce-journal.css" rel="stylesheet">
+```
+
+### 12. หน้าวารสารวิชาการระดับนานาชาติ (`page/ce-journal-international.css`)
+รองรับทั้งเวอร์ชันภาษาไทย (`.ce-intlj-wrap`) และเวอร์ชันภาษาอังกฤษ (`.ce-intlj-wrap.ce-intlj-en`) จัดรูปแบบข้อมูลผู้แต่ง สังกัด และรายละเอียดการตีพิมพ์/ผู้ทรงคุณวุฒิ พร้อม UI motion และเชื่อมต่อผ่าน `https://`
+```html
+<link href="https://cdn.jsdelivr.net/gh/kchayta32/ce-ssru-navbar@v1.1.8/page/ce-journal-international.css" rel="stylesheet">
+```
+
+### 13. หน้าเอกสารการจดสิทธิบัตรและอนุสิทธิบัตร (`page/ce-patent.css`)
+รองรับทั้งเวอร์ชันภาษาไทย (`.ce-patent-wrap`) และเวอร์ชันภาษาอังกฤษ (`.ce-patent-wrap.ce-patent-en`) สำหรับรายการรหัส 58–62 พร้อมปุ่มเอกสารอนุสิทธิบัตร/สิทธิบัตรการออกแบบผลิตภัณฑ์ (`.ce-patent-doc-btn`) ที่มี hover motion, UI motion ของ `<details>` accordion และเชื่อมต่อผ่าน `https://`
+```html
+<link href="https://cdn.jsdelivr.net/gh/kchayta32/ce-ssru-navbar@v1.1.8/page/ce-patent.css" rel="stylesheet">
+```

@@ -1,0 +1,327 @@
+@charset "UTF-8";
+/* CE SSRU National Academic Journal Archive — UI Motion & Editorial Stylesheet */
+
+@keyframes ceJournalCardIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes ceJournalBodyReveal {
+  from {
+    opacity: 0;
+    transform: translateY(-6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.ce-journal-wrap {
+  --ce-j-ink: #1e1633;
+  --ce-j-muted: #524a68;
+  --ce-j-primary: #4a148c;
+  --ce-j-accent: #7b1fa2;
+  --ce-j-tint: #f8f5fc;
+  --ce-j-tint-hover: #efe8f8;
+  --ce-j-badge-bg: #eadcf8;
+  --ce-j-border: #dfd3ef;
+  --ce-j-border-hover: #c5ace5;
+  --ce-j-border-open: #a47ad6;
+
+  font-family: "IBM Plex Sans Thai", "Sarabun", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-variant-numeric: tabular-nums;
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 16px 12px 24px;
+  color: var(--ce-j-ink);
+  line-height: 1.65;
+  text-align: left;
+  box-sizing: border-box;
+  interpolate-size: allow-keywords;
+}
+
+.ce-journal-wrap *,
+.ce-journal-wrap *::before,
+.ce-journal-wrap *::after {
+  box-sizing: border-box;
+}
+
+/* Cohort Accordion Card */
+.ce-journal-wrap .ce-journal-year {
+  margin-bottom: 14px;
+  border: 1px solid var(--ce-j-border);
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px rgba(74, 20, 140, 0.05);
+  transition: border-color 0.24s ease, box-shadow 0.28s cubic-bezier(0.22, 1, 0.36, 1);
+  animation: ceJournalCardIn 0.48s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.ce-journal-wrap .ce-journal-year:nth-of-type(1) { animation-delay: 0.03s; }
+.ce-journal-wrap .ce-journal-year:nth-of-type(2) { animation-delay: 0.07s; }
+.ce-journal-wrap .ce-journal-year:nth-of-type(3) { animation-delay: 0.11s; }
+.ce-journal-wrap .ce-journal-year:nth-of-type(4) { animation-delay: 0.15s; }
+.ce-journal-wrap .ce-journal-year:nth-of-type(5) { animation-delay: 0.19s; }
+.ce-journal-wrap .ce-journal-year:nth-of-type(6) { animation-delay: 0.23s; }
+.ce-journal-wrap .ce-journal-year:nth-of-type(7) { animation-delay: 0.27s; }
+
+.ce-journal-wrap .ce-journal-year:hover {
+  border-color: var(--ce-j-border-hover);
+  box-shadow: 0 6px 18px rgba(74, 20, 140, 0.09);
+}
+
+.ce-journal-wrap .ce-journal-year[open] {
+  border-color: var(--ce-j-border-open);
+  box-shadow: 0 8px 24px rgba(74, 20, 140, 0.11);
+}
+
+/* Smooth modern <details> content height & opacity transition */
+.ce-journal-wrap .ce-journal-year::details-content {
+  block-size: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition:
+    block-size 0.34s cubic-bezier(0.22, 1, 0.36, 1),
+    opacity 0.24s ease,
+    content-visibility 0.34s allow-discrete;
+}
+
+.ce-journal-wrap .ce-journal-year[open]::details-content {
+  block-size: auto;
+  opacity: 1;
+}
+
+/* Summary Header */
+.ce-journal-wrap .ce-journal-summary {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  background-color: var(--ce-j-tint);
+  padding: 14px 18px;
+  font-size: 16.5px;
+  font-weight: 700;
+  cursor: pointer;
+  color: var(--ce-j-primary);
+  outline: none;
+  list-style: none;
+  user-select: none;
+  transition: background-color 0.22s ease, color 0.22s ease, transform 0.15s ease;
+}
+
+.ce-journal-wrap .ce-journal-summary::-webkit-details-marker {
+  display: none;
+}
+
+.ce-journal-wrap .ce-journal-summary::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  background-color: var(--ce-j-accent);
+  transform: scaleY(0);
+  transform-origin: center;
+  transition: transform 0.26s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.ce-journal-wrap .ce-journal-summary:hover {
+  background-color: var(--ce-j-tint-hover);
+}
+
+.ce-journal-wrap .ce-journal-summary:hover::before,
+.ce-journal-wrap .ce-journal-year[open] > .ce-journal-summary::before {
+  transform: scaleY(1);
+}
+
+.ce-journal-wrap .ce-journal-summary:active {
+  transform: scale(0.996);
+}
+
+.ce-journal-wrap .ce-journal-summary:focus-visible {
+  outline: 2px solid var(--ce-j-accent);
+  outline-offset: -2px;
+}
+
+.ce-journal-wrap .ce-journal-summary-title {
+  display: inline-flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.ce-journal-wrap .ce-journal-count {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--ce-j-primary);
+  background-color: var(--ce-j-badge-bg);
+  padding: 2px 9px;
+  border-radius: 999px;
+  transition: background-color 0.22s ease, color 0.22s ease;
+}
+
+.ce-journal-wrap .ce-journal-year[open] > .ce-journal-summary .ce-journal-count {
+  background-color: var(--ce-j-primary);
+  color: #ffffff;
+}
+
+.ce-journal-wrap .ce-journal-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 12.5px;
+  font-weight: 600;
+  color: var(--ce-j-accent);
+  flex-shrink: 0;
+}
+
+.ce-journal-wrap .ce-journal-toggle::before {
+  content: "คลิกเพื่อขยาย";
+}
+
+.ce-journal-wrap .ce-journal-year[open] > .ce-journal-summary .ce-journal-toggle::before {
+  content: "คลิกเพื่อย่อ";
+}
+
+.ce-journal-wrap.ce-journal-en .ce-journal-toggle::before {
+  content: "Click to expand";
+}
+
+.ce-journal-wrap.ce-journal-en .ce-journal-year[open] > .ce-journal-summary .ce-journal-toggle::before {
+  content: "Click to collapse";
+}
+
+.ce-journal-wrap .ce-journal-chevron {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background-color: rgba(123, 31, 162, 0.12);
+  color: var(--ce-j-primary);
+  font-size: 10px;
+  line-height: 1;
+  transition: transform 0.3s cubic-bezier(0.22, 1, 0.36, 1), background-color 0.22s ease, color 0.22s ease;
+}
+
+.ce-journal-wrap .ce-journal-year[open] > .ce-journal-summary .ce-journal-chevron {
+  transform: rotate(180deg);
+  background-color: var(--ce-j-primary);
+  color: #ffffff;
+}
+
+/* Body Reveal */
+.ce-journal-wrap .ce-journal-body {
+  padding: 16px 18px;
+  border-top: 1px solid #ece4f6;
+  background-color: #ffffff;
+}
+
+.ce-journal-wrap .ce-journal-year[open] > .ce-journal-body {
+  animation: ceJournalBodyReveal 0.3s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+/* Articles List & Items */
+.ce-journal-wrap .ce-journal-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.ce-journal-wrap .ce-journal-item {
+  position: relative;
+  padding: 10px 12px 10px 16px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  border-left: 3px solid transparent;
+  transition: background-color 0.2s ease, border-left-color 0.22s ease, transform 0.22s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.ce-journal-wrap .ce-journal-item:last-child {
+  margin-bottom: 0;
+}
+
+.ce-journal-wrap .ce-journal-item:hover {
+  background-color: #faf7fd;
+  border-left-color: var(--ce-j-accent);
+  transform: translateX(3px);
+}
+
+.ce-journal-wrap .ce-journal-link {
+  color: #5b1886;
+  font-weight: 600;
+  font-size: 15px;
+  text-decoration: none;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 1.5px;
+  transition: color 0.2s ease, background-size 0.28s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.ce-journal-wrap .ce-journal-link:hover,
+.ce-journal-wrap .ce-journal-link:focus-visible {
+  color: var(--ce-j-primary);
+  background-size: 100% 1.5px;
+  text-decoration: none;
+  outline: none;
+}
+
+.ce-journal-wrap .ce-journal-meta {
+  display: block;
+  margin-top: 5px;
+  font-size: 13.5px;
+  color: var(--ce-j-muted);
+  line-height: 1.58;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .ce-journal-wrap {
+    padding: 10px 4px 18px;
+  }
+
+  .ce-journal-wrap .ce-journal-summary {
+    padding: 12px 14px;
+    font-size: 15px;
+  }
+
+  .ce-journal-wrap .ce-journal-toggle::before {
+    display: none;
+  }
+
+  .ce-journal-wrap .ce-journal-body {
+    padding: 12px 14px;
+  }
+
+  .ce-journal-wrap .ce-journal-item {
+    padding: 8px 10px 8px 12px;
+  }
+}
+
+/* Accessibility: Respect Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  .ce-journal-wrap .ce-journal-year,
+  .ce-journal-wrap .ce-journal-year::details-content,
+  .ce-journal-wrap .ce-journal-year[open] > .ce-journal-body,
+  .ce-journal-wrap .ce-journal-summary,
+  .ce-journal-wrap .ce-journal-summary::before,
+  .ce-journal-wrap .ce-journal-chevron,
+  .ce-journal-wrap .ce-journal-item,
+  .ce-journal-wrap .ce-journal-link {
+    animation: none !important;
+    transition: none !important;
+  }
+}

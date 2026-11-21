@@ -1,0 +1,90 @@
+<p>
+	<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@400;500;600;700&display=swap" rel="stylesheet">
+</p>
+
+<p>
+	<link href="https://cdn.jsdelivr.net/gh/kchayta32/ce-ssru-navbar@v1.1.8/page/ce-patent.css" rel="stylesheet">
+</p>
+<div class="ce-patent-wrap ce-patent-en">
+	<!-- Patent & Utility Model Filings (Cohort 62) -->
+	<details class="ce-patent-year" open="">
+		<summary class="ce-patent-summary"><span class="ce-patent-summary-title"><span>Patent &amp; Utility Model Filings (Cohort 62)</span><span class="ce-patent-count">1 Filing</span></span><span class="ce-patent-toggle"><span class="ce-patent-chevron">▼</span></span></summary>
+		<div class="ce-patent-body">
+
+			<ul class="ce-patent-list">
+				<li class="ce-patent-item"><strong class="ce-patent-title">1. Development of a Web-Controlled Vegetable Seedling Nursery and Care Cabinet Prototype</strong>
+					<span class="ce-patent-people">Inventors: Wiwanrat Sarmat (62122519019), Pimpakan Khit-an (62122519020)<br>Advisor: Asst. Prof. Dr. Ravi Uttamatanin</span>
+					<div class="ce-patent-actions"><a class="ce-patent-doc-btn" href="https://drive.google.com/file/d/1S9JGGycB4lDPZlRTYAuw9n5h_u0yqY_7/view?usp=drive_link" rel="noopener noreferrer" target="_blank">Petty Patent Document</a></div>
+				</li>
+			</ul>
+		</div>
+	</details>
+	<!-- Patent & Utility Model Filings (Cohort 61) -->
+	<details class="ce-patent-year" open="">
+		<summary class="ce-patent-summary"><span class="ce-patent-summary-title"><span>Patent &amp; Utility Model Filings (Cohort 61)</span><span class="ce-patent-count">5 Filings</span></span><span class="ce-patent-toggle"><span class="ce-patent-chevron">▼</span></span></summary>
+		<div class="ce-patent-body">
+
+			<ul class="ce-patent-list">
+				<li class="ce-patent-item"><strong class="ce-patent-title">1. Automated Microgreen Cultivation and Care Cabinet Prototype Controlled via Web Application</strong>
+					<span class="ce-patent-people">Inventors: Pattanakarn Thimthae (61122519005), Arthit Chantrawat (61122519024), Suphanat Urit (61122519045)<br>Advisor: Asst. Prof. Dr. Ravi Uttamatanin</span>
+					<div class="ce-patent-actions"><a class="ce-patent-doc-btn" href="https://drive.google.com/file/d/1LqwksPIG4BIuE2QAujKNrfkbSbFEmID5/view?usp=drive_link" rel="noopener noreferrer" target="_blank">Petty Patent Document</a></div>
+				</li>
+				<li class="ce-patent-item"><strong class="ce-patent-title">2. Plant Growth Monitoring System Using Image Processing</strong>
+					<span class="ce-patent-people">Inventors: Sitthiphong Noopannoi (61122519027), Thanakhan Lonsiow (61122519029), Norapat Kaewkasem (61122519040)<br>Advisor: Asst. Prof. Dr. Ravi Uttamatanin</span>
+					<div class="ce-patent-actions"><a class="ce-patent-doc-btn" href="https://drive.google.com/file/d/1UEsoviGjBPI_U6Ux6jz1ywBRHm4XJrBm/view?usp=drive_link" rel="noopener noreferrer" target="_blank">Petty Patent Document</a></div>
+				</li>
+				<li class="ce-patent-item"><strong class="ce-patent-title">3. Smart Recycling Bin</strong>
+					<span class="ce-patent-people">Inventors: Kritsanaphong Chanphen (61122519013), Chutima Burana (61122519022), Thanyarat Isim (61122519036)<br>Advisors: Asst. Prof. Kwanruan Rusmee, Asst. Prof. Dr. Ravi Uttamatanin</span>
+					<div class="ce-patent-actions"><a class="ce-patent-doc-btn" href="https://drive.google.com/file/d/1Z0OFsvaSRTNRT1epxaZMfOfllPM5bqi1/view?usp=drive_link" rel="noopener noreferrer" target="_blank">Petty Patent Document</a></div>
+				</li>
+				<li class="ce-patent-item"><strong class="ce-patent-title">4. Compact Strawberry Care Cabinet Prototype Controlled via Web Application</strong>
+					<span class="ce-patent-people">Inventors: Phetcharat Sawangwong (61122519006), Parinya Phonuch (61122519018), Natthaphat Kerdkaew (61122519019)<br>Advisor: Asst. Prof. Dr. Ravi Uttamatanin</span>
+					<div class="ce-patent-actions"><a class="ce-patent-doc-btn" href="https://drive.google.com/file/d/1q5tS39eWWAyTWIZ-sj_MU8nCEprMNj-a/view?usp=drive_link" rel="noopener noreferrer" target="_blank">Petty Patent Document</a></div>
+				</li>
+				<li class="ce-patent-item"><strong class="ce-patent-title">5. Automated Mobile Robot for Indoor Transportation</strong>
+					<span class="ce-patent-people">Inventors: Suriya Choifong (61122519028), Wiwatchai Phayomyaem (61122519039), Parik Arayasamai (61122519044)<br>Advisor: Asst. Prof. Dr. Ravi Uttamatanin</span>
+					<div class="ce-patent-actions"><a class="ce-patent-doc-btn" href="https://drive.google.com/file/d/1gNAkPfZqQkbCU-0pKi_FZijrkEEEkxLO/view?usp=drive_link" rel="noopener noreferrer" target="_blank">Petty Patent Document</a>
+						<a class="ce-patent-doc-btn" href="https://drive.google.com/file/d/1TjXFHCwLLEAUGg8votJwsYnS-YBFLXmK/view?usp=drive_link" rel="noopener noreferrer" target="_blank">Industrial Design Patent</a></div>
+				</li>
+			</ul>
+		</div>
+	</details>
+	<!-- Patent & Utility Model Filings (Cohort 60) -->
+	<details class="ce-patent-year" open="">
+		<summary class="ce-patent-summary"><span class="ce-patent-summary-title"><span>Patent &amp; Utility Model Filings (Cohort 60)</span><span class="ce-patent-count">1 Filing</span></span><span class="ce-patent-toggle"><span class="ce-patent-chevron">▼</span></span></summary>
+		<div class="ce-patent-body">
+
+			<ul class="ce-patent-list">
+				<li class="ce-patent-item"><strong class="ce-patent-title">1. Pill Classification Using Deep Learning Techniques</strong>
+					<span class="ce-patent-people">Inventors: Warisa Kongchai (60122519017), Sirilak Khongsri (60122519027)<br>Advisor: Asst. Prof. Dr. Ravi Uttamatanin</span>
+					<div class="ce-patent-actions"><a class="ce-patent-doc-btn" href="https://drive.google.com/file/d/1GOZGYf4lG-V7ZslMiZXeZMGf0gomdbD_/view?usp=drive_link" rel="noopener noreferrer" target="_blank">Petty Patent Document</a></div>
+				</li>
+			</ul>
+		</div>
+	</details>
+	<!-- Patent & Utility Model Filings (Cohort 59) -->
+	<details class="ce-patent-year" open="">
+		<summary class="ce-patent-summary"><span class="ce-patent-summary-title"><span>Patent &amp; Utility Model Filings (Cohort 59)</span><span class="ce-patent-count">1 Filing</span></span><span class="ce-patent-toggle"><span class="ce-patent-chevron">▼</span></span></summary>
+		<div class="ce-patent-body">
+
+			<ul class="ce-patent-list">
+				<li class="ce-patent-item"><strong class="ce-patent-title">1. Medication Reminder Machine for the Elderly (THE NOTIFICATION MACHINE TO MEDICATION FOR THE ELDERLY)</strong>
+					<span class="ce-patent-people">Inventor: Phannipha Mathawong (59122519054)<br>Advisor: Dr. Ravi Uttamatanin</span>
+					<div class="ce-patent-actions"><a class="ce-patent-doc-btn" href="https://drive.google.com/file/d/17e5SV-WM8vY8dR9-A5F0zDXsoRpOD_vD/view?usp=drive_link" rel="noopener noreferrer" target="_blank">Petty Patent Document</a>
+						<a class="ce-patent-doc-btn" href="https://drive.google.com/file/d/1DIICFsvZq0eSH1lUV1OMPDHveEl72dZe/view?usp=drive_link" rel="noopener noreferrer" target="_blank">Industrial Design Patent</a></div>
+				</li>
+			</ul>
+		</div>
+	</details>
+	<!-- Patent & Utility Model Filings (Cohort 58) -->
+	<details class="ce-patent-year">
+		<summary class="ce-patent-summary"><span class="ce-patent-summary-title"><span>Patent &amp; Utility Model Filings (Cohort 58)</span><span class="ce-patent-count">2 Filings</span></span><span class="ce-patent-toggle"><span class="ce-patent-chevron">▼</span></span></summary>
+		<div class="ce-patent-body">
+
+			<ul class="ce-patent-list">
+				<li class="ce-patent-item"><a class="ce-patent-title-link" href="https://drive.google.com/file/d/1XDkFNFt8tWm3MgFtbwu72hnK9-n6ih5j/view?usp=drive_link" rel="noopener noreferrer" target="_blank">1. Patent Filing: Smart Basket 4.0</a></li>
+				<li class="ce-patent-item"><a class="ce-patent-title-link" href="https://drive.google.com/file/d/1eMlwflTQPG1m2GG23aKeY85e5Z2kcymv/view?usp=drive_link" rel="noopener noreferrer" target="_blank">2. Petty Patent Filing: Prototype Braille Learning Machine for the Visually Impaired</a></li>
+			</ul>
+		</div>
+	</details>
+</div>

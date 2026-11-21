@@ -1,0 +1,22 @@
+<p>
+	<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@400;500;600;700&display=swap" rel="stylesheet">
+</p>
+
+<p>
+	<link href="https://cdn.jsdelivr.net/gh/kchayta32/ce-ssru-navbar@v1.1.8/page/ce-journal-international.css" rel="stylesheet">
+</p>
+<div class="ce-intlj-wrap ce-intlj-en">
+	<!-- International Journals (Cohort 62) -->
+	<details class="ce-intlj-year" open="">
+		<summary class="ce-intlj-summary"><span class="ce-intlj-summary-title"><span>International Journals (Cohort 62)</span><span class="ce-intlj-count">1 Article</span></span><span class="ce-intlj-toggle"><span class="ce-intlj-chevron">▼</span></span></summary>
+		<div class="ce-intlj-body">
+
+			<ul class="ce-intlj-list">
+				<li class="ce-intlj-item"><a class="ce-intlj-link" href="https://drive.google.com/file/d/164wNsU5XvXSbsrxoiPffpwzO-qiMKfKH/view?usp=drive_link" rel="noopener noreferrer" target="_blank">Functional Evaluation of External Interfaces on the Kria KR260 Robotics Starter Kit for Practical Deployment</a>
+					<span class="ce-intlj-authors">Butsaba Aubonnoi<sup>1</sup> and Sethakarn Prongnuch<sup>*,2</sup></span>
+					<span class="ce-intlj-affil"><sup>1</sup> Department of Computer Engineering, Faculty of Engineering and Industrial Technology, Suan Sunandha Rajabhat University, Bangkok, Thailand<br><sup>2</sup> Department of Robotics Engineering, Faculty of Engineering and Industrial Technology, Suan Sunandha Rajabhat University, Bangkok, Thailand</span>
+					<span class="ce-intlj-venue">In the International Electrical Engineering Transactions, Volume 11, Number 2, July–December 2025, after completing the peer-review process (with three reviewers) and editorial evaluation.</span></li>
+			</ul>
+		</div>
+	</details>
+</div>
